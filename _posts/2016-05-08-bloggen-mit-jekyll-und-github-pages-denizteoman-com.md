@@ -8,7 +8,8 @@ tags: github
   - links
 categories: github
 ogtype: article 
-bodyclass: post 
+bodyclass: post
+categories: github jekyll
 ---
 
 > Bloggen mit Jekyll und GitHub Pages

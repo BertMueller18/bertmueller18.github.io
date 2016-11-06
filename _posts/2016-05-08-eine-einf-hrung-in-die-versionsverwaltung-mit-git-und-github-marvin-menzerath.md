@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "Eine Einführung in die Versionsverwaltung mit Git und GitHub | Marvin Menzerath" 
 date: 2016-05-08T10:23:41.401Z 
+categories: github git
 link: https://menzerath.eu/artikel/einfuehrung-versionsverwaltung-git-github/ 
 tags: git
   - links

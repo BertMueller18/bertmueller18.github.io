@@ -1,5 +1,4 @@
 ---
-
 layout: post 
 published: true 
 title: "      Including CSS in Jekyll · @mdo    " 

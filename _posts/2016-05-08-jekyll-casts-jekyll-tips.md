@@ -10,5 +10,6 @@ tags: jekyll github
 ogtype: article 
 bodyclass: post 
 ---
+Jekyll Tips
 
 
