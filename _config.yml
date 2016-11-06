@@ -13,6 +13,9 @@ avatar:
 #
 # Flags below are optional
 #
+github:
+  repo: BertMueller18/bertmueller18.github.io
+  branch: master
 
 # Includes an icon in the footer for each username you enter
 footer-links:
