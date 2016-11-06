@@ -1,4 +1,4 @@
----
+:---
 layout: post 
 published: true 
 title: "How can I migrate my Azure VMs to Azure Resource Management (ARM) stack?" 
