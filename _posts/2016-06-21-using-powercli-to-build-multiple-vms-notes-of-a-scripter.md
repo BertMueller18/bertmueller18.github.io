@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "Using PowerCLI to build multiple VMs - Notes of a scripter" 
 date: 2016-06-21T07:38:06.691Z 
+categories: vmware powercli powershell
 link: http://notesofascripter.com/2016/03/28/using-powercli-build-multiple-vms/ 
 tags:
   - links
