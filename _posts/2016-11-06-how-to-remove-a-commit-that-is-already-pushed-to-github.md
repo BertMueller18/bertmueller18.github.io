@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "How to remove a commit that is already pushed to Github" 
-date: 2016-11-06T22:10:01.889Z 
+date: 2016-11-06T22:10:01.889Z
+categories: github git
 link: http://samwize.com/2014/01/15/how-to-remove-a-commit-that-is-already-pushed-to-github/ 
 tags:
   - links
