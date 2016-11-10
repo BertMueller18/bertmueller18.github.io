@@ -3,7 +3,7 @@ layout: post
 published: true 
 title: "Storage Capacity Required for Machine Creation Services - Aaron Parker" 
 date: 2016-11-10T20:37:21.299Z
-categories: cirix mcs xendesktop xenapp [capacity planning]
+categories: citrix mcs xendesktop xenapp [capacity planning]
 link: http://stealthpuppy.com/machine-creation-services-storage-capacity/ 
 tags:
   - links
