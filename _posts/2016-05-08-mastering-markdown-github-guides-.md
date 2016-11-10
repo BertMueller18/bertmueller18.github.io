@@ -3,9 +3,9 @@ layout: post
 published: true
 title: "Mastering Markdown · GitHub Guides      "
 date: 2016-05-08T10:26:02.590Z
+categories: markdown github
 link: https://guides.github.com/features/mastering-markdown/
 tags: Markdown GitHub
-categories: Markdown github
   - links
 ogtype: article
 bodyclass: post
