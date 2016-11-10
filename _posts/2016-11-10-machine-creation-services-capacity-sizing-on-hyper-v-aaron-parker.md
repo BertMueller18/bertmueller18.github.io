@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Machine Creation Services Capacity Sizing on Hyper-V - Aaron Parker" 
-date: 2016-11-10T20:37:00.149Z 
+date: 2016-11-10T20:37:00.149Z
+categories: citrix mcs xendesktop
 link: http://stealthpuppy.com/mcs-capacity-sizing-hyper-v/ 
 tags:
   - links
