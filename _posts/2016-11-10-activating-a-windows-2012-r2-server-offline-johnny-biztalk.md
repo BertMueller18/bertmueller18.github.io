@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "Activating a Windows 2012 R2 Server offline | Johnny BizTalk" 
 date: 2016-11-10T20:46:48.945Z 
+categories: server2012 kms 
 link: https://blogs.msdn.microsoft.com/joscot/2014/10/15/activating-a-windows-2012-r2-server-offline/ 
 tags:
   - links
