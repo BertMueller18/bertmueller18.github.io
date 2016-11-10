@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "PowerShell Basics - Execution Policy and Code Signing Part 2" 
 date: 2016-11-10T05:56:07.037Z 
+categories: powershell pentest certificates
 link: http://www.darkoperator.com/blog/2013/3/21/powershell-basics-execution-policy-and-code-signing-part-2.html 
 tags:
   - links
