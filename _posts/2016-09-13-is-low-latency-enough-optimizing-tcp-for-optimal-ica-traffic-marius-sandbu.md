@@ -5,7 +5,7 @@ title: "Is low latency enough? Optimizing TCP for optimal ICA traffic | Marius S
 date: 2016-09-12T22:14:41.942Z 
 link: http://msandbu.org/is-low-latency-enough-optimizing-tcp-for-optimal-ica-traffic/ 
 categories: citrix netscaler
-tags: citrix netscaler
+tags: 
   - links
 ogtype: article 
 bodyclass: post 
