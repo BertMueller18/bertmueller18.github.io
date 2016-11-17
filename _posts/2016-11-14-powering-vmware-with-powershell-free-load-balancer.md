@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "Powering VMware with PowerShell | Free Load Balancer" 
 date: 2016-11-14T14:08:46.099Z 
+categories: powershell powercli vmware
 link: https://freeloadbalancer.com/blog/powering-vmware-with-powershell/ 
 tags:
   - links
