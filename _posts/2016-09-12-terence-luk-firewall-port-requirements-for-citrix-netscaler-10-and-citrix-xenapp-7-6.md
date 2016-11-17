@@ -3,8 +3,8 @@ layout: post
 published: true 
 title: "Terence Luk: Firewall Port Requirements for Citrix NetScaler 10 and Citrix XenApp 7.6" 
 date: 2016-09-12T06:57:15.443Z 
+categories: citrix netscaler 
 link: https://terenceluk.blogspot.de/2015/01/firewall-port-requirements-for-citrix.html 
-categories: citrix NetScaler 
 tags: citrix NetScaler
   - links
 ogtype: article 
