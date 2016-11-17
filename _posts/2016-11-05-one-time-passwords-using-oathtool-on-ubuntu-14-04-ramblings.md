@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "One-Time-Passwords using oathtool on Ubuntu 14.04(+) | ramblings" 
 date: 2016-11-05T10:32:36.816Z 
+categories: linux ubuntu oath 2fa mfa twofactor
 link: https://nerdyness2012.wordpress.com/2015/01/15/one-time-passwords-using-oathtool-on-ubuntu/ 
 tags:
   - links

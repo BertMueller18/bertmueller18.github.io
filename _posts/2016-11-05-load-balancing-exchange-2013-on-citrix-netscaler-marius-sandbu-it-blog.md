@@ -2,6 +2,7 @@
 layout: post 
 published: true 
 title: "Load-balancing Exchange 2013 on Citrix Netscaler | Marius Sandbu - IT blog" 
+categories: citrix netscaler exchange exchange2013 loadbalancer
 date: 2016-11-05T22:32:31.042Z 
 link: https://msandbu.wordpress.com/2013/05/31/load-balancing-exchange-2013-on-citrix-netscaler/ 
 tags:

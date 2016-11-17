@@ -2,6 +2,7 @@
 layout: post 
 published: true 
 title: "Exchange 2013 Layer 7 single namespace loadbalancing with Citrix NetScaler | Daniel Ruiz - Blog" 
+categories: citrix netscaler exchange exchange2013 loadbalancer
 date: 2016-11-05T22:31:30.107Z 
 link: https://danielruiz.net/2015/05/26/exchange-2013-layer-7-single-namespace-loadbalancing-with-citrix-netscaler/ 
 tags:
