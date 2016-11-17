@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "Script Certificate Health PowerShell Module" 
 date: 2016-10-04T18:59:14.608Z 
+categories: certificate powershell pki
 link: https://gallery.technet.microsoft.com/scriptcenter/Certificate-Health-b646aeff 
 tags:
   - links

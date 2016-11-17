@@ -3,6 +3,7 @@ layout: post
 published: true
 title: "Praktische Experimente mit OpenSSL"
 date: 2016-09-25T17:52:39.198Z
+categories: certificate openssl linux pki
 link: https://www-user.tu-chemnitz.de/~hot/SSL/
 tags:
   - links

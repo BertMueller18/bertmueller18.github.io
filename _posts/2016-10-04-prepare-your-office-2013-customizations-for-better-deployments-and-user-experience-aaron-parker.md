@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "Prepare your Office 2013 Customizations for Better Deployments and User Experience - Aaron Parker" 
 date: 2016-10-04T11:57:38.648Z 
+categories: deployment office2013 MDT customization
 link: http://stealthpuppy.com/office-2013-customization/ 
 tags:
   - links
