@@ -137,7 +137,11 @@ permalink: /cms.html
 		p_body = p_body + 'date:   '+ post_date() +' \n' ;
 		/* Setting the category here is not the most elegant way...*/
 		p_body = p_body + 'categories: ' + categories + '\n';
-		/* aaa */
+		if( link !== '' ){
+				p_body = p_body + 'link: '+ link +' \n' ;
+			}
+			p_body = p_body + 'tags:\n  - links\n';
+			p_body = p_body + 'ogtype: article \n';
 		p_body = p_body + '---\n';
 		p_body = p_body + '\n' + $('#p_body').val();
 
@@ -186,8 +190,9 @@ permalink: /cms.html
 			src_body = query_params['body'] ;
 		}
 		if (query_params['url']) {
-			src_body = src_body + ' &#x2014;['+src_title+'](' + query_params['url'] + ')\n' ;
-		}
+				var src_url = query_params['url'];
+				$('#p_link').val( src_url );
+			}
 		$('#p_body').val(src_body) ;
 	}
 	</script>
