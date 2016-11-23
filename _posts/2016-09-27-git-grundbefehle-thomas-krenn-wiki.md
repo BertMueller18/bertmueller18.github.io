@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "Git Grundbefehle – Thomas-Krenn-Wiki" 
 date: 2016-09-27T06:22:37.092Z 
+categories:. git programming
 link: https://www.thomas-krenn.com/de/wiki/Git_Grundbefehle 
 tags:
   - links
