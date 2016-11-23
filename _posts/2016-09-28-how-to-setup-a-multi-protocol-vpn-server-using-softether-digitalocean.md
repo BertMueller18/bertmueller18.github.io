@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "How to Setup a Multi-Protocol VPN Server Using SoftEther | DigitalOcean" 
 date: 2016-09-28T09:33:06.687Z 
+categories: von linux ipsec opnvpn 
 link: https://www.digitalocean.com/community/tutorials/how-to-setup-a-multi-protocol-vpn-server-using-softether 
 tags:
   - links
