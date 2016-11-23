@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "Configuring a Personal VPN&nbsp;— Blog :: Ivan Smirnov" 
 date: 2016-09-28T18:34:51.966Z 
+categories: vpn 
 link: https://blog.ivansmirnov.name/configuring-a-personal-vpn/ 
 tags:
   - links
