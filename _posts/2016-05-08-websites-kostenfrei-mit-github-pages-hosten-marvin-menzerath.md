@@ -2,7 +2,8 @@
 layout: post 
 published: true
 title: "Websites kostenfrei mit GitHub Pages hosten | Marvin Menzerath" 
-date: 2016-05-08T10:20:37.067Z 
+date: 2016-05-08T10:20:37.067Z
+categories: github 
 link: https://menzerath.eu/artikel/websites-kostenfrei-mit-github-pages-hosten/ 
 tags:
   - links
