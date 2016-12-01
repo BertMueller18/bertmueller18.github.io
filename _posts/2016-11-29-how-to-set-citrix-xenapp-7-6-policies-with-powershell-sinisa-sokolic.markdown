@@ -2,7 +2,7 @@
 layout: post 
 title:  "How to set Citrix XenApp 7.6 Policies with PowerShell – Sinisa Sokolic" 
 date:   2016-11-29T20:09:32.753Z 
-categories: 
+categories: citrix xenapp gpo activedirectory
 link: https://www.sinisasokolic.com/how-to-set-citrix-xenapp-7-6-policies-with-powershell/ 
 tags:
   - links
