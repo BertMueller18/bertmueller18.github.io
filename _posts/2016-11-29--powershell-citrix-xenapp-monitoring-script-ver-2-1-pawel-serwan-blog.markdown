@@ -2,7 +2,7 @@
 layout: post 
 title:  "[Powershell] Citrix XenApp Monitoring Script ver. 2.1 | Pawel Serwan Blog" 
 date:   2016-11-29T20:08:14.330Z 
-categories: 
+categories: citrix monitoring xenapp
 link: https://pawelserwan.wordpress.com/2015/03/26/powershell-citrix-xenapp-monitoring-script-ver-2-1/ 
 tags:
   - links
