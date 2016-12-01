@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Step-By-Step: Deploying a Domain Joined Nano Server via PowerShell | CANITPRO" 
-date: 2016-05-08T14:56:17.021Z 
+date: 2016-05-08T14:56:17.021Z
+categories: nanoserver server2016 activedirectory
 link: https://blogs.technet.microsoft.com/canitpro/2016/04/20/step-by-step-deploying-a-domain-joined-nano-server-via-powershell/ 
 tags:
   - links
