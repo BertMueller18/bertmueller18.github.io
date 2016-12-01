@@ -2,7 +2,7 @@
 layout: post 
 title:  "First Look: XenApp/XenDesktop 7.6 – Part 1 (Overview and Installation) | Pawel Serwan Blog" 
 date:   2016-11-29T20:07:44.522Z 
-categories: 
+categories: citrix xenapp deployment
 link: https://pawelserwan.wordpress.com/2014/09/30/first-look-xenappxendesktop-7-6-part-1-overview-and-installation/ 
 tags:
   - links
