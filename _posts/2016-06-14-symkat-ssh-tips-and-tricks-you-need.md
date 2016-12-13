@@ -2,6 +2,7 @@
 layout: post 
 published: true 
 title: "Symkat - SSH: Tips And Tricks You Need" 
+categories: ssh linux
 date: 2016-06-14T19:22:25.488Z 
 link: http://www.symkat.com/ssh-tips-and-tricks-you-need 
 tags:
