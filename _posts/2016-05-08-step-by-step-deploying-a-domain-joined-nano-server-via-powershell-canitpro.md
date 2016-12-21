@@ -11,7 +11,9 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Recently I’ve put together a PowerShell module called DeployImage with the intent to simplify the deployment of a WindowsIMage file.  In this case, my goal was to make NanoServer an easily deployable option for the average system administrator.  So began my experimentation with Windows Server 2016 to get a fully deployed Nano server online.
+## Step-By-Step: Deploying a Domain Joined Nano Server via PowerShell | CANITPRO
+
+Recently I’ve put together a PowerShell module called DeployImage with the intent to simplify the deployment of a WindowsIMage file.  In this case, my goal was to make NanoServer an easily deployable option for the average system administrator.  So began my experimentation with Windows Server 2016 to get a fully deployed Nano server online.
 
 Deploying Nano Server is no different than deploying any other WIM file except for the fact that you must compensate for is it is headless environment.
 

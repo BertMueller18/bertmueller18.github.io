@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "Set up and monitor Nano server - Orneling.se" 
 date: 2016-05-19T22:13:14.766Z 
+categories: server2016 nanoserver
 link: http://blog.orneling.se/2016/05/set-monitor-nano-server/ 
 tags:
   - links
@@ -10,10 +11,10 @@ ogtype: article
 bodyclass: post 
 ---
 
-> SET UP AND MONITOR NANO SERVER
+## SET UP AND MONITOR NANO SERVER
 It´s been a while since I wrote anything now (5 weeks approximately, which is not okay) and it´s time to monitor Nano Server again. Due to some really annoying issues with my lab environment I have had major problems installing the latest technical preview of Windows Server and SCOM. But I decided to have the last laugh and now both Windows Server 2016 and SCOM 2016 are running on TP5 level.
 
-So what´s new in SCOM 2016 TP5?
+### So what´s new in SCOM 2016 TP5?
 
 Monitor a broad range of network devices without requiring Operations Manager certification
 Monitor Nano Server deployments, including DNS and IIS roles

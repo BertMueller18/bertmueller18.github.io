@@ -11,3 +11,4 @@ ogtype: article
 bodyclass: post 
 ---
 
+## Better Script Building Using PSScriptAnalyzer -- Microsoft Certified Professional Magazine Online

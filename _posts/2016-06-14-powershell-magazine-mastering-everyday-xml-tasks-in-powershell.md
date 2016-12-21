@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "PowerShell Magazine » Mastering everyday XML tasks in PowerShell" 
 date: 2016-06-14T12:38:34.526Z 
+categories: powershell programming xml
 link: http://www.powershellmagazine.com/2013/08/19/mastering-everyday-xml-tasks-in-powershell/ 
 tags:
   - links
@@ -10,9 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Mastering everyday XML tasks in PowerShell
-Posted by Tobias Weltner on August 19, 2013 | Rate it
- (22 votes) | 144,604 views
+## Mastering everyday XML tasks in PowerShell
 
 PowerShell has awesome XML support. It is not obvious at first, but with a little help from your friends here at PowerShellMagazine.com, you’ll soon solve every-day XML tasks – even pretty complex ones – in no time.
 

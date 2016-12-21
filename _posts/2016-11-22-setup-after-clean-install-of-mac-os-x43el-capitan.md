@@ -1,8 +1,9 @@
 ---
 layout: post 
 published: true 
-title: "Setup after clean install of MAC OS X43El Capitan" 
-date: 2016-11-22T21:34:29.010Z 
+title: "Setup after clean install of MAC OS X El Capitan" 
+date: 2016-11-22T21:34:29.010Z
+categories: mac osx installation
 link: https://nhoffman.github.io/borborygmi/mac-setup-el-capitan.html#sec-11 
 tags:
   - links

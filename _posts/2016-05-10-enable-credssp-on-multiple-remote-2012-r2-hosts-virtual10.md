@@ -11,3 +11,4 @@ ogtype: article
 bodyclass: post 
 ---
 
+## Enable CredSSP on multiple remote 2012 R2 hosts | Virtual10

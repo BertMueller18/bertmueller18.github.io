@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Setting up a DSC web pull server" 
-date: 2016-06-14T12:42:06.358Z 
+date: 2016-06-14T12:42:06.358Z
+categories: powershell psdsc
 link: https://msdn.microsoft.com/en-us/powershell/dsc/pullserver?f=255&MSPPError=-2147217396 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Setting up a DSC web pull server
+## Setting up a DSC web pull server
 
 Eric Slesar|Last Updated: 5/27/2016|8 Contributors
 Applies To: Windows PowerShell 5.0

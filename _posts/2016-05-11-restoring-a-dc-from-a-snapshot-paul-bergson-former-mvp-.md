@@ -11,3 +11,4 @@ ogtype: article
 bodyclass: post 
 ---
 
+## Restoring a DC from a Snapshot | Paul Bergson (Former MVP)

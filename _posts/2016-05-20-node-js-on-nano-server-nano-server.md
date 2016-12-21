@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "Node.js on Nano Server | Nano Server" 
 date: 2016-05-19T22:13:51.564Z 
+categories: server2016 nanoserver node.js
 link: https://blogs.technet.microsoft.com/nanoserver/2016/05/04/node-js-on-nano-server/ 
 tags:
   - links

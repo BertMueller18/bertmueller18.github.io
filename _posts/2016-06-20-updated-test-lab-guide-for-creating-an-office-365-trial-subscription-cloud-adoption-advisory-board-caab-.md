@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Updated Test Lab Guide for creating an Office 365 Trial Subscription | Cloud Adoption Advisory Board (CAAB)" 
-date: 2016-06-20T21:47:16.941Z 
+date: 2016-06-20T21:47:16.941Z
+categories: o365
 link: https://blogs.technet.microsoft.com/solutions_advisory_board/2016/06/20/updated-test-lab-guide-for-creating-an-office-365-trial-subscription/ 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Updated Test Lab Guide for creating an Office 365 Trial Subscription
+# Updated Test Lab Guide for creating an Office 365 Trial Subscription
 
 The new Test Lab Guide: Create and Configure an Office 365 Trial Subscription describes how to build out the following test environment:
 

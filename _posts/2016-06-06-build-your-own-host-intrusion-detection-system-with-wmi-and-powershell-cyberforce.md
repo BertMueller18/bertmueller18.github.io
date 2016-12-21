@@ -11,3 +11,4 @@ ogtype: article
 bodyclass: post 
 ---
 
+## Build your own Host Intrusion Detection System with WMI and Powershell — Cyberforce

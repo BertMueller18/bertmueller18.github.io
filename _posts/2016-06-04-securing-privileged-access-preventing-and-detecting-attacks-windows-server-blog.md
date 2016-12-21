@@ -11,3 +11,4 @@ ogtype: article
 bodyclass: post 
 ---
 
+## Securing privileged access: Preventing and detecting attacks | Windows Server Blog

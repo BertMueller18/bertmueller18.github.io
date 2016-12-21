@@ -10,7 +10,7 @@ tags: Markdown GitHub
 ogtype: article
 bodyclass: post
 ---
-> Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform.
+## Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform.
 
 What you will learn:
 

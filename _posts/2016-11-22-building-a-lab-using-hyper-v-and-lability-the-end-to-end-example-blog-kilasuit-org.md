@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Building A Lab using Hyper-V and Lability – The End to End Example – blog.kilasuit.org" 
-date: 2016-11-22T21:28:15.688Z 
+date: 2016-11-22T21:28:15.688Z
+categories: hyper-v deployment psdsc powershell
 link: https://blog.kilasuit.org/2016/04/13/building-a-lab-using-hyper-v-and-lability-the-end-to-end-example/ 
 tags:
   - links

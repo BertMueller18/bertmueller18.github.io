@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "LTI/ZTI PowerShell: Accessing Task Sequence Variables  Scriptimus Ex Machina" 
-date: 2016-06-14T12:24:23.652Z 
+date: 2016-06-14T12:24:23.652Z
+categories: 
 link: https://scriptimus.wordpress.com/2012/09/17/ltizti-powershell-accessing-task-sequence-variables/ 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-LTI/ZTI PowerShell: Accessing Task Sequence Variables
+## LTI/ZTI PowerShell: Accessing Task Sequence Variables
 Posted on September 17, 2012 by Andrew Barnes
 
 

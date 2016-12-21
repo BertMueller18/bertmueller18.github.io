@@ -1,8 +1,8 @@
 ---
 layout: post 
 published: true 
-title: "Create Azure Resource Manager virtual machines by using PowerShell – Part 1 | Hey, Scripting Guy! Blog" 
-date: 2016-06-21T07:14:27.154Z 
+title: "Create Azure Resource Manager virtual machines by using PowerShell – Part 1 | Hey, Scripting Guy! Blog" date: 2016-06-21T07:14:27.154Z 
+categories: azure azurerm powershell
 link: https://blogs.technet.microsoft.com/heyscriptingguy/2016/06/06/create-azure-resource-manager-virtual-machines-by-using-powershell-part-1/ 
 tags:
   - links
@@ -10,7 +10,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-Summary: Use PowerShell cmdlets to start to create a virtual machine in Azure Resource Manager.
+## Summary: Use PowerShell cmdlets to start to create a virtual machine in Azure Resource Manager.
 
  How do I create virtual machines (VMs) in Azure Resource Manager by using PowerShell? Where do I start?
 

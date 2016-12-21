@@ -7,4 +7,4 @@ categories: programming css html
 link: http://markdotto.com/2014/02/28/including-css-in-jekyll/ 
 tags: jekyll css
 ---
- Including CSS in Jekyll · @mdo
+## Including CSS in Jekyll · @mdo

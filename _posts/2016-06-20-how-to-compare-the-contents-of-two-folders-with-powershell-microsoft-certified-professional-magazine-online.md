@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "How To Compare the Contents of Two Folders with PowerShell -- Microsoft Certified Professional Magazine Online" 
 date: 2016-06-20T21:48:46.830Z 
+categories: powershell programming
 link: https://mcpmag.com/articles/2016/04/14/contents-of-two-folders-with-powershell.aspx 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> How To Compare the Contents of Two Folders with PowerShell
+## How To Compare the Contents of Two Folders with PowerShell
 Make sure two documents are both exact and in sync with this process.
 
 By Adam Bertram04/14/2016
