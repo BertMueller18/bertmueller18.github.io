@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "linux - Mounting multiple img files as single loop device - Unix &amp; Linux Stack Exchange" 
-date: 2016-06-29T16:23:38.083Z 
+date: 2016-06-29T16:23:38.083Z
+categories: linux raid
 link: https://unix.stackexchange.com/questions/17084/mounting-multiple-img-files-as-single-loop-device 
 tags:
   - links

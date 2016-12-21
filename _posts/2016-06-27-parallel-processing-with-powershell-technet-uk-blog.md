@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Parallel processing with PowerShell | TechNet UK Blog" 
-date: 2016-06-27T12:20:28.523Z 
+date: 2016-06-27T12:20:28.523Z
+categories: powershell programming
 link: https://blogs.technet.microsoft.com/uktechnet/2016/06/20/parallel-processing-with-powershell/ 
 tags:
   - links
@@ -10,8 +11,8 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Parallel processing with PowerShell
-★★★★★★★★★★★★★★★
+## Parallel processing with PowerShell
+
 Harry EaglesJune 20, 20161
 
 By Richard Siddaway, the latest in his PowerShell series

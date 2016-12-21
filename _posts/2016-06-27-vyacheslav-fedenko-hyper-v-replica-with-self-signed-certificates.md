@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Vyacheslav Fedenko: Hyper-V Replica with self-signed certificates" 
-date: 2016-06-27T08:25:45.106Z 
+date: 2016-06-27T08:25:45.106Z
+categories: hyper-v replica certificate pki
 link: http://blog.fedenko.info/2016/06/hyper-v-replica-with-self-signed.html 
 tags:
   - links

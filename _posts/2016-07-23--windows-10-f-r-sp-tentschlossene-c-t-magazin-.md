@@ -1,8 +1,9 @@
 ---
 layout: post 
 published: true 
-title: "            Windows 10 für Spätentschlossene |        c't Magazin    " 
-date: 2016-07-23T21:21:21.038Z 
+title: "Windows 10 für Spätentschlossene c't Magazin    " 
+date: 2016-07-23T21:21:21.038Z
+categories: windows10
 link: http://www.heise.de/ct/artikel/Windows-10-fuer-Spaetentschlossene-3277128.html 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Windows 10 für Spätentschlossene
+## Windows 10 für Spätentschlossene
  PRAXIS & TIPPS | PRAXIS
  23.07.2016  GWX, Microsoft, Upgrade, Windows 10, Windows 7, Windows 8.1, Windows Update
 Ende Juli endet die Frist zum Gratis-Upgrade auf Windows 10. Wer dem Upgrade-Angebot seit Monaten aus dem Weg geht, nun aber doch umsteigen will, rudert erstmal mit den Armen: Wie macht man den W10exit rückgängig? Und danach? Eine Schritt-für-Schritt-Anleitung.

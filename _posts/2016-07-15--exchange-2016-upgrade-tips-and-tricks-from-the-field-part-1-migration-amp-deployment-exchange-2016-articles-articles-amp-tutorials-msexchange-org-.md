@@ -1,8 +1,9 @@
 ---
 layout: post 
 published: true 
-title: "									Exchange 2016 upgrade tips and tricks from the field (Part 1)  :: Migration &amp; Deployment  :: Exchange 2016 Articles  :: Articles &amp; Tutorials  :: MSExchange.org						" 
-date: 2016-07-15T12:29:46.734Z 
+title: "Exchange 2016 upgrade tips and tricks from the field (Part 1)  :: Migration &amp; Deployment  :: Exchange 2016 Articles  :: Articles &amp; Tutorials  :: MSExchange.org						" 
+date: 2016-07-15T12:29:46.734Z
+categories: exchange exchange2016
 link: http://www.msexchange.org/articles-tutorials/exchange-2016-articles/migration-deployment/exchange-2016-upgrade-tips-and-tricks-field-part1.html 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Exchange 2016 upgrade tips and tricks from the field (Part 1)
+## Exchange 2016 upgrade tips and tricks from the field (Part 1)
 by Henrik Walther [Published on 12 May 2016 / Last Updated on 12 May 2016]  
 
 

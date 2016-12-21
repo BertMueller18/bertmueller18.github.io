@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Apple OS X Security Configuration Audit: osxlockdown" 
-date: 2016-07-22T18:11:32.072Z 
+date: 2016-07-22T18:11:32.072Z
+categories: mac osx
 link: https://n0where.net/apple-os-x-security-configuration-audit-osxlockdown/ 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Apple OS X Security Configuration Audit
+## Apple OS X Security Configuration Audit
 
 osxlockdown was built to audit, and remediate, security configuration settings on OS X 10.11 (El Capitan).
 

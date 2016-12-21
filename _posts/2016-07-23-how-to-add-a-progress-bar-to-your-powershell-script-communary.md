@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "How to add a progress bar to your PowerShell script – Communary" 
-date: 2016-07-23T19:35:54.666Z 
+date: 2016-07-23T19:35:54.666Z
+categories: powershell programming
 link: https://communary.net/2015/01/19/how-to-add-a-progress-bar-to-your-powershell-script/ 
 tags:
   - links

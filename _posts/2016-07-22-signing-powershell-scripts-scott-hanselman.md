@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Signing PowerShell Scripts - Scott Hanselman" 
-date: 2016-07-22T18:21:35.989Z 
+date: 2016-07-22T18:21:35.989Z
+categories: powershell security
 link: http://www.hanselman.com/blog/SigningPowerShellScripts.aspx 
 tags:
   - links
@@ -12,7 +13,7 @@ bodyclass: post
 
 > Geoff Bard at Corillian (we work together) wrote up a good tutorial on working/playing with Signed PowerShell scripts. He graciously agreed to let me reprint a linted version here:
 
-Signing PowerShell Scripts
+## Signing PowerShell Scripts
 
 Execution Policies
 

@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "PowerShell GPO Transex….transcripts! – HAZZY" 
-date: 2016-06-27T21:45:17.027Z 
+date: 2016-06-27T21:45:17.027Z
+categories: powershell
 link: https://hazzy.techanarchy.net/security/powershell-gpo-transex-transcripts/ 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> PowerShell GPO Transex….transcripts!
+## PowerShell GPO Transex….transcripts!
 by Hazzy on June 10, 2016 in Powershell, Powershell, Security, Tips, Windows, Windows Admin • 0 Comments
 I love PowerShell – I have a blog about PowerShell!  I not been doing much cause of different projects and things in life drawing me away for a couple of month! So once again sorry about the Gap, but my Daughter Ava is worth it!
 

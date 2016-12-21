@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Windows Event Forwarding for Active Directory Security Logs – duffney.github.io" 
-date: 2016-06-27T11:41:24.397Z 
+date: 2016-06-27T11:41:24.397Z
+categories: activedirectory security
 link: https://duffney.github.io/Windows-Event-Forwarding-AD-SecurityLogs/ 
 tags:
   - links
@@ -10,8 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> 
-Windows Event Forwarding for Active Directory Security Logs
+## Windows Event Forwarding for Active Directory Security Logs
 
 June 26, 2016
 

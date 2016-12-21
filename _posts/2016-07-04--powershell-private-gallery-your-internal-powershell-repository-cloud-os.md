@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "“PowerShell Private Gallery” – Your internal PowerShell Repository | Cloud OS" 
-date: 2016-07-04T15:20:41.253Z 
+date: 2016-07-04T15:20:41.253Z
+categories: powershell 
 link: https://kurtroggen.wordpress.com/2016/06/06/powershell-private-gallery-your-internal-powershell-repository/ 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> “PowerShell Private Gallery” or “PSPrivateGallery”.
+## “PowerShell Private Gallery” or “PSPrivateGallery”.
 
 
 

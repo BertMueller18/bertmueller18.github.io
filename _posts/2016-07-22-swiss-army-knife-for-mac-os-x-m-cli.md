@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Swiss Army Knife for Mac OS X: m-cli" 
-date: 2016-07-22T18:11:49.645Z 
+date: 2016-07-22T18:11:49.645Z
+categories: mac osx
 link: https://n0where.net/swiss-army-knife-for-mac-os-x-m-cli/ 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Swiss Army Knife for Mac OS X
+## Swiss Army Knife for Mac OS X
 
 m-cli differs from other mac command line tools in that:
 

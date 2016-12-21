@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Langlitz – IT Consulting  » Blog Archive   » Powershell – Remote arbeiten" 
-date: 2016-07-20T05:01:57.527Z 
+date: 2016-07-20T05:01:57.527Z
+categories: powershell remote
 link: http://blog.langlitz-it.de/?p=1390 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-##Powershell – Remote arbeiten
+## Powershell – Remote arbeiten
 
 Posted by blog@langlitz-it.de on Juni 3rd, 2016
 

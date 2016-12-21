@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "Console Trans-tripping! – HAZZY" 
 date: 2016-06-27T21:44:52.513Z 
+categories: powershell 
 link: http://hazzy.techanarchy.net/posh/powershell/console-trans-tripping/ 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Console Trans-tripping!
+## Console Trans-tripping!
 by Hazzy on March 2, 2015 in Powershell • 0 Comments
 Grumpy Monday, meh! After the thrill of the weekend coming in to work make me grumpy! Not just a case of the Monday’s!  What is worse than that, you were working in the Powershell console on Friday, you know stringing some commands together in an attempt to get decent output from the blue-screen! If you are like me you will  wish you had a transcript of that Powershell session for prosperity or to just prove you did some work to the boss!
 

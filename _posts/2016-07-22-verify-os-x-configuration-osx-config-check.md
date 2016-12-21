@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Verify OS X Configuration: osx-config-check" 
-date: 2016-07-22T18:12:12.125Z 
+date: 2016-07-22T18:12:12.125Z
+categories: mac osx
 link: https://n0where.net/verify-os-x-configuration-osx-config-check/ 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Verify OS X Configuration: osx-config-check
+## Verify OS X Configuration: osx-config-check
 CyberPunk » System Administration
 
 Verify OS X Configuration
