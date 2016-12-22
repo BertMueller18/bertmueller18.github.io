@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "How to get a valide certificate for our NetScaler, if possible for free? – JustAnotherCitrixBlog" 
-date: 2016-08-29T03:35:42.718Z 
+date: 2016-08-29T03:35:42.718Z
+categories: certificate netscaler pki
 link: http://blog.norz.at/netscaler-certificates/ 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> How to get a valide certificate for our NetScaler, if possible for free?
+## How to get a valide certificate for our NetScaler, if possible for free?
  Jochy    January 3, 2016   5 Comments on How to get a valide certificate for our NetScaler, if possible for free?
 This is an updated blog entry. I first posted it on my old and discontinued blog at blog.com for Citrix NetScaler 10, this one is for Citrix NetScaler 11.
 

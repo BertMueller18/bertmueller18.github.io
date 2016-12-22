@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Citrix NetScaler Gateway - Installation, configuration and integration with XenApp/XenDesktop - Citrix - InformatiWeb Pro" 
-date: 2016-08-29T03:57:12.113Z 
+date: 2016-08-29T03:57:12.113Z
+categories: citrix netscaler networking
 link: http://us.informatiweb-pro.net/virtualization/1-citrix/18--citrix-netscaler-gateway-installation-configuration-and-integration-with-xenapp-xendesktop.html 
 tags:
   - links
@@ -10,7 +11,9 @@ ogtype: article
 bodyclass: post 
 ---
 
-> NetScaler Gateway is a gateway created by Citrix that allows you to use the load balancing system and provides a secure remote access to applications and desktops published through XenApp, XenDesktop and XenMobile.
+## Citrix NetScaler Gateway - Installation, configuration and integration with XenApp/XenDesktop - Citrix - InformatiWeb Pro
+
+ NetScaler Gateway is a gateway created by Citrix that allows you to use the load balancing system and provides a secure remote access to applications and desktops published through XenApp, XenDesktop and XenMobile.
 
 In this tutorial, we will install NetScaler Gateway on our XenServer server to provide a secure remote access to our applications published with XenApp.
 Nevertheless, the procedure is the same for desktops published with XenDesktop.

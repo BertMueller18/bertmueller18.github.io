@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Receiver for Windows – Carl Stalhood" 
-date: 2016-08-26T06:19:53.172Z 
+date: 2016-08-26T06:19:53.172Z
+categories: citrix receiver
 link: http://www.carlstalhood.com/receiver-for-windows/#accounts 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Receiver for Windows
+## Receiver for Windows
 
 Last Modified: Aug 25, 2016 @ 1:49 pm
 

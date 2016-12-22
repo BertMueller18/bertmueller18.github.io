@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Lab: Part 22 – Ultimate StoreFront 3 customization guide | Citrix Guru" 
-date: 2016-08-29T03:48:37.534Z 
+date: 2016-08-29T03:48:37.534Z
+categories: storefront citrix
 link: http://www.citrixguru.com/2016/03/08/lab-ultimate-storefront-customization-guide/ 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Lab: Part 22 – Ultimate StoreFront 3 customization guide
+## Lab: Part 22 – Ultimate StoreFront 3 customization guide
 
 
 Nicolas ignoto | On 08, Mar 2016
