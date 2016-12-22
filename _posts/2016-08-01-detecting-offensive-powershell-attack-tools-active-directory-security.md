@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Detecting Offensive PowerShell Attack Tools » Active Directory Security" 
-date: 2016-08-01T07:06:16.457Z 
+date: 2016-08-01T07:06:16.457Z
+categories: powershell pentest security
 link: https://adsecurity.org/?p=2604 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-Detecting Offensive PowerShell Attack Tools
+## Detecting Offensive PowerShell Attack Tools
 ActiveDirectorySecurity, Malware, Microsoft Security, PowerShell, Technical Reference by Sean Metcalf
 At DerbyCon V (2015), I presented on Active Directory Attack & Defense and part of this included how to detect & defend against PowerShell attacks.
 Update: I presented at BSides Charm (Baltimore) on PowerShell attack & defense in April 2016.

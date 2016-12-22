@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "#PowerShell Corner: Tidying up too many #Azure demos with PowerShell – Seb 2.0" 
-date: 2016-08-02T07:20:52.497Z 
+date: 2016-08-02T07:20:52.497Z
+categories: powershell azure azurerm
 link: http://sebmatthews.net/2015/09/powershell-corner-tidying-up-too-many-azure-demos/ 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> #PowerShell Corner: Tidying up too many #Azure demos with PowerShell
+## PowerShell Corner: Tidying up too many #Azure demos with PowerShell
 Posted on September 2, 2015 by sebmatthews
 Today’s PowerShell corner is brought to you in association with “Saving Money on Azure Storage Inc.” an imaginary consulting company, headquartered in Helsinki, that specialises in ensuring you don’t spend too much on Azure storage when it slowly gets out of hand.
 

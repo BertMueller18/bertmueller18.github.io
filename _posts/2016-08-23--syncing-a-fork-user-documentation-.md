@@ -1,16 +1,16 @@
 ---
 layout: post 
 published: true 
-title: "            Syncing a fork - User Documentation        " 
+title: "Syncing a fork - User Documentation" 
 date: 2016-08-23T13:36:57.250Z 
-link: https://help.github.com/articles/syncing-a-fork/?utm_content=buffer4de05&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer 
-tags:
+categories: git
+link: "https://help.github.com/articles/syncing-a-fork/?utm_content=buffer4de05&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer"
   - links
 ogtype: article 
 bodyclass: post 
 ---
 
-> Collaborating on projects using issues and pull requests / Syncing a fork
+## Collaborating on projects using issues and pull requests / Syncing a fork
  	
 Syncing a fork
 MAC WINDOWS LINUX

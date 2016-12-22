@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Get started with GlusterFS - considerations and installation" 
-date: 2016-08-01T20:03:39.563Z 
+date: 2016-08-01T20:03:39.563Z
+categories: linux gluster 
 link: https://support.rackspace.com/how-to/getting-started-with-glusterfs-considerations-and-installation/ 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Get started with GlusterFS - considerations and installation
+## Get started with GlusterFS - considerations and installation
 Last updated on: 2016-01-15 Authored by: Marcin Stangel
 Before you start to use GlusterFS, you have to make a fundamental decision: what type of volumes do you need for your environment. The following methods are used most often to achieve different results:
 

@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Deploy WMF5.0 on Windows 7 | &gt;_" 
-date: 2016-08-23T13:39:56.071Z 
+date: 2016-08-23T13:39:56.071Z
+categories: powershell deployment
 link: https://p0w3rsh3ll.wordpress.com/2016/05/17/deploy-wmf5-0-on-windows-7/ 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Deploy WMF5.0 on Windows 7
+## Deploy WMF5.0 on Windows 7
 Posted on May 17, 2016
 When the WMF5.0 was republished, I’ve asked the following question in the comments
 

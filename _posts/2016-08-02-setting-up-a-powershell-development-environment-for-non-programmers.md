@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Setting up a powershell development environment for non-programmers" 
-date: 2016-08-02T06:57:49.587Z 
+date: 2016-08-02T06:57:49.587Z
+categories: powershell programming
 link: https://vxsan.com/setting-up-a-powershell-development-environment-for-non-programmers/ 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Setting up a powershell development environment for non-programmers
+## Setting up a powershell development environment for non-programmers
 By Sjors Robroek · a month ago in Powershell, PowerCLI, Pester, Test driven development ·  0 Comments 0Shares    
 In most of my projects, powershell and its vendor-specific modules such as VMware's powercli is usually a necessity to work effectively. In addition, most customers appreciate it greatly if you can leave them with a handful of examples on how to run standard procedures through a script, even though it might not always be part of the deliverables.
 

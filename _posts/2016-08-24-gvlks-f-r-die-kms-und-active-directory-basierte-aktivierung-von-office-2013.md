@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "GVLKs für die KMS- und Active Directory-basierte Aktivierung von Office 2013" 
-date: 2016-08-24T08:23:21.803Z 
+date: 2016-08-24T08:23:21.803Z
+categories: kms activedirectory
 link: https://technet.microsoft.com/de-de/library/dn385360.aspx 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> GVLKs für die KMS- und Active Directory-basierte Aktivierung von Office 2013
+## GVLKs für die KMS- und Active Directory-basierte Aktivierung von Office 2013
 
  
 Gilt für:Office 2013

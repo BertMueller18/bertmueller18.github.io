@@ -2,15 +2,16 @@
 layout: post 
 published: true 
 title: "How to Detect File Changes in a Shared Folder" 
-date: 2016-08-01T06:57:43.750Z 
-link: https://www.netwrix.com/detecting_file_changes_in_shared_folder.html?fname=Jan&lname=Zollner&email=jan.zollner@bechtle.com&cname=Bechtle%20IT%20Systemhaus%20Leipzig&phone=%2049%20371%2065485451&mkt_tok=eyJpIjoiWVRSbFpXVmhZekZsWmpVNCIsInQiOiJFWkhpT21OOUpaRkUzd1phMlg0KzFaUWRaTlQ5RGVTMzVLcDFJNVhRRzFkZ200RnZPMCs5SnhpcmhzcGdKUHJac3pCU0lveFJFZ01UN2FXaVVUcUxaMXZvSzZoczJJV00rRFE5a3lUQUJuYz0ifQ== 
+date: 2016-08-01T06:57:43.750Z
+categories: security activedirectory
+link: https://www.netwrix.com/detecting_file_changes_in_shared_folder.html
 tags:
   - links
 ogtype: article 
 bodyclass: post 
 ---
 
-How to Detect File Changes in a Shared Folder
+## How to Detect File Changes in a Shared Folder
 Native Auditing 
 
 NATIVE AUDITING

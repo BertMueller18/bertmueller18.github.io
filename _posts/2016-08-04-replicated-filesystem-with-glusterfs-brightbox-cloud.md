@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Replicated filesystem with GlusterFS - Brightbox Cloud" 
-date: 2016-08-04T17:08:19.204Z 
+date: 2016-08-04T17:08:19.204Z
+categories: linux gluster storage
 link: https://www.brightbox.com/docs/guides/glusterfs/ 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Replicated filesystem with GlusterFS
+## Replicated filesystem with GlusterFS
 
 GlusterFS is a scalable and highly available network filesystem that’s pretty easy to get up and running.
 

@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "dd Cheat Sheet – JamesCoyle.net" 
-date: 2016-08-04T17:05:24.783Z 
+date: 2016-08-04T17:05:24.783Z
+categories: linux 
 link: https://www.jamescoyle.net/cheat-sheets/1012-dd-cheat-sheet 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> dd Cheat Sheet
+## dd Cheat Sheet
 Tags : Backupcheat-sheetddI/OLinuxrestore
 
 Category : Cheat Sheets

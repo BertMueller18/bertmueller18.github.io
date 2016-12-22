@@ -1,8 +1,9 @@
 ---
 layout: post 
 published: true 
-title: "									Configure VPN in Windows Server 2012 R2  :: Windows Server 2012  :: Articles &amp; Tutorials  :: WindowsNetworking.com						" 
-date: 2016-07-28T23:00:01.872Z 
+title: "Configure VPN in Windows Server 2012 R2  :: Windows Server 2012  :: Articles &amp; Tutorials  :: WindowsNetworking.com" 
+date: 2016-07-28T23:00:01.872Z
+categories: vpn server2012
 link: http://www.windowsnetworking.com/articles-tutorials/windows-server-2012/configure-vpn-windows-server-2012-r2.html 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Configure VPN in Windows Server 2012 R2
+## Configure VPN in Windows Server 2012 R2
 by Richard Hicks [Published on 28 July 2016 / Last Updated on 28 July 2016]  
 
 

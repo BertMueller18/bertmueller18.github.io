@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "PXE Booting and Utilities Menu - Brandon's Tinkerings" 
-date: 2016-08-24T06:13:26.558Z 
+date: 2016-08-24T06:13:26.558Z
+categories: pxe
 link: http://brandon.penglase.net/index.php?title=PXE_Booting_and_Utilities_Menu 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Intro
+## PXE Booting and Utilities Menu - Brandon's Tinkerings
 
 PXE (Preboot Execution Environment) Booting, or just Network booting in general is very interesting, at least to me, and a few others. As I believe it was Marty Connor in this awesome video "gPXE: Modern FOSS Network Booting" said that some people get really excited over booting machines over networks (including the Internet!) while others... not so much.
 

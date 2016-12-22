@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Low Cost Scale-Out Nas for the Office - CephNotes" 
-date: 2016-08-01T19:28:55.841Z 
+date: 2016-08-01T19:28:55.841Z
+categories: linux ceph storage
 link: http://cephnotes.ksperis.com/blog/2014/08/07/low-cost-scale-out-nas-for-the-office 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Low Cost Scale-Out Nas for the Office
+## Low Cost Scale-Out Nas for the Office
 AUG 7TH, 2014
 The aim is showing that it is possible to create a low-cost storage, efficient and scalable, using opensource solutions. In the example below, I am using Ceph for scalability and reliability, combined with EnhanceIO to ensure very good performance.
 

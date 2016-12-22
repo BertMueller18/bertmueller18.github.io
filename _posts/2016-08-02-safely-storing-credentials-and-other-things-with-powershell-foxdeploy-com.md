@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Safely storing credentials and other things with PowerShell – FoxDeploy.com" 
-date: 2016-08-02T07:55:39.171Z 
+date: 2016-08-02T07:55:39.171Z
+categories: security powershell
 link: https://foxdeploy.com/2016/07/14/safely-storing-credentials-and-other-things-with-powershell/ 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Safely storing credentials and other things with PowerShell
+## Safely storing credentials and other things with PowerShell
 
 July 14, 2016FoxDeploy
 

@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Installion: How To Install glusterfs-server On Ubuntu 16.04 Lts" 
-date: 2016-08-04T17:26:50.230Z 
+date: 2016-08-04T17:26:50.230Z
+categories: linux storage gluster
 link: http://installion.co.uk/ubuntu/xenial/universe/g/glusterfs-server/install/index.html 
 tags:
   - links
@@ -10,7 +11,9 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Installion.co.uk
+## Installion: How To Install glusterfs-server On Ubuntu 16.04 LTS
+
+Installion.co.uk
 Sprache auswählen​▼
 ubuntuxenialuniverseg
 How To Install glusterfs-server On Ubuntu 16.04 Lts

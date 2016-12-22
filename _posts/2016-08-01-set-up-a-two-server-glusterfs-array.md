@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Set up a two-server GlusterFS array" 
-date: 2016-08-01T20:07:22.855Z 
+date: 2016-08-01T20:07:22.855Z
+categories: linux gluster storage
 link: https://support.rackspace.com/how-to/set-up-a-two-server-glusterfs-array/ 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Set up a two-server GlusterFS array
+## Set up a two-server GlusterFS array
 Last updated on: 2016-01-12 Authored by: Matt Sherborne
 This article presents a step-by-step description for how to set up a two-server GlusterFS array.
 

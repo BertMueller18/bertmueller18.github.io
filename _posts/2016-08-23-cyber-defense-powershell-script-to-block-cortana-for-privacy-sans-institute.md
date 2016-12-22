@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Cyber Defense | PowerShell Script to Block Cortana for Privacy | SANS Institute" 
-date: 2016-08-23T13:42:29.981Z 
+date: 2016-08-23T13:42:29.981Z
+categories: powershell security
 link: https://cyber-defense.sans.org/blog/2016/08/20/powershell-script-to-block-cortana-for-privacy 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> PowerShell Script to Block Cortana for Privacy
+## PowerShell Script to Block Cortana for Privacy
 0 comments Posted by Jason Fossen
 Filed under Course SEC505, Jason Fossen, PowerShell
 -
