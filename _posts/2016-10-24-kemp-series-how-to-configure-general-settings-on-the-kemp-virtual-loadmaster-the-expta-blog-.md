@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "KEMP Series: How to Configure General Settings on the KEMP Virtual LoadMaster | The EXPTA {blog}" 
 date: 2016-10-24T20:38:50.270Z 
+categories: loadbalancer networking
 link: http://www.expta.com/2015/01/kemp-series-how-to-configure-general.html 
 tags:
   - links
