@@ -3,12 +3,14 @@ layout: post
 title:  "MSXFAQ.DE:WinHTTP" 
 date:   2016-11-22T23:49:55.713Z 
 categories: exchange windows 
+link: http://www.msxfaq.de/windows/netzwerk/winhttp.htm
 tags:
   - links
 ogtype: article 
 ---
 
 WinHTTP, WinINET und Windows Proxy
+
 
 Seiteninhalt
 HTTP unter Windows
