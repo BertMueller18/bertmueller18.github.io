@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Search Group Policy with PowerShell Script
+## Search Group Policy with PowerShell Script
 
 Posted on July 13, 2016 by Adam Fowler
 I was looking for a certain Group Policy Preferences setting, where a registry value was being changed. Resultant Set Of Policy (RSOP) won’t help with these, and I couldn’t see a nice PowerShell command for searching through Group Policies.
