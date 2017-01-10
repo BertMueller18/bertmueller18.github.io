@@ -2,7 +2,7 @@
 layout: post 
 title:  "MSXFAQ.DE:WinHTTP" 
 date:   2016-11-22T23:49:55.713Z 
-categories: Exchange Windows 
+categories: exchange windows 
 tags:
   - links
 ogtype: article 
