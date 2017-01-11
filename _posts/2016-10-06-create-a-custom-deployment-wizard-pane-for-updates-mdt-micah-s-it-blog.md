@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Create a custom Deployment Wizard pane for Updates (MDT) | MicaH's IT blog" 
-date: 2016-10-06T08:00:22.186Z 
+date: 2016-10-06T08:00:22.186Z
+categories: mdt deployment 
 link: https://itmicah.wordpress.com/2014/01/25/create-a-custom-deployment-wizard-pane-for-updates-mdt/ 
 tags:
   - links
@@ -10,7 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> Create a custom Deployment Wizard pane for Updates (MDT)
+## Create a custom Deployment Wizard pane for Updates (MDT)
 Posted on January 25, 2014 by MicaH
 Note: This blogpost is also posted on the peppercrew website.
 

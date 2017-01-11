@@ -3,9 +3,9 @@ layout: post
 published: true 
 title: "VMware: Disable HotPlug capability for virtual machines with PowerCLI | VMpros" 
 date: 2016-09-27T06:20:43.892Z 
-link: http://blog.vmpros.nl/2016/01/16/vmware-disable-hotplug-capability-for-virtual-machines-with-powercli/ 
 categories: vmware esx
 tags: vmware esx
+link: http://blog.vmpros.nl/2016/01/16/vmware-disable-hotplug-capability-for-virtual-machines-with-powercli/ 
   - links
 ogtype: article 
 bodyclass: post 

@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "Free MDT Tools and PowerShell Scripts to Fully Automate the Deployment and Configuration of Hyper-V Server 2016, Failover Clustering, and Storage Spaces Direct for Hyper-Converged Infrastructure!" 
 date: 2016-10-04T11:36:51.916Z 
+categories: mdt powershell
 link: http://blog.itvce.com/2015/12/03/free-mdt-tools-and-powershell-scripts-to-fully-automate-the-deployment-and-configuration-of-hyper-v-server-2016-failover-clustering-and-storage-spaces-direct-for-hyper-converged-infrastructure/ 
 tags:
   - links

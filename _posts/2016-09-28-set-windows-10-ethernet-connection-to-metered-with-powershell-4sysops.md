@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Set Windows 10 Ethernet connection to metered with PowerShell - 4sysops" 
-date: 2016-09-27T22:31:07.076Z 
+date: 2016-09-27T22:31:07.076Z
+categories: powershell networking 
 link: https://4sysops.com/archives/set-windows-10-ethernet-connection-to-metered-with-powershell/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+4sysops+%284sysops%29 
 tags:
   - links

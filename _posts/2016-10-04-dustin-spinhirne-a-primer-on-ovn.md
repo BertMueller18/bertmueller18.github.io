@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "Dustin Spinhirne: A Primer on OVN" 
 date: 2016-10-04T05:23:09.202Z 
+categories: sdn networking 
 link: http://blog.spinhirne.com/2016/09/a-primer-on-ovn.html 
 tags:
   - links

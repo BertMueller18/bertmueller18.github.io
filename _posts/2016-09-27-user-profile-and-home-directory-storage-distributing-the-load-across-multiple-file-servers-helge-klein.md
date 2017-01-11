@@ -3,9 +3,9 @@ layout: post
 published: true 
 title: "User Profile and Home Directory Storage: Distributing the Load Across Multiple File Servers • Helge Klein" 
 date: 2016-09-27T06:22:18.914Z 
-link: https://helgeklein.com/blog/2009/04/user-profile-and-home-directory-storage-distributing-the-load-across-multiple-file-servers/ 
 categories: citrix windows activedirectory
 tags: citrix windows activedirectory 
+link: https://helgeklein.com/blog/2009/04/user-profile-and-home-directory-storage-distributing-the-load-across-multiple-file-servers/ 
   - links
 ogtype: article 
 bodyclass: post 

@@ -5,9 +5,10 @@ title: >-
   PowerShell Desired State Configuration Class Based Resource for Configuring
   Remote Desktop – Mike F Robbins
 date: 2016-10-02T11:34:58.102Z
-link: >-
-  http://mikefrobbins.com/2016/09/29/powershell-desired-state-configuration-class-based-resource-for-configuring-remote-desktop/
-tags: powershell psdsc - links
+categories: powershell psdsc 
+link: http://mikefrobbins.com/2016/09/29/powershell-desired-state-configuration-class-based-resource-for-configuring-remote-desktop/
+- 
+links
 ogtype: article
 bodyclass: post
 categories: powershell psdsc
