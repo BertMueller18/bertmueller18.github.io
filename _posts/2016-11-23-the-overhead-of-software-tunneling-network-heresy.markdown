@@ -1,15 +1,15 @@
 ---
-layout: post 
-title:  "The Overhead of Software Tunneling  | Network Heresy" 
-date:   2016-11-22T23:04:23.159Z 
+layout: post
+title:  "The Overhead of Software Tunneling  | Network Heresy"
+date:   2016-11-22T23:04:23.159Z
 categories: openvswitch networking sdn linux
-link: https://networkheresy.com/2012/06/08/the-overhead-of-software-tunneling/ 
+link: https://networkheresy.com/2012/06/08/the-overhead-of-software-tunneling/
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> The Overhead of Software Tunneling
+## The Overhead of Software Tunneling
 Posted: June 8, 2012 | Author: networkheresy | Filed under: network virtualization, Open vSwitch |17 Comments
 [This post was written with Jesse Gross, Ben Basler, Bruce Davie, and Andrew Lambeth]
 

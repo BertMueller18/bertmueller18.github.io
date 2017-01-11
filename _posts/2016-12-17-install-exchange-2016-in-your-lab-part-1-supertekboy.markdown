@@ -1,15 +1,15 @@
 ---
-layout: post 
-title:  "Install Exchange 2016 in your lab (Part 1) - SuperTekBoy" 
-date:   2016-12-17T09:50:54.661Z 
+layout: post
+title:  "Install Exchange 2016 in your lab (Part 1) - SuperTekBoy"
+date:   2016-12-17T09:50:54.661Z
 categories: exchange exchange2016
-link: https://supertekboy.com/2015/09/08/install-exchange-2016-in-your-lab-part-1/ 
+link: https://supertekboy.com/2015/09/08/install-exchange-2016-in-your-lab-part-1/
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> Install Exchange 2016 in your lab (Part 1)
+## Install Exchange 2016 in your lab (Part 1)
 September 8, 2015 By Gareth Gudger 6 Comments
 
 259 SHARES

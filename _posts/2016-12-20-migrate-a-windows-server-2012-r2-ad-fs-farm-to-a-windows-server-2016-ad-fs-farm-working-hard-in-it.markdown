@@ -1,15 +1,15 @@
 ---
-layout: post 
-title:  "Migrate a Windows Server 2012 R2 AD FS farm to a Windows Server 2016 AD FS farm - Working Hard In IT" 
-date:   2016-12-20T13:18:13.426Z 
-categories: server2016 adfs 
-link: https://blog.workinghardinit.work/2016/12/19/migrate-a-windows-server-2012-r2-ad-fs-farm-to-a-windows-server-2016-ad-fs-farm/ 
+layout: post
+title:  "Migrate a Windows Server 2012 R2 AD FS farm to a Windows Server 2016 AD FS farm - Working Hard In IT"
+date:   2016-12-20T13:18:13.426Z
+categories: server2016 adfs
+link: https://blog.workinghardinit.work/2016/12/19/migrate-a-windows-server-2012-r2-ad-fs-farm-to-a-windows-server-2016-ad-fs-farm/
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> Migrate a Windows Server 2012 R2 AD FS farm to a Windows Server 2016 AD FS farm
+## Migrate a Windows Server 2012 R2 AD FS farm to a Windows Server 2016 AD FS farm
 Posted on December 19, 2016
 Introduction
 

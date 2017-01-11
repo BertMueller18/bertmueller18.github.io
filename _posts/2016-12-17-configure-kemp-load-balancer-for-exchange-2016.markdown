@@ -1,15 +1,15 @@
 ---
-layout: post 
-title:  "Configure Kemp Load Balancer for Exchange 2016" 
-date:   2016-12-17T09:51:41.764Z 
+layout: post
+title:  "Configure Kemp Load Balancer for Exchange 2016"
+date:   2016-12-17T09:51:41.764Z
 categories: exchange exchange2016 loadbalancer kemp
-link: https://supertekboy.com/2015/11/17/configure-kemp-load-balancer-for-exchange-2016/ 
+link: https://supertekboy.com/2015/11/17/configure-kemp-load-balancer-for-exchange-2016/
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> Configure Kemp Load Balancer for Exchange 2016
+## Configure Kemp Load Balancer for Exchange 2016
 November 17, 2015 By Gareth Gudger 36 Comments
 
 454 SHARES

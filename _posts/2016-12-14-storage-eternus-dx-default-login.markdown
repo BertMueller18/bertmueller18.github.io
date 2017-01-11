@@ -1,15 +1,15 @@
 ---
-layout: post 
-title:  "Storage: Eternus DX default Login" 
-date:   2016-12-14T10:26:31.128Z 
+layout: post
+title:  "Storage: Eternus DX default Login"
+date:   2016-12-14T10:26:31.128Z
 categories: storage eternus
-link: https://www.elasticsky.de/2012/04/storage-eternus-dx-default-login/ 
+link: https://www.elasticsky.de/2012/04/storage-eternus-dx-default-login/
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> Storage: Eternus DX default Login
+## Storage: Eternus DX default Login
 Eine Fujitsu Eternus DX Storage hat im Auslieferungszustand zwei Logins.
 
 User: root mit Password: root

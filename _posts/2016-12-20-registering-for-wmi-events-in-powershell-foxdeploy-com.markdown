@@ -1,15 +1,15 @@
 ---
-layout: post 
-title:  "Registering for WMI Events in PowerShell – FoxDeploy.com" 
-date:   2016-12-20T14:02:48.930Z 
+layout: post
+title:  "Registering for WMI Events in PowerShell – FoxDeploy.com"
+date:   2016-12-20T14:02:48.930Z
 categories: powershell wmi
-link: https://foxdeploy.com/2016/12/16/registering-for-wmi-events-in-powershell/?utm_content=buffer3e414&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer 
+link: https://foxdeploy.com/2016/12/16/registering-for-wmi-events-in-powershell/?utm_content=buffer3e414&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> Registering for WMI Events in PowerShell
+## Registering for WMI Events in PowerShell
 
 December 16, 2016FoxDeploy
 
