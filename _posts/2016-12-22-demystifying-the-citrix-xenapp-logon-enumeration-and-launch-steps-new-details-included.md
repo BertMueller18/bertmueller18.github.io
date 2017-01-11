@@ -1,15 +1,15 @@
 ---
-layout: post 
-title:  "Demystifying the Citrix XenApp logon, enumeration and launch steps -- new details included" 
-date:   2016-12-22T15:32:50.778Z 
+layout: post
+title:  "Demystifying the Citrix XenApp logon, enumeration and launch steps -- new details included"
+date:   2016-12-22T15:32:50.778Z
 categories: citrix xenapp xendesktop activedirectory
-link: http://www.basvankaam.com/2016/12/19/demystifying-the-citrix-xenapp-logon-enumeration-and-launch-steps-new-details-included/ 
+link: http://www.basvankaam.com/2016/12/19/demystifying-the-citrix-xenapp-logon-enumeration-and-launch-steps-new-details-included/
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> Demystifying the Citrix XenApp logon, enumeration and launch steps — new details included
+## Demystifying the Citrix XenApp logon, enumeration and launch steps — new details included
 
 December 19, 2016 by Bas van Kaam Leave a Comment
 

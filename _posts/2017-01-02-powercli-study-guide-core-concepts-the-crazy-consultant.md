@@ -1,15 +1,15 @@
 ---
-layout: post 
-title:  "PowerCLI study guide – core concepts - The Crazy Consultant" 
-date:   2017-01-02T14:33:08.306Z 
+layout: post
+title:  "PowerCLI study guide – core concepts - The Crazy Consultant"
+date:   2017-01-02T14:33:08.306Z
 categories: powershell powercli
-link: http://thecrazyconsultant.com/powercli-study-guide-core-concepts/ 
+link: http://thecrazyconsultant.com/powercli-study-guide-core-concepts/
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> PowerCLI study guide – core concepts
+## PowerCLI study guide – core concepts
 1 Reply
 This course will introduce the core concepts of PowerCLI.
 
