@@ -1,15 +1,15 @@
 ---
-layout: post 
-title:  "Careful with Add-Member! - Power Tips - PowerTips - IDERA Community" 
-date:   2016-11-30T23:34:45.969Z 
+layout: post
+title:  "Careful with Add-Member! - Power Tips - PowerTips - IDERA Community"
+date:   2016-11-30T23:34:45.969Z
 categories: powershell programming
-link: http://community.idera.com/powershell/powertips/b/tips/posts/careful-with-add-member 
+link: http://community.idera.com/powershell/powertips/b/tips/posts/careful-with-add-member
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> Careful with Add-Member!
+## Careful with Add-Member!
 
 Frequently, Add-Member is used to create custom objects, for example like this:
 

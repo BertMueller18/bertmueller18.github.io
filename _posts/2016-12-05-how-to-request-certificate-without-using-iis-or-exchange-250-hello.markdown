@@ -1,15 +1,15 @@
 ---
-layout: post 
-title:  "How To Request Certificate Without Using IIS or Exchange – 250  Hello" 
-date:   2016-12-05T10:01:48.282Z 
+layout: post
+title:  "How To Request Certificate Without Using IIS or Exchange – 250  Hello"
+date:   2016-12-05T10:01:48.282Z
 categories: pki certificate certreq
-link: https://blogs.technet.microsoft.com/rmilne/2014/06/17/how-to-request-certificate-without-using-iis-or-exchange/ 
+link: https://blogs.technet.microsoft.com/rmilne/2014/06/17/how-to-request-certificate-without-using-iis-or-exchange/
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-### How To Request Certificate Without Using IIS or Exchange
+## How To Request Certificate Without Using IIS or Exchange
 
 The blog post on how to integrate Office 365 with Windows 2012 R2 AD FS raised an interesting question from a reader (Hi Eric!) on how should he request a certificate for the AD FS instance since there is no longer an IIS dependency.  This means that there is no longer an IIS console to generate a certificate request with.  What to do?
 

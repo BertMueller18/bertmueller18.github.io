@@ -1,14 +1,14 @@
 ---
-layout: post 
-title:  "XenDesktop 7.6 install with powershell Part 2 - citrix24.com" 
-date:   2016-12-01T18:42:13.256Z 
+layout: post
+title:  "XenDesktop 7.6 install with powershell Part 2 - citrix24.com"
+date:   2016-12-01T18:42:13.256Z
 categories: citrix xendesktop powershell deployment
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> XenDesktop 7.6 install with powershell Part 2
+## XenDesktop 7.6 install with powershell Part 2
 
 Share this post
 0

@@ -1,15 +1,15 @@
 ---
-layout: post 
-title:  "An Extremely Brief Conceptual Introduction to Open vSwitch  | Network Heresy" 
-date:   2016-11-22T23:03:48.228Z 
+layout: post
+title:  "An Extremely Brief Conceptual Introduction to Open vSwitch  | Network Heresy"
+date:   2016-11-22T23:03:48.228Z
 categories: openvswitch linux sdn
-link: https://networkheresy.com/2011/06/06/an-extremely-brief-conceptual-introduction-to-open-vswitch/ 
+link: https://networkheresy.com/2011/06/06/an-extremely-brief-conceptual-introduction-to-open-vswitch/
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> An Extremely Brief Conceptual Introduction to Open vSwitch
+## An Extremely Brief Conceptual Introduction to Open vSwitch
 Posted: June 6, 2011 | Author: networkheresy | Filed under: network virtualization, Open vSwitch |Leave a comment
 Overview:
 

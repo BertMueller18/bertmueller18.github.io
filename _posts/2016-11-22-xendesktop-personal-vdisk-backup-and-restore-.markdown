@@ -1,14 +1,15 @@
 ---
-layout: post 
-title:  "XenDesktop Personal VDisk Backup and Restore | " 
-date:   2016-11-22T21:31:38.155Z 
+layout: post
+title:  "XenDesktop Personal VDisk Backup and Restore"
+date:   2016-11-22T21:31:38.155Z
+categories: pvdisk xendesktop citrix xenapp
+link: http://support.citrix.com/proddocs/topic/xendesktop-7/cds-manage-personal-vdisks.html
 ---
 
-> XenDesktop Personal VDisk Backup and Restore
+## XenDesktop Personal VDisk Backup and Restore
+
 Citrix have an detailed article on Managing Personal Vdisks and backing up and restoring them.
 This is detailed in the E-docs here
-
-http://support.citrix.com/proddocs/topic/xendesktop-7/cds-manage-personal-vdisks.html
 
 The following shows the process used by RealServe IT in our labs to test the process.
 This process is designed to help move a users Personal Vdisk to another catalog.

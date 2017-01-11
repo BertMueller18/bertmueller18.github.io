@@ -1,14 +1,14 @@
 ---
-layout: post 
-title:  "OSD – Add information to the Computer during OSD using a Custom Tattoo Step « The Deployment Bunny" 
-date:   2016-12-03T19:13:00.126Z 
+layout: post
+title:  "OSD – Add information to the Computer during OSD using a Custom Tattoo Step « The Deployment Bunny"
+date:   2016-12-03T19:13:00.126Z
 categories: m
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> OSD – Add information to the Computer during OSD using a Custom Tattoo Step
+## OSD – Add information to the Computer during OSD using a Custom Tattoo Step
 
 Posted by Mikael Nystrom on December 2, 2016
 

@@ -1,15 +1,15 @@
 ---
-layout: post 
-title:  "Creating an MCS-based XenDesktop Machine Catalog with PowerShell - Aaron Parker" 
-date:   2016-12-03T11:50:59.369Z 
+layout: post
+title:  "Creating an MCS-based XenDesktop Machine Catalog with PowerShell - Aaron Parker"
+date:   2016-12-03T11:50:59.369Z
 categories: citrix mcs xendesktop powershell
-link: http://stealthpuppy.com/xendesktop-mcs-machine-catalog-powershell/ 
+link: http://stealthpuppy.com/xendesktop-mcs-machine-catalog-powershell/
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> Creating an MCS-based XenDesktop Machine Catalog with PowerShell
+## Creating an MCS-based XenDesktop Machine Catalog with PowerShell
 
 Driving XenDesktop with PowerShell is a challenge to say the least. While documentation for the XenDesktop PowerShell modules is OK and Citrix Studio outputs PowerShell code after you’ve completed a task in the console, there’s still plenty of work to get that code into something usable.
 

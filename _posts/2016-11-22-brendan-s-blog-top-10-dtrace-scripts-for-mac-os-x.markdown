@@ -1,7 +1,8 @@
 ---
-layout: post 
-title:  "Brendan's blog   » Top 10 DTrace scripts for Mac OS X" 
-date:   2016-11-22T21:21:40.281Z 
+layout: post
+title:  "Brendan's blog   » Top 10 DTrace scripts for Mac OS X"
+date:   2016-11-22T21:21:40.281Z
+categories: mac osx  
 ---
 
 > Top 10 DTrace scripts for Mac OS X

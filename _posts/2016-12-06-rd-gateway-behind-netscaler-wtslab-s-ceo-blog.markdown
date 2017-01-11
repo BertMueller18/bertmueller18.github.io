@@ -1,19 +1,19 @@
 ---
-layout: post 
-title:  "RD Gateway behind NetScaler | WTSLab's CEO Blog" 
-date:   2016-12-06T12:58:09.180Z 
+layout: post
+title:  "RD Gateway behind NetScaler | WTSLab's CEO Blog"
+date:   2016-12-06T12:58:09.180Z
 categories: netscaler rds networking
-link: http://blog.wtslabs.com/?p=427 
+link: http://blog.wtslabs.com/?p=427
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> How-to: RD Gateway behind a NetScaler
+## How-to: RD Gateway behind a NetScaler
 This entry was posted in NetScaler Remote Desktop Services  on November 3, 2016 by crod
 Before jumping in on how to get this done, let’s take a step back and review what the problem is and why this makes sense.
 
-The Issue
+### The Issue
 
 If you are cheap and like to run your labs (or parts of it) at home, that probably means you have a single IP address available and exposed to the outside world and either no way to get a second one or no money for it. Basically you are like me.
 
