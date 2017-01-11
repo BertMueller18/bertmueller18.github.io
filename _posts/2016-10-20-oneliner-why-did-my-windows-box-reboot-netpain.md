@@ -1,16 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "Oneliner: Why did my Windows box reboot? – Netpain" 
-date: 2016-10-20T07:34:06.688Z 
-link: http://netpain.pvz.pp.se/oneliner-why-did-my-windows-box-reboot/ 
+layout: post
+published: true
+title: "Oneliner: Why did my Windows box reboot? – Netpain"
+date: 2016-10-20T07:34:06.688Z
+categories: powershell eventlog  
+link: http://netpain.pvz.pp.se/oneliner-why-did-my-windows-box-reboot/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> Oneliner: Why did my Windows box reboot?
+## Oneliner: Why did my Windows box reboot?
 
 Ever found yourself wanting to quickly figure out why a windows box rebooted? Just drop this beauty into Powershell:
 

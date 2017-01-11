@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Tom's Blog: Setting up a L2TP/IPsec VPN with SoftEther VPN on a Raspberry Pi" 
-date: 2016-10-23T09:04:33.433Z 
-link: http://tomearp.blogspot.de/2013/11/setting-up-l2tpipsec-vpn-with-softether.html 
+layout: post
+published: true
+title: "Tom's Blog: Setting up a L2TP/IPsec VPN with SoftEther VPN on a Raspberry Pi"
+date: 2016-10-23T09:04:33.433Z
+categories: vpn ipsec raspberrypi
+link: http://tomearp.blogspot.de/2013/11/setting-up-l2tpipsec-vpn-with-softether.html
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Tom's Blog

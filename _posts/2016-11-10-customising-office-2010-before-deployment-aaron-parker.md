@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Customising Office 2010 before deployment - Aaron Parker" 
-date: 2016-11-10T20:38:03.485Z 
-link: http://stealthpuppy.com/customising-office-2010-before-deployment/ 
+layout: post
+published: true
+title: "Customising Office 2010 before deployment - Aaron Parker"
+date: 2016-11-10T20:38:03.485Z
+categories: deployment  
+link: http://stealthpuppy.com/customising-office-2010-before-deployment/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Customising Office 2010 before deployment

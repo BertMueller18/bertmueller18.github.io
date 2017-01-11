@@ -10,7 +10,7 @@ ogtype: article
 ---
 
 ## PowerCLI study guide – core concepts
-1 Reply
+
 This course will introduce the core concepts of PowerCLI.
 
 Being proficient in “PowerCLI” could be summarised in this way:

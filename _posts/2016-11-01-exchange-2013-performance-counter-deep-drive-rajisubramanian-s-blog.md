@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Exchange 2013 Performance Counter deep drive… | Rajisubramanian's Blog" 
-date: 2016-11-01T07:14:34.955Z 
-link: https://rajisubramanian.wordpress.com/2014/10/15/exchange-2013-performance-counter-deep-drive/ 
+layout: post
+published: true
+title: "Exchange 2013 Performance Counter deep drive… | Rajisubramanian's Blog"
+date: 2016-11-01T07:14:34.955Z
+categories: exchange exchange2013 perfmon performance 
+link: https://rajisubramanian.wordpress.com/2014/10/15/exchange-2013-performance-counter-deep-drive/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Exchange 2013 Performance Counter deep drive…

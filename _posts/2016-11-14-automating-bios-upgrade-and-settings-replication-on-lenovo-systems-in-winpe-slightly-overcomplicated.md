@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Automating BIOS upgrade and settings replication on Lenovo systems in WinPE | Slightly Overcomplicated" 
-date: 2016-11-14T13:46:46.092Z 
-link: https://slightlyovercomplicated.com/2015/10/14/automating-bios-upgrade-and-settings-replication-on-lenovo-systems-in-winpe/ 
+layout: post
+published: true
+title: "Automating BIOS upgrade and settings replication on Lenovo systems in WinPE | Slightly Overcomplicated"
+date: 2016-11-14T13:46:46.092Z
+categories: deployment 
+link: https://slightlyovercomplicated.com/2015/10/14/automating-bios-upgrade-and-settings-replication-on-lenovo-systems-in-winpe/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Automating BIOS upgrade and settings replication on Lenovo systems in WinPE

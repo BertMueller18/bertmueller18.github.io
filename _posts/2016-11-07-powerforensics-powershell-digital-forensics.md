@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "PowerForensics - PowerShell Digital Forensics" 
-date: 2016-11-07T09:24:38.914Z 
-link: https://howucan.gr/scripts-tools/1150-powerforensics-powershell-digital-forensics 
+layout: post
+published: true
+title: "PowerForensics - PowerShell Digital Forensics"
+date: 2016-11-07T09:24:38.914Z
+categories: forensics powershell security
+link: https://howucan.gr/scripts-tools/1150-powerforensics-powershell-digital-forensics
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > PowerForensics - PowerShell Digital Forensics

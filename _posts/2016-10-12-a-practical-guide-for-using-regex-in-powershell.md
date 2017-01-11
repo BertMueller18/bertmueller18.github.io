@@ -1,16 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "A Practical Guide for Using Regex in PowerShell" 
-date: 2016-10-12T20:56:58.785Z 
-link: https://powershell.org/2016/10/04/a-practical-guide-for-using-regex-in-powershell/ 
+layout: post
+published: true
+title: "A Practical Guide for Using Regex in PowerShell"
+date: 2016-10-12T20:56:58.785Z
+categories: regex powershell programming
+link: https://powershell.org/2016/10/04/a-practical-guide-for-using-regex-in-powershell/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> 
+>
 A Practical Guide for Using Regex in PowerShell
 October 4, 2016 by Duffney 0
 

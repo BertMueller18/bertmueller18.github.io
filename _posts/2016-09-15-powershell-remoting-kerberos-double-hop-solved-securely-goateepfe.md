@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "PowerShell Remoting Kerberos Double Hop Solved Securely – GoateePFE" 
-date: 2016-09-15T13:06:58.951Z 
-link: https://blogs.technet.microsoft.com/ashleymcglone/2016/08/30/powershell-remoting-kerberos-double-hop-solved-securely/ 
+layout: post
+published: true
+title: "PowerShell Remoting Kerberos Double Hop Solved Securely – GoateePFE"
+date: 2016-09-15T13:06:58.951Z
+categories: kerberos remoting powershell  
+link: https://blogs.technet.microsoft.com/ashleymcglone/2016/08/30/powershell-remoting-kerberos-double-hop-solved-securely/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > The struggle is real.

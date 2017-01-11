@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Client Access Server Counters: Exchange 2010 Help" 
-date: 2016-11-01T07:14:18.195Z 
-link: https://technet.microsoft.com/en-us/library/ff367877(v=exchg.141).aspx 
+layout: post
+published: true
+title: "Client Access Server Counters: Exchange 2010 Help"
+date: 2016-11-01T07:14:18.195Z
+categories: exchange exchange2010 perfmon performance 
+link: https://technet.microsoft.com/en-us/library/ff367877(v=exchg.141).aspx
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Client Access Server Counters

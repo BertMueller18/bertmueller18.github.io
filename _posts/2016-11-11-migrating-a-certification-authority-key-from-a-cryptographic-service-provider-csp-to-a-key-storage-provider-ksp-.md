@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Migrating a Certification Authority Key from a Cryptographic Service Provider (CSP) to a Key Storage Provider (KSP)" 
-date: 2016-11-11T08:21:21.435Z 
-link: https://technet.microsoft.com/en-us/library/dn771627.aspx 
+layout: post
+published: true
+title: "Migrating a Certification Authority Key from a Cryptographic Service Provider (CSP) to a Key Storage Provider (KSP)"
+date: 2016-11-11T08:21:21.435Z
+categories: pki certificate 
+link: https://technet.microsoft.com/en-us/library/dn771627.aspx
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Migrating a Certification Authority Key from a Cryptographic Service Provider (CSP) to a Key Storage Provider (KSP)

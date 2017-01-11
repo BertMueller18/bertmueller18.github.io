@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Citrix Personal vDisk, a registry key break down • My Virtual Vision" 
-date: 2016-09-27T06:20:59.659Z 
-link: http://blog.myvirtualvision.com/2013/08/02/citrix-personal-vdisk-and-an-reg-key-break-down/ 
+layout: post
+published: true
+title: "Citrix Personal vDisk, a registry key break down • My Virtual Vision"
+date: 2016-09-27T06:20:59.659Z
+categories: pvdisk citrix xenapp xendesktop 
+link: http://blog.myvirtualvision.com/2013/08/02/citrix-personal-vdisk-and-an-reg-key-break-down/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Citrix Personal vDisk, a registry key break down

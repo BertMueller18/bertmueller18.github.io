@@ -11,9 +11,6 @@ ogtype: article
 
 ## Registering for WMI Events in PowerShell
 
-December 16, 2016FoxDeploy
-
-
 An alternate title might be ‘Running PowerShell Code ONLY when the power state changes’, because that was the very interesting task I received from my customer this week.
 
 It was honestly too cool of a StackOverflow answer NOT to share, so he

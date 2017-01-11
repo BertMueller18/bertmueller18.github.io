@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Apt-Get for Windows - OneGet and Chocolatey on Windows 10 - Scott Hanselman" 
-date: 2016-11-14T13:48:23.154Z 
-link: http://www.hanselman.com/blog/AptGetForWindowsOneGetAndChocolateyOnWindows10.aspx 
+layout: post
+published: true
+title: "Apt-Get for Windows - OneGet and Chocolatey on Windows 10 - Scott Hanselman"
+date: 2016-11-14T13:48:23.154Z
+categories: powershell deployment 
+link: http://www.hanselman.com/blog/AptGetForWindowsOneGetAndChocolateyOnWindows10.aspx
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Apt-Get for Windows - OneGet and Chocolatey on Windows 10

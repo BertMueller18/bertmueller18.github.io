@@ -1,16 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "How To Implement Dynamic Parameters in Your PowerShell Functions -- Microsoft Certified Professional Magazine Online" 
-date: 2016-10-07T05:58:02.543Z 
-link: https://mcpmag.com/articles/2016/10/06/implement-dynamic-parameters.aspx?utm_medium=twitter&utm_source=twitterfeed 
+layout: post
+published: true
+title: "How To Implement Dynamic Parameters in Your PowerShell Functions -- Microsoft Certified Professional Magazine Online"
+date: 2016-10-07T05:58:02.543Z
+categories: powershell programming  
+link: https://mcpmag.com/articles/2016/10/06/implement-dynamic-parameters.aspx?utm_medium=twitter&utm_source=twitterfeed
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> How To Implement Dynamic Parameters in Your PowerShell Functions
+## How To Implement Dynamic Parameters in Your PowerShell Functions
 Choosing the correct input for your functions will save time and energy in the long run.
 
 By Adam Bertram10/06/2016

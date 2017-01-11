@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "brain floss: HTTP Reverse Proxy using Citrix NetScaler VPX Express" 
-date: 2016-09-15T14:03:14.263Z 
-link: http://blog.millard.org/2014/02/http-reverse-proxy-using-citrix.html 
+layout: post
+published: true
+title: "brain floss: HTTP Reverse Proxy using Citrix NetScaler VPX Express"
+date: 2016-09-15T14:03:14.263Z
+categories: netscaler reverseproxy citrix 
+link: http://blog.millard.org/2014/02/http-reverse-proxy-using-citrix.html
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > HTTP Reverse Proxy using Citrix NetScaler VPX Express

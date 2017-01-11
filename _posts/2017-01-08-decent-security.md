@@ -1,15 +1,15 @@
 ---
-layout: post 
-title:  "Decent Security" 
-date:   2017-01-07T23:16:18.516Z 
+layout: post
+title:  "Decent Security"
+date:   2017-01-07T23:16:18.516Z
 categories: windows deployment
-link: https://decentsecurity.com/#/holiday-tasks/ 
+link: https://decentsecurity.com/#/holiday-tasks/
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> Cleaning and optimizing a Windows computer safely
+## Cleaning and optimizing a Windows computer safely
 “I do my best to make this all as easy as possible, but there are a lot of advanced operations in this guide compared to the rest of the site.”
 [Last updated 2017-01-04]
 

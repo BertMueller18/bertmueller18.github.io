@@ -10,10 +10,7 @@ ogtype: article
 ---
 
 ## Microsoft SHA-1 Deprecation Plan – User’s Guide
-★★★★★★★★★★★★★★★
-YURIKAMNovember 29, 2016
-110
-0
+
 Today, many in the security community believe SHA-1 hash algorithm is a legacy cryptographic and is no longer secure. An attacker may utilize weaknesses in SHA-1 to perform the man-in-the middle attacks, spoof the content, or perform phishing.
 
 As announced in Microsoft Advisory and Microsoft Edge Official Blog, Microsoft, in collaboration with other members of the industry including various browser venders, is taking gradual steps to deprecate SHA-1 and warn users of the possible risk when they encounter websites using the SHA-1 certificate.

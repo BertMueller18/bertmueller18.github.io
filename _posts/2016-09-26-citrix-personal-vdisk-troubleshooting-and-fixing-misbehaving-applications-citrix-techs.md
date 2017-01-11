@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Citrix Personal vDisk: Troubleshooting and Fixing Misbehaving Applications | Citrix Techs" 
-date: 2016-09-26T13:50:09.533Z 
-link: http://citrixtechs.com/blog/citrix-personal-vdisk-troubleshooting-and-fixing-misbehaving-applications-2/ 
+layout: post
+published: true
+title: "Citrix Personal vDisk: Troubleshooting and Fixing Misbehaving Applications | Citrix Techs"
+date: 2016-09-26T13:50:09.533Z
+categories: citrix pvdisk  
+link: http://citrixtechs.com/blog/citrix-personal-vdisk-troubleshooting-and-fixing-misbehaving-applications-2/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Citrix Personal vDisk: Troubleshooting and Fixing Misbehaving Applications

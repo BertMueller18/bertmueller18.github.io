@@ -1,16 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "PowerShell Solutions - Several tips for daily tasks  - SQLServerCentral" 
-date: 2016-10-06T08:09:52.616Z 
-link: http://www.sqlservercentral.com/articles/Datafile/145674/ 
+layout: post
+published: true
+title: "PowerShell Solutions - Several tips for daily tasks  - SQLServerCentral"
+date: 2016-10-06T08:09:52.616Z
+categories: powershell programming 
+link: http://www.sqlservercentral.com/articles/Datafile/145674/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> PowerShell Solutions - Several tips for daily tasks
+## PowerShell Solutions - Several tips for daily tasks
 By Daniel Calbimonte, 2016/09/27
 
 Introduction

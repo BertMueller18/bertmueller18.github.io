@@ -1,17 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "Powering VMware with PowerShell | Free Load Balancer" 
-date: 2016-11-14T14:08:46.099Z 
+layout: post
+published: true
+title: "Powering VMware with PowerShell | Free Load Balancer"
+date: 2016-11-14T14:08:46.099Z
 categories: powershell powercli vmware
-link: https://freeloadbalancer.com/blog/powering-vmware-with-powershell/ 
+link: https://freeloadbalancer.com/blog/powering-vmware-with-powershell/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> Powering VMware with PowerShell
+## Powering VMware with PowerShell
 
 Many tools and products that support scripting are adding PowerShell support. VMware also did this in their PowerCLI tool that can be used to provision and manage vSphere hosted virtual machines. There is even a PowerCLI test lab that you can use to learn about the tool without any risk to your vSphere environment. More details at the VMware blog site here.
 

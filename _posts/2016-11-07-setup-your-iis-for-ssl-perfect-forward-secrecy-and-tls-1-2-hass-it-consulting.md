@@ -1,16 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "Setup your IIS for SSL Perfect Forward Secrecy and TLS 1.2 | Hass - IT Consulting" 
-date: 2016-11-07T08:47:52.089Z 
-link: https://www.hass.de/content/setup-your-iis-ssl-perfect-forward-secrecy-and-tls-12 
+layout: post
+published: true
+title: "Setup your IIS for SSL Perfect Forward Secrecy and TLS 1.2 | Hass - IT Consulting"
+date: 2016-11-07T08:47:52.089Z
+categories: security ssl tls iis
+link: https://www.hass.de/content/setup-your-iis-ssl-perfect-forward-secrecy-and-tls-12
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> 
+>
 Setup your IIS for SSL Perfect Forward Secrecy and TLS 1.2
 
 MicrosoftIISSSLPerfect Forward SecrecyPowerShellDownload

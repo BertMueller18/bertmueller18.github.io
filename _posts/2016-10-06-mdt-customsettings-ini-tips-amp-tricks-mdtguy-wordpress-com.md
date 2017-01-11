@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "MDT CustomSettings.ini Tips &amp; Tricks | MDTGuy.WordPress.com" 
-date: 2016-10-06T08:07:59.704Z 
-link: https://mdtguy.wordpress.com/2013/07/12/mdt-customsettings-ini-tips-tricks/ 
+layout: post
+published: true
+title: "MDT CustomSettings.ini Tips &amp; Tricks | MDTGuy.WordPress.com"
+date: 2016-10-06T08:07:59.704Z
+categories: mdt deployment  
+link: https://mdtguy.wordpress.com/2013/07/12/mdt-customsettings-ini-tips-tricks/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > MDT CustomSettings.ini Tips & Tricks

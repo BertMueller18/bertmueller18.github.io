@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Recreating the SUSDB and WSUS Content folder for a Windows Server 2012 based WSUS computer | System Center: Configuration Manager" 
-date: 2016-11-01T15:35:10.258Z 
-link: https://blogs.technet.microsoft.com/configurationmgr/2016/10/18/recreating-the-susdb-and-wsus-content-folder-for-a-windows-server-2012-based-wsus-computer/ 
+layout: post
+published: true
+title: "Recreating the SUSDB and WSUS Content folder for a Windows Server 2012 based WSUS computer | System Center: Configuration Manager"
+date: 2016-11-01T15:35:10.258Z
+categories: wsus server2012 
+link: https://blogs.technet.microsoft.com/configurationmgr/2016/10/18/recreating-the-susdb-and-wsus-content-folder-for-a-windows-server-2012-based-wsus-computer/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > System Center: Configuration Manager

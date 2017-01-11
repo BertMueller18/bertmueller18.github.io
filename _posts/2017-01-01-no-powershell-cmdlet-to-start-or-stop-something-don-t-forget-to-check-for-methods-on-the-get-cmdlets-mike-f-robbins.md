@@ -11,5 +11,4 @@ ogtype: article
 
 ## No PowerShell Cmdlet to Start or Stop Something? Don’t Forget to Check for Methods on the Get Cmdlets
 
-MIKE F ROBBINS DECEMBER 15, 2016 0
 Many PowerShell commands return output in the form of objects (some return nothing at all). An example of this is shown in the following example where properties and their corresponding values are returned.

@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Quick and easy Active Directory test lab using PowerShell DSC and AzureRM – GoateePFE" 
-date: 2016-09-11T20:48:49.091Z 
-link: https://blogs.technet.microsoft.com/ashleymcglone/2016/05/20/quick-and-easy-active-directory-test-lab-using-powershell-dsc-and-azurerm/ 
+layout: post
+published: true
+title: "Quick and easy Active Directory test lab using PowerShell DSC and AzureRM – GoateePFE"
+date: 2016-09-11T20:48:49.091Z
+categories: activedirectory psdsc azurerm azure 
+link: https://blogs.technet.microsoft.com/ashleymcglone/2016/05/20/quick-and-easy-active-directory-test-lab-using-powershell-dsc-and-azurerm/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Quick and easy Active Directory test lab using PowerShell DSC and AzureRM

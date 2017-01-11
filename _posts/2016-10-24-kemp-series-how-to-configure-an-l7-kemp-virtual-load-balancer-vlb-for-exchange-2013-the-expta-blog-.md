@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "KEMP Series: How to Configure an L7 KEMP Virtual Load Balancer (VLB) for Exchange 2013 | The EXPTA {blog}" 
-date: 2016-10-24T20:35:04.784Z 
-link: http://www.expta.com/2015/02/kemp-series-how-to-configure-l7-kemp.html 
+layout: post
+published: true
+title: "KEMP Series: How to Configure an L7 KEMP Virtual Load Balancer (VLB) for Exchange 2013 | The EXPTA {blog}"
+date: 2016-10-24T20:35:04.784Z
+categories: kemp exchange2013 loadbalancer
+link: http://www.expta.com/2015/02/kemp-series-how-to-configure-l7-kemp.html
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > KEMP Series: How to Configure an L7 KEMP Virtual Load Balancer (VLB) for Exchange 2013

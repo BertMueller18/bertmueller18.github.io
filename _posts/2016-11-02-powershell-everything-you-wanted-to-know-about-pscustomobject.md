@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Powershell: Everything you wanted to know about PSCustomObject" 
-date: 2016-11-02T09:41:00.371Z 
-link: https://kevinmarquette.github.io/2016-10-28-powershell-everything-you-wanted-to-know-about-pscustomobject/ 
+layout: post
+published: true
+title: "Powershell: Everything you wanted to know about PSCustomObject"
+date: 2016-11-02T09:41:00.371Z
+categories: powershell programming 
+link: https://kevinmarquette.github.io/2016-10-28-powershell-everything-you-wanted-to-know-about-pscustomobject/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Powershell: Everything you wanted to know about PSCustomObject

@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Jesse Boehm Consulting - Desktop &amp; Application Delivery |   load-balancing-microsoft-exchange-2013-on-citrix-netscaler-10-5-part-1" 
-date: 2016-11-05T22:32:54.415Z 
-link: http://www.jesseboehmconsulting.com/load-balancing-microsoft-exchange-2013-on-citrix-netscaler-10-5-part-1/ 
+layout: post
+published: true
+title: "Jesse Boehm Consulting - Desktop &amp; Application Delivery |   load-balancing-microsoft-exchange-2013-on-citrix-netscaler-10-5-part-1"
+date: 2016-11-05T22:32:54.415Z
+categories: netscaler exchange loadbalancer 
+link: http://www.jesseboehmconsulting.com/load-balancing-microsoft-exchange-2013-on-citrix-netscaler-10-5-part-1/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > INTRODUCTION

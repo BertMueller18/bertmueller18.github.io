@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Automating WSUS 2016 Installation with PowerShell - Petri" 
-date: 2016-11-07T20:25:55.010Z 
-link: https://www.petri.com/automating-wsus-2016-installation-with-powershell 
+layout: post
+published: true
+title: "Automating WSUS 2016 Installation with PowerShell - Petri"
+date: 2016-11-07T20:25:55.010Z
+categories: wsus powershell automation 
+link: https://www.petri.com/automating-wsus-2016-installation-with-powershell
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Automating WSUS 2016 Installation with PowerShell

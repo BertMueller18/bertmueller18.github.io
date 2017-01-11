@@ -1,14 +1,14 @@
 ---
-layout: post 
-title:  "Options for Migrating Azure VMs from ASM (v1) to ARM (v2)" 
-date:   2017-01-11T17:03:59.455Z 
-categories: azure azurerm powershell migration 
+layout: post
+title:  "Options for Migrating Azure VMs from ASM (v1) to ARM (v2)"
+date:   2017-01-11T17:03:59.455Z
+categories: azure azurerm powershell migration
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> Options for Migrating Azure VMs from ASM (v1) to ARM (v2)
+## Options for Migrating Azure VMs from ASM (v1) to ARM (v2)
 
 31 May 2016  4 Comments  Posted in Azure, devops, Automation
 

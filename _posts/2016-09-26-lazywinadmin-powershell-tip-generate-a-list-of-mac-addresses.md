@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "LazyWinAdmin: PowerShell Tip - Generate a list of Mac Addresses" 
-date: 2016-09-26T19:24:27.458Z 
-link: http://www.lazywinadmin.com/2016/08/powershell-tip-generate-list-of-mac.html?utm_content=buffer8a908&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer 
+layout: post
+published: true
+title: "LazyWinAdmin: PowerShell Tip - Generate a list of Mac Addresses"
+date: 2016-09-26T19:24:27.458Z
+categories: powershell networking 
+link: http://www.lazywinadmin.com/2016/08/powershell-tip-generate-list-of-mac.html?utm_content=buffer8a908&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > PowerShell Tip - Generate a list of Mac Addresses

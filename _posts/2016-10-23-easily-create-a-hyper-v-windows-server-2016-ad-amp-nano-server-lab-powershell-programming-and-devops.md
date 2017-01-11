@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Easily Create a Hyper-V Windows Server 2016 AD &amp; Nano Server Lab | PowerShell, Programming and DevOps" 
-date: 2016-10-23T13:46:15.015Z 
-link: https://dscottraynsford.wordpress.com/2016/10/04/easily-create-a-hyper-v-windows-server-2016-ad-nano-server-lab/ 
+layout: post
+published: true
+title: "Easily Create a Hyper-V Windows Server 2016 AD &amp; Nano Server Lab | PowerShell, Programming and DevOps"
+date: 2016-10-23T13:46:15.015Z
+categories: server2016 hyperv hyper-v powershell 
+link: https://dscottraynsford.wordpress.com/2016/10/04/easily-create-a-hyper-v-windows-server-2016-ad-nano-server-lab/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Easily Create a Hyper-V Windows Server 2016 AD & Nano Server Lab

@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Create Powershell GUI with WPF | Nian IT" 
-date: 2016-11-14T14:09:06.490Z 
-link: http://www.nianit.com/create-powershell-gui-with-wpf/ 
+layout: post
+published: true
+title: "Create Powershell GUI with WPF | Nian IT"
+date: 2016-11-14T14:09:06.490Z
+categories: powershell programming
+link: http://www.nianit.com/create-powershell-gui-with-wpf/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Create Powershell GUI with WPF
@@ -23,6 +24,6 @@ The switch to WPF really sped things up for me and made my tools look really fre
 
 The GUI that I will build here will look like this.
 
-It is very simple and ugly but it will be enough for this post. 
+It is very simple and ugly but it will be enough for this post.
 It will run a function when you click “Get Info” and display your Windows product name in the textbox.
 The button Close will only close the window.

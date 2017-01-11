@@ -1,15 +1,15 @@
 ---
-layout: post 
-title:  "	PowerShell: Running Executables - TechNet Articles - United States (English) - TechNet Wiki" 
-date:   2017-01-09T15:53:40.599Z 
+layout: post
+title:  "	PowerShell: Running Executables - TechNet Articles - United States (English) - TechNet Wiki"
+date:   2017-01-09T15:53:40.599Z
 categories: powershell programming
-link: https://social.technet.microsoft.com/wiki/contents/articles/7703.powershell-running-executables.aspx 
+link: https://social.technet.microsoft.com/wiki/contents/articles/7703.powershell-running-executables.aspx
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> PowerShell: Running Executables
+## PowerShell: Running Executables
 Link to Parent: PowerShell - Deep Dive and Best Practice
 
 
@@ -34,5 +34,4 @@ Table of Contents
 Additional Resources
 See Also
 Other Languages
-   
-
+  

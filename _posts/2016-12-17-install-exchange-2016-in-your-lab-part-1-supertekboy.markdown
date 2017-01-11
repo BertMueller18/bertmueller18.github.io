@@ -10,14 +10,7 @@ ogtype: article
 ---
 
 ## Install Exchange 2016 in your lab (Part 1)
-September 8, 2015 By Gareth Gudger 6 Comments
 
-259 SHARES
-Share
-Tweet
-+1
-Share
-Reddit
 With Exchange 2016 in public preview–and many folks already downloading the bits–it was time to sharpen our pencils and write a 2016 install series.
 
 The goal of this series is to help you introduce Exchange 2016 into your existing 2010/2013 lab

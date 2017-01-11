@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "GlusterFS » ADMIN Magazine" 
-date: 2016-09-12T06:47:11.909Z 
-link: http://www.admin-magazine.com/HPC/Articles/GlusterFS 
+layout: post
+published: true
+title: "GlusterFS » ADMIN Magazine"
+date: 2016-09-12T06:47:11.909Z
+categories:  gluster glusterfs linux
+link: http://www.admin-magazine.com/HPC/Articles/GlusterFS
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > GlusterFS

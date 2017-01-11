@@ -10,7 +10,6 @@ ogtype: article
 ---
 
 ## How to Automate Software Package Installations in Server 2016 via PowerShell
-By Adam BertramJULY 27, 2016 11:00 AM
 
 Here are some of the ways you can automate software package and modules installations in Server 2016, using some of the new package management cmdlets that come with PowerShell.
 

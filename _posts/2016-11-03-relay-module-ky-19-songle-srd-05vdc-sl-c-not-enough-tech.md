@@ -1,17 +1,18 @@
 ---
-layout: post 
-published: true 
-title: "Relay Module KY -19 (Songle SRD-05VDC-SL-C) - Not Enough TECH" 
-date: 2016-11-03T07:42:44.447Z 
-link: http://www.notenoughtech.com/raspberry-pi/relay-module-ky19/ 
+layout: post
+published: true
+title: "Relay Module KY -19 (Songle SRD-05VDC-SL-C) - Not Enough TECH"
+date: 2016-11-03T07:42:44.447Z
+categories: raspberrypi  
+link: http://www.notenoughtech.com/raspberry-pi/relay-module-ky19/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 Relay Module KY -19 (Songle SRD-05VDC-SL-C)
-OCTOBER 21, 2016 MATLEAVE A COMMENT	781 VIEWS
+
 Tech details:
 Control signal: 5V-12V
 Current requirements: ~85 mA
