@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Simple IOT Sunlight Sensing Raspberry Pi Project - SunIOT - Part 2 - SwitchDoc Labs" 
-date: 2016-11-01T09:19:35.851Z 
-link: http://www.switchdoc.com/2016/10/simple-iot-sunlight-sensing-raspberry-pi-project-part-2/ 
+layout: post
+published: true
+title: "Simple IOT Sunlight Sensing Raspberry Pi Project - SunIOT - Part 2 - SwitchDoc Labs"
+date: 2016-11-01T09:19:35.851Z
+categories: raspberrypi 
+link: http://www.switchdoc.com/2016/10/simple-iot-sunlight-sensing-raspberry-pi-project-part-2/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Simple IOT Sunlight Sensing Raspberry Pi Project- SunIOT – Part 2

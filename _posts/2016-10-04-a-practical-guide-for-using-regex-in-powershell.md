@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "A Practical Guide for Using Regex in PowerShell" 
-date: 2016-10-04T18:53:24.112Z 
+date: 2016-10-04T18:53:24.112Z
+categories:  powershell regex
 link: http://duffney.io/APracticalGuideforUsingRegexinPowerShell 
 tags:
   - links

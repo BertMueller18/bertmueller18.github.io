@@ -1,23 +1,16 @@
 ---
-layout: post 
-published: true 
-title: "Hyper-V: Menu driven scripts to manage Hyper-V Cluster" 
-date: 2016-09-25T21:07:36.461Z 
-link: http://www.it-ninja.com.au/?p=4131 
+layout: post
+published: true
+title: "Hyper-V: Menu driven scripts to manage Hyper-V Cluster"
+date: 2016-09-25T21:07:36.461Z
+categories: hyperv powershell
+link: http://www.it-ninja.com.au/?p=4131
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
-
-> 
-Social
-
-View ninjaprav’s profile on TwitterView pravesh-khanna’s profile on LinkedIn
-IT-Ninja on Twitter
-
-
-Hyper-V: Menu driven scripts to manage Hyper-V Cluster
+## Hyper-V: Menu driven scripts to manage Hyper-V Cluster
 Here is a collection of scripts I wrote some time back to manage my Hyper-V Cluster. The scripts, as you can spot has some options…
 
 Dell-EMC well positioned to take the lead in…
@@ -44,7 +37,7 @@ Hyper-V: Menu driven scripts to manage Hyper-V Cluster
 By praveshsk in Hyper-V, Windows Server 2012 R2 on September 21, 2016
 Here is a collection of scripts I wrote some time back to manage my Hyper-V Cluster.
 
-The scripts, as you can spot has some options missing, which I have left out intentionally for future expansion. The script takes input from a CSV file (depending upon the option selected) and applies the setting/config to the cluster. Thanks to @mannysidhu2 for contributing towards some parts of these scripts 
+The scripts, as you can spot has some options missing, which I have left out intentionally for future expansion. The script takes input from a CSV file (depending upon the option selected) and applies the setting/config to the cluster. Thanks to @mannysidhu2 for contributing towards some parts of these scripts
 
 Note: As always – please do test these scripts in a non-production environment before wearing your cowboy hats and running in Production !!
 

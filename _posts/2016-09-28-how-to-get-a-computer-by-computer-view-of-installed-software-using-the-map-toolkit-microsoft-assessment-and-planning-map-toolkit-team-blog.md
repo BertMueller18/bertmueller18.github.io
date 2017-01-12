@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "How to get a computer by computer view of installed software using the MAP toolkit – Microsoft Assessment and Planning (MAP) Toolkit Team Blog" 
-date: 2016-09-28T14:09:46.563Z 
+date: 2016-09-28T14:09:46.563Z
+categories: activedirectory inventory map
 link: https://blogs.technet.microsoft.com/mapblog/2013/01/28/how-to-get-a-computer-by-computer-view-of-installed-software-using-the-map-toolkit/ 
 tags:
   - links

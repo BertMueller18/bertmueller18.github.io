@@ -3,9 +3,9 @@ layout: post
 published: true 
 title: "Personal vDisks – Part 3 | literallyvirtual" 
 date: 2016-09-27T06:19:02.443Z 
+categories: citrix xendesktop pvdisk
+tags: citrix xendesktop pvdisk
 link: https://literallyvirtual.wordpress.com/2012/08/09/personal-vdisks-part-3/ 
-categories: citrix xendesktop pVdisk
-tags: citrix xendesktop pVdisk
   - links
 ogtype: article 
 bodyclass: post 

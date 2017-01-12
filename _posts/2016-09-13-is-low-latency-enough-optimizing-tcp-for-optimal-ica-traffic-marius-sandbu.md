@@ -1,19 +1,18 @@
 ---
-layout: post 
-published: true 
-title: "Is low latency enough? Optimizing TCP for optimal ICA traffic | Marius Sandbu" 
-date: 2016-09-12T22:14:41.942Z 
-link: http://msandbu.org/is-low-latency-enough-optimizing-tcp-for-optimal-ica-traffic/ 
-categories: citrix netscaler
-tags: 
+layout: post
+published: true
+title: "Is low latency enough? Optimizing TCP for optimal ICA traffic | Marius Sandbu"
+date: 2016-09-12T22:14:41.942Z
+categories:  netscaler ica 
+link: http://msandbu.org/is-low-latency-enough-optimizing-tcp-for-optimal-ica-traffic/
+tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> Is low latency enough? Optimizing TCP for optimal ICA traffic
+## Is low latency enough? Optimizing TCP for optimal ICA traffic
 
-By Marius Sandbu | August 10, 2016 2 Comments
 So I decided to write this blogpost to actually show the effects of TCP optimization on Citrix.
 I’ve been stating that you should always change the TCP profile for NetScaler Gateway because the default is BAD.
 

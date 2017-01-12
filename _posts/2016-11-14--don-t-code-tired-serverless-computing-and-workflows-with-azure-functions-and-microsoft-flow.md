@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "	Don't Code Tired | Serverless Computing and Workflows with Azure Functions and Microsoft Flow" 
-date: 2016-11-14T14:08:24.283Z 
-link: http://dontcodetired.com/blog/post/Serverless-Computing-and-Workflows-with-Azure-Functions-and-Microsoft-Flow 
+layout: post
+published: true
+title: "	Don't Code Tired | Serverless Computing and Workflows with Azure Functions and Microsoft Flow"
+date: 2016-11-14T14:08:24.283Z
+categories: azure powershell 
+link: http://dontcodetired.com/blog/post/Serverless-Computing-and-Workflows-with-Azure-Functions-and-Microsoft-Flow
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Serverless Computing and Workflows with Azure Functions and Microsoft Flow

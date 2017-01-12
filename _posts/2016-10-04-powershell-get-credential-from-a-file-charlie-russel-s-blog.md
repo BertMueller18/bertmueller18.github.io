@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "PowerShell: Get-Credential from a file | Charlie Russel's Blog" 
-date: 2016-10-04T18:57:35.743Z 
+date: 2016-10-04T18:57:35.743Z
+categories: powershell programming security 
 link: http://blogs.msmvps.com/russel/2016/10/04/powershell-get-credential-from-a-file/ 
 tags:
   - links

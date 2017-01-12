@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "KEMP Series: How to Restrict Exchange Admin Center Access From the Internet Using KEMP VLB | The EXPTA {blog}" 
-date: 2016-10-24T20:40:31.792Z 
-link: http://www.expta.com/2015/02/kemp-series-how-to-restrict-exchange.html 
+layout: post
+published: true
+title: "KEMP Series: How to Restrict Exchange Admin Center Access From the Internet Using KEMP VLB | The EXPTA {blog}"
+date: 2016-10-24T20:40:31.792Z
+categories: kemp exchange exchange2013 
+link: http://www.expta.com/2015/02/kemp-series-how-to-restrict-exchange.html
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > KEMP Series: How to Restrict Exchange Admin Center Access From the Internet Using KEMP VLB

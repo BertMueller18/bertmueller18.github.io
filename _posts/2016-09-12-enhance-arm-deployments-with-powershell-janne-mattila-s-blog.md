@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Enhance ARM deployments with PowerShell – Janne Mattila's blog" 
-date: 2016-09-12T11:09:55.177Z 
-link: https://blogs.msdn.microsoft.com/jannemattila/2016/08/26/enhance-arm-deployments-with-powershell/ 
+layout: post
+published: true
+title: "Enhance ARM deployments with PowerShell – Janne Mattila's blog"
+date: 2016-09-12T11:09:55.177Z
+categories: azurerm deployment powershell 
+link: https://blogs.msdn.microsoft.com/jannemattila/2016/08/26/enhance-arm-deployments-with-powershell/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Enhance ARM deployments with PowerShell

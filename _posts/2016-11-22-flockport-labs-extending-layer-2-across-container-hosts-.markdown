@@ -1,15 +1,15 @@
 ---
-layout: post 
-title:  "Flockport Labs - Extending layer 2 across container hosts        " 
-date:   2016-11-22T22:35:32.963Z 
+layout: post
+title:  "Flockport Labs - Extending layer 2 across container hosts        "
+date:   2016-11-22T22:35:32.963Z
 categories: sdn networking linux
-link: https://www.flockport.com/flockport-labs-extending-layer-2-across-container-hosts/ 
+link: https://www.flockport.com/flockport-labs-extending-layer-2-across-container-hosts/
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> Extending layer 2 across container hosts
+## Extending layer 2 across container hosts
 
 This post is to consolidate all our LXC networking guides and also explore some advanced container networking that have limited use but are interesting nonetheless hence the Flockport labs monicker. Experimental containers will now be posted under this label in our container section.
 We previously looked at basic LXC container networking; bridging, NAT, static IPs, public IPs etc and then at connecting LXC containers across hosts with GRE tunnels or secure Tinc or IPSEC VPNs.

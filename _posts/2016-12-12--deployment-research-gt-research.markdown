@@ -1,14 +1,14 @@
 ---
-layout: post 
-title:  "	Deployment Research &gt; Research" 
-date:   2016-12-12T21:58:55.165Z 
+layout: post
+title:  "	Deployment Research &gt; Research"
+date:   2016-12-12T21:58:55.165Z
 categories: deployment vmware powershell mdt
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> Creating Reference Images using the VMware platform - Image Factory script by Johnny Radeck
+## Creating Reference Images using the VMware platform - Image Factory script by Johnny Radeck
 
 Deployment Research
 Johan Arwidmark

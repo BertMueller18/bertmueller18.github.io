@@ -1,17 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "User Profile and Home Directory Storage: Distributing the Load Across Multiple File Servers • Helge Klein" 
-date: 2016-09-27T06:22:18.914Z 
-link: https://helgeklein.com/blog/2009/04/user-profile-and-home-directory-storage-distributing-the-load-across-multiple-file-servers/ 
+layout: post
+published: true
+title: "User Profile and Home Directory Storage: Distributing the Load Across Multiple File Servers • Helge Klein"
+date: 2016-09-27T06:22:18.914Z
 categories: citrix windows activedirectory
-tags: citrix windows activedirectory 
+tags: citrix windows activedirectory
+link: https://helgeklein.com/blog/2009/04/user-profile-and-home-directory-storage-distributing-the-load-across-multiple-file-servers/
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> User Profile and Home Directory Storage: Distributing the Load Across Multiple File Servers
+## User Profile and Home Directory Storage: Distributing the Load Across Multiple File Servers
 
 by Helge Klein on April 13, 2009 in User Profiles
 This article is part of Helge’s Profile Toolkit, a set of posts explaining the knowledge and tools required to tame Windows user profiles.

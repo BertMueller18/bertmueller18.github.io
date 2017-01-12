@@ -1,17 +1,17 @@
 ---
-layout: post 
-title:  "Get started with PowerShell development in Visual Studio Code – Hey, Scripting Guy! Blog" 
-date:   2017-01-05T11:06:57.101Z 
+layout: post
+title:  "Get started with PowerShell development in Visual Studio Code – Hey, Scripting Guy! Blog"
+date:   2017-01-05T11:06:57.101Z
 categories: powershell programming
-link: https://blogs.technet.microsoft.com/heyscriptingguy/2016/12/05/get-started-with-powershell-development-in-visual-studio-code/?utm_content=bufferfe302&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer 
+link: https://blogs.technet.microsoft.com/heyscriptingguy/2016/12/05/get-started-with-powershell-development-in-visual-studio-code/?utm_content=bufferfe302&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> Get started with PowerShell development in Visual Studio Code
+## Get started with PowerShell development in Visual Studio Code
 ★★★★★★★★★★★★★★★
-The Scripting GuysDecember 5, 20160 
+The Scripting GuysDecember 5, 20160
 94
 0
 Summary: Learn about the features in Visual Studio Code that help you write PowerShell code.

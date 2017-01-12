@@ -1,17 +1,16 @@
 ---
-layout: post 
-title:  "Going serverless with PowerShell – Medium" 
-date:   2017-01-01T10:57:52.912Z 
+layout: post
+title:  "Going serverless with PowerShell – Medium"
+date:   2017-01-01T10:57:52.912Z
 categories: powershell github programming
-link: https://medium.com/@devlead/going-serverless-with-powershell-705677a9ae86#.lrs5wyrz8 
+link: https://medium.com/@devlead/going-serverless-with-powershell-705677a9ae86#.lrs5wyrz8
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> Going serverless with PowerShell
+## Going serverless with PowerShell
 Why should JavaScript developers have all the fun?
-
 
 PowerShell + Azure Functions = ❤
 One of the current hype buzzwords going around is “serverless”, very (very) simplified there’s still a server you just don’t see or manage a server and you can be billed by individual usage of “functions” instead of per web app basis. Making scale and cost much more granular and also less ceremony to get a piece of code up and running.

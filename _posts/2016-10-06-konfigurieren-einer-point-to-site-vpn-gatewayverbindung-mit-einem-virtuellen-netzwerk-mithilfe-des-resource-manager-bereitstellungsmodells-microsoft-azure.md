@@ -1,17 +1,18 @@
 ---
-layout: post 
-published: true 
-title: "Konfigurieren einer Point-to-Site-VPN-Gatewayverbindung mit einem virtuellen Netzwerk mithilfe des Resource Manager-Bereitstellungsmodells | Microsoft Azure" 
-date: 2016-10-06T07:06:59.136Z 
-link: https://azure.microsoft.com/de-de/documentation/articles/vpn-gateway-howto-point-to-site-rm-ps/ 
+layout: post
+published: true
+title: "Konfigurieren einer Point-to-Site-VPN-Gatewayverbindung mit einem virtuellen Netzwerk mithilfe des Resource Manager-Bereitstellungsmodells | Microsoft Azure"
+date: 2016-10-06T07:06:59.136Z
+categories: vpn networking azurerm
+link: https://azure.microsoft.com/de-de/documentation/articles/vpn-gateway-howto-point-to-site-rm-ps/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> Konfigurieren einer Point-to-Site-VPN-Verbindung (P2S) mit einem VNet mithilfe von PowerShell
- 
+## Konfigurieren einer Point-to-Site-VPN-Verbindung (P2S) mit einem VNet mithilfe von PowerShell
+
 Von Cheryl McGuire
 Aktualisiert: 31.08.2016  
 In GitHub bearbeiten

@@ -1,16 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "How To Create a Redundant Storage Pool Using GlusterFS on Ubuntu Servers | DigitalOcean" 
-date: 2016-09-12T06:50:17.177Z 
-link: https://www.digitalocean.com/community/tutorials/how-to-create-a-redundant-storage-pool-using-glusterfs-on-ubuntu-servers 
+layout: post
+published: true
+title: "How To Create a Redundant Storage Pool Using GlusterFS on Ubuntu Servers | DigitalOcean"
+date: 2016-09-12T06:50:17.177Z
+categories: gluster ubuntu digitalocean storage
+link: https://www.digitalocean.com/community/tutorials/how-to-create-a-redundant-storage-pool-using-glusterfs-on-ubuntu-servers
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> How To Create a Redundant Storage Pool Using GlusterFS on Ubuntu Servers
+## How To Create a Redundant Storage Pool Using GlusterFS on Ubuntu Servers
 Posted Feb 5, 2014 127.1k views Scaling Networking Ubuntu
 Introduction
 

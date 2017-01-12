@@ -1,15 +1,15 @@
 ---
-layout: post 
-title:  "PowerShell Logging for the Blue Team - Black Hills Information Security" 
-date:   2017-01-02T08:47:59.237Z 
+layout: post
+title:  "PowerShell Logging for the Blue Team - Black Hills Information Security"
+date:   2017-01-02T08:47:59.237Z
 categories: powershell security
-link: http://www.blackhillsinfosec.com/?p=5516 
+link: http://www.blackhillsinfosec.com/?p=5516
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> PowerShell Logging for the Blue Team
+## PowerShell Logging for the Blue Team
 
 Joff Thyer //
 

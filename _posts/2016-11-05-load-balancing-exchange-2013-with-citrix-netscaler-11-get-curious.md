@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Load Balancing Exchange 2013 With Citrix NetScaler 11 – GET CURIOUS" 
-date: 2016-11-05T22:33:33.305Z 
-link: http://tedjoffs.com/load-balancing-exchange-2013-with-citrix-netscaler-11/ 
+layout: post
+published: true
+title: "Load Balancing Exchange 2013 With Citrix NetScaler 11 – GET CURIOUS"
+date: 2016-11-05T22:33:33.305Z
+categories: netscaler exchange exchange2013 citrix 
+link: http://tedjoffs.com/load-balancing-exchange-2013-with-citrix-netscaler-11/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Load Balancing Exchange 2013 With Citrix NetScaler 11

@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Let’s Configure Azure Site-to-Site VPN with RRAS in Azure Resource Manager! – Batteries Not Included" 
-date: 2016-09-29T20:38:41.596Z 
+date: 2016-09-29T20:38:41.596Z
+categories: vpn azure azurerm 
 link: https://blogs.technet.microsoft.com/jletsch/2016/03/15/lets-configure-azure-site-to-site-vpn-with-rras-in-azure-resource-manager/ 
 tags:
   - links
@@ -10,8 +11,7 @@ ogtype: article
 bodyclass: post 
 ---
 
-> 
-Let’s Configure Azure Site-to-Site VPN with RRAS in Azure Resource Manager!
+## Let’s Configure Azure Site-to-Site VPN with RRAS in Azure Resource Manager!
 ★★★★★★★★★★★★★★★
 JLetschMarch 15, 201622
 0

@@ -1,16 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "Creating a custom Virtual Machine for deployment on Azure – Microsoft Faculty Connection" 
-date: 2016-10-12T20:35:23.275Z 
-link: https://blogs.msdn.microsoft.com/uk_faculty_connection/2016/09/22/creating-a-custom-virtual-machine-for-deployment-on-azure/ 
+layout: post
+published: true
+title: "Creating a custom Virtual Machine for deployment on Azure – Microsoft Faculty Connection"
+date: 2016-10-12T20:35:23.275Z
+categories: azure azurerm
+link: https://blogs.msdn.microsoft.com/uk_faculty_connection/2016/09/22/creating-a-custom-virtual-machine-for-deployment-on-azure/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> Creating a custom Virtual Machine for deployment on Azure
+## Creating a custom Virtual Machine for deployment on Azure
 ★★★★★★★★★★★★★★★
 Lee StottSeptember 22, 20160
 0

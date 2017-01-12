@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Understanding Personal vDisk (PVD) Log Files Part 1 | Citrix Blogs" 
-date: 2016-09-26T13:50:23.637Z 
-link: https://www.citrix.com/blogs/2012/06/29/understanding-personal-vdisk-pvd-log-files-part-1/ 
+layout: post
+published: true
+title: "Understanding Personal vDisk (PVD) Log Files Part 1 | Citrix Blogs"
+date: 2016-09-26T13:50:23.637Z
+categories: pvdisk citrix 
+link: https://www.citrix.com/blogs/2012/06/29/understanding-personal-vdisk-pvd-log-files-part-1/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Understanding Personal vDisk (PVD) Log Files Part 1

@@ -1,15 +1,15 @@
 ---
-layout: post 
-title:  "First Look: XenApp/XenDesktop 7.6 – Part 1 (Overview and Installation) | Pawel Serwan Blog" 
-date:   2016-11-29T20:07:44.522Z 
+layout: post
+title:  "First Look: XenApp/XenDesktop 7.6 – Part 1 (Overview and Installation) | Pawel Serwan Blog"
+date:   2016-11-29T20:07:44.522Z
 categories: citrix xenapp deployment
-link: https://pawelserwan.wordpress.com/2014/09/30/first-look-xenappxendesktop-7-6-part-1-overview-and-installation/ 
+link: https://pawelserwan.wordpress.com/2014/09/30/first-look-xenappxendesktop-7-6-part-1-overview-and-installation/
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
-> First Look: XenApp/XenDesktop 7.6 – Part 1 (Overview and Installation)
+## First Look: XenApp/XenDesktop 7.6 – Part 1 (Overview and Installation)
 30 September 2014 by pawelserwan	15 Comments
 As you already know from my previous post Citrix finally released new version of XenApp/XenDensktop platform with number 7.6. I have already listed few “new-old” features that were introduced with that version of XenApp/XenDesktop in one of me previous posts:
 https://pawelserwan.wordpress.com/2014/08/27/xenapp-7-6-and-xendesktop-7-6-announced-old-features-back/

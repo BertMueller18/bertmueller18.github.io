@@ -1,17 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "Langlitz – IT Consulting  » Blog Archive   » How to – Passwort Hashes aus Active Directory auslesen" 
-date: 2016-10-12T20:38:45.046Z 
-link: http://blog.langlitz-it.de/?p=1592 
+layout: post
+published: true
+title: "Langlitz – IT Consulting  » Blog Archive   » How to – Passwort Hashes aus Active Directory auslesen"
+date: 2016-10-12T20:38:45.046Z
+categories:  security activedirectory 
+link: http://blog.langlitz-it.de/?p=1592
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> How to – Passwort Hashes aus Active Directory auslesen
-
+## How to – Passwort Hashes aus Active Directory auslesen
 Posted by blog@langlitz-it.de on September 9th, 2016
 
 Die Passwort Hashes der AD User auszulesen, stellt sich leichter dar als vermutet. Natürlich sind diese Hashes nicht in Klartext umzuwandeln, aber diese als Hashes wieder in eine neue/andere Umgebung einzulesen, sollte auf diesem Wege möglich sein.

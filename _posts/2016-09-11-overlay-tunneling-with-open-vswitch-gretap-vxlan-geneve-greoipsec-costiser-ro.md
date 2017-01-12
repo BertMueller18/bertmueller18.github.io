@@ -1,16 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "Overlay Tunneling with Open vSwitch - GRETAP, VXLAN, Geneve, GREoIPsec - CostiSer.Ro" 
-date: 2016-09-11T21:42:53.249Z 
-link: http://costiser.ro/2016/07/07/overlay-tunneling-with-openvswitch-gre-vxlan-geneve-greoipsec/#.V9UZnJOLR-h 
+layout: post
+published: true
+title: "Overlay Tunneling with Open vSwitch - GRETAP, VXLAN, Geneve, GREoIPsec - CostiSer.Ro"
+date: 2016-09-11T21:42:53.249Z
+categories: openvswitch vxlan gre  networking 
+link: http://costiser.ro/2016/07/07/overlay-tunneling-with-openvswitch-gre-vxlan-geneve-greoipsec/#.V9UZnJOLR-h
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
->  SDN Overlay Tunneling with Open vSwitch - GRETAP, VXLAN, Geneve, GREoIPsec
+##  SDN Overlay Tunneling with Open vSwitch - GRETAP, VXLAN, Geneve, GREoIPsec
  Thu 07 July 2016     Costi
  SDN
 1 Comment

@@ -1,17 +1,16 @@
 ---
-layout: post 
-published: true 
-title: "Terence Luk: Firewall Port Requirements for Citrix NetScaler 10 and Citrix XenApp 7.6" 
-date: 2016-09-12T06:57:15.443Z 
-categories: citrix netscaler 
-link: https://terenceluk.blogspot.de/2015/01/firewall-port-requirements-for-citrix.html 
-tags: citrix NetScaler
+layout: post
+published: true
+title: "Terence Luk: Firewall Port Requirements for Citrix NetScaler 10 and Citrix XenApp 7.6"
+date: 2016-09-12T06:57:15.443Z
+categories: citrix netscaler
+link: https://terenceluk.blogspot.de/2015/01/firewall-port-requirements-for-citrix.html
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> Firewall Port Requirements for Citrix NetScaler 10 and Citrix XenApp 7.6
+## Firewall Port Requirements for Citrix NetScaler 10 and Citrix XenApp 7.6
 I’ve noticed over the past year that one of the questions I get asked often is where to find specific Citrix documentation outlining the firewall port requirements and rules required to publish a XenApp environment through a NetScaler appliance and I find that every time I forward the following Citrix KB:
 
 Required Ports for Citrix NetScaler Gateway in DMZ Setup

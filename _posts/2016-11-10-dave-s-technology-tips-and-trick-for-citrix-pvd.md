@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Dave's Technology: Tips and Trick for Citrix PVD" 
-date: 2016-11-10T21:14:34.028Z 
-link: https://davestechnology.blogspot.de/2015/02/tips-and-trick-for-citrix-pvd.html 
+layout: post
+published: true
+title: "Dave's Technology: Tips and Trick for Citrix PVD"
+date: 2016-11-10T21:14:34.028Z
+categories: citrix pvdisk xendesktop xenapp 
+link: https://davestechnology.blogspot.de/2015/02/tips-and-trick-for-citrix-pvd.html
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Wednesday, February 18, 2015
@@ -31,7 +32,6 @@ It is a 1:1 mapping to a Virtual Machine in a catalogue (assigned to the user on
  
 
 If you create a catalogue for pooled with PvD, it does not mean that the user is always required to be assigned to that Virtual Machine defeating one of the benefits of a pooled?
-The base image is still shared and updated across the pool. However, once the user makes an initial connection to a Virtual Machine, the Virtual Machine is kept assigned to the user. 
+The base image is still shared and updated across the pool. However, once the user makes an initial connection to a Virtual Machine, the Virtual Machine is kept assigned to the user.
 Note: You must connect early in the starting stage long before you know who the user is in order to maximise the application compatibility for services, devices etc.
  
-

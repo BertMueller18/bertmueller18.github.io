@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "PowerShell DSC Resource for Managing Repositories and Modules | Tao Yang's System Center Blog" 
-date: 2016-09-15T13:08:49.910Z 
-link: http://blog.tyang.org/2016/09/15/powershell-dsc-resource-for-managing-repositories-and-modules/ 
+layout: post
+published: true
+title: "PowerShell DSC Resource for Managing Repositories and Modules | Tao Yang's System Center Blog"
+date: 2016-09-15T13:08:49.910Z
+categories: powershell psdsc  
+link: http://blog.tyang.org/2016/09/15/powershell-dsc-resource-for-managing-repositories-and-modules/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > PowerShell DSC Resource for Managing Repositories and Modules

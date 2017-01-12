@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Personal vDisks – Part 2! | literallyvirtual" 
-date: 2016-09-27T06:18:52.147Z 
+date: 2016-09-27T06:18:52.147Z
+categories: citrix pvdisk 
 link: https://literallyvirtual.wordpress.com/2012/04/05/personal-vdisks-part-2/ 
 tags:
   - links

@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Azure S2S VPN with RRAS - Deploy Azure" 
-date: 2016-10-04T19:06:48.831Z 
+date: 2016-10-04T19:06:48.831Z
+categories: vpn azure 
 link: http://www.deployazure.com/network/vpn/azure-s2s-vpn-rras/ 
 tags:
   - links

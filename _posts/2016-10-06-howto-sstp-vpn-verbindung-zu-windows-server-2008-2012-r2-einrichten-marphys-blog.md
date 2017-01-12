@@ -2,7 +2,8 @@
 layout: post 
 published: true 
 title: "Howto: SSTP VPN Verbindung zu Windows Server 2008/2012 R2 einrichten | Marphys Blog" 
-date: 2016-10-06T08:10:16.080Z 
+date: 2016-10-06T08:10:16.080Z
+categories: vpn server2012 sstp 
 link: https://marcowue.wordpress.com/2013/03/15/howto-sstp-vpn-verbindung-zu-windows-server-2008-r2-einrichten/ 
 tags:
   - links

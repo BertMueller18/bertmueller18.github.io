@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Category: Citrix | 9to5IT" 
-date: 2016-11-10T20:51:07.301Z 
-link: http://9to5it.com/citrix/ 
+layout: post
+published: true
+title: "Category: Citrix | 9to5IT"
+date: 2016-11-10T20:51:07.301Z
+categories: citrix pvs 
+link: http://9to5it.com/citrix/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Category: Citrix

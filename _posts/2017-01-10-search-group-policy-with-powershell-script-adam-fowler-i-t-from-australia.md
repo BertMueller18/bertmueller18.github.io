@@ -1,12 +1,12 @@
 ---
-layout: post 
-title:  "Search Group Policy with PowerShell Script - Adam Fowler - I.T. From Australia" 
-date:   2017-01-10T07:36:24.463Z 
+layout: post
+title:  "Search Group Policy with PowerShell Script - Adam Fowler - I.T. From Australia"
+date:   2017-01-10T07:36:24.463Z
 categories: powershell programming gpo
 link: https://www.adamfowlerit.com/2016/07/search-group-policy-powershell-script/
 tags:
   - links
-ogtype: article 
+ogtype: article
 ---
 
 ## Search Group Policy with PowerShell Script

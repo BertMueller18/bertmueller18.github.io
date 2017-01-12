@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "	PowerShell Desired State Configuration (DSC) Survival Guide - TechNet Articles - United States (English) - TechNet Wiki" 
-date: 2016-10-12T20:37:58.078Z 
-link: http://social.technet.microsoft.com/wiki/contents/articles/23222.powershell-desired-state-configuration-dsc-survival-guide.aspx 
+layout: post
+published: true
+title: "	PowerShell Desired State Configuration (DSC) Survival Guide - TechNet Articles - United States (English) - TechNet Wiki"
+date: 2016-10-12T20:37:58.078Z
+categories: psdsc powershell programming
+link: http://social.technet.microsoft.com/wiki/contents/articles/23222.powershell-desired-state-configuration-dsc-survival-guide.aspx
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > PowerShell Desired State Configuration (DSC) Survival Guide

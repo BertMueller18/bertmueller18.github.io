@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Remote PowerShell Proxying Behavior in Exchange 2013 CU12 and Exchange 2016 – You Had Me At EHLO…" 
-date: 2016-10-12T20:37:34.429Z 
-link: https://blogs.technet.microsoft.com/exchange/2016/03/01/remote-powershell-proxying-behavior-in-exchange-2013-cu12-and-exchange-2016/ 
+layout: post
+published: true
+title: "Remote PowerShell Proxying Behavior in Exchange 2013 CU12 and Exchange 2016 – You Had Me At EHLO…"
+date: 2016-10-12T20:37:34.429Z
+categories: exchange exchange2013
+link: https://blogs.technet.microsoft.com/exchange/2016/03/01/remote-powershell-proxying-behavior-in-exchange-2013-cu12-and-exchange-2016/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Remote PowerShell Proxying Behavior in Exchange 2013 CU12 and Exchange 2016
