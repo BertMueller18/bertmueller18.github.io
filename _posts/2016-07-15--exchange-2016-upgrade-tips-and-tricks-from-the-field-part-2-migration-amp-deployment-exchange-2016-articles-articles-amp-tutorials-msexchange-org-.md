@@ -1,14 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Exchange 2016 upgrade tips and tricks from the field (Part 2)  :: Migration &amp; Deployment  :: Exchange 2016 Articles  :: Articles &amp; Tutorials  :: MSExchange.org						" 
+layout: post
+published: true
+title: "Exchange 2016 upgrade tips and tricks from the field (Part 2)  :: Migration &amp; Deployment  :: Exchange 2016 Articles  :: Articles &amp; Tutorials  :: MSExchange.org" 
 date: 2016-07-15T12:28:26.439Z
 categories: exchange exchange2016
-link: http://www.msexchange.org/articles-tutorials/exchange-2016-articles/migration-deployment/exchange-2016-upgrade-tips-and-tricks-field-part2.html 
+link: http://www.msexchange.org/articles-tutorials/exchange-2016-articles/migration-deployment/exchange-2016-upgrade-tips-and-tricks-field-part2.html
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 ## Exchange 2016 upgrade tips and tricks from the field (Part 2)
