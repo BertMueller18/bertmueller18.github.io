@@ -1,17 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "Prepare your Office 2013 Customizations for Better Deployments and User Experience - Aaron Parker" 
-date: 2016-11-10T20:38:33.859Z 
-categories: citrix deployment customization office2013 MDT
-link: http://stealthpuppy.com/office-2013-customization/ 
+layout: post
+published: true
+title: "Prepare your Office 2013 Customizations for Better Deployments and User Experience - Aaron Parker"
+date: 2016-11-10T20:38:33.859Z
+categories: citrix deployment customization office2013 mdt
+link: http://stealthpuppy.com/office-2013-customization/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> Prepare your Office 2013 Customizations for Better Deployments and User Experience
+## Prepare your Office 2013 Customizations for Better Deployments and User Experience
 
 Investing time into customising the deployment of Office 2013 is essential for providing a well managed deployment and the best out-of-box user experience. If you’re deploying a Windows Installer-based installation of Office 2013, you’ll need to customise the installation using the Office Customization Tool.
 
