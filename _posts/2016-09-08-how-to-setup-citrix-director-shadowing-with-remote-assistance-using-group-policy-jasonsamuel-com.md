@@ -1,16 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "How to setup Citrix Director Shadowing with Remote Assistance using Group Policy – JasonSamuel.com" 
-date: 2016-09-08T08:27:27.976Z 
-link: http://www.jasonsamuel.com/2015/02/01/how-to-setup-citrix-director-shadowing-with-remote-assistance-using-group-policy/ 
+layout: post
+published: true
+title: "How to setup Citrix Director Shadowing with Remote Assistance using Group Policy – JasonSamuel.com"
+date: 2016-09-08T08:27:27.976Z
+categories: gpo activedirectory citrix 
+link: http://www.jasonsamuel.com/2015/02/01/how-to-setup-citrix-director-shadowing-with-remote-assistance-using-group-policy/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> How to setup Citrix Director Shadowing with Remote Assistance using Group PolicyBy Jason Samuel
+## How to setup Citrix Director Shadowing with Remote Assistance using Group PolicyBy Jason Samuel
 onFebruary 1, 2015
 SHARE TWEET SHARE SHARE 0 COMMENTS
 

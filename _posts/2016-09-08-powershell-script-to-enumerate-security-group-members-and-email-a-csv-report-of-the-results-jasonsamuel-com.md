@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "PowerShell script to enumerate security group members and email a CSV report of the results – JasonSamuel.com" 
-date: 2016-09-08T08:30:04.088Z 
-link: http://www.jasonsamuel.com/2013/07/15/powershell-script-to-enumerate-security-group-members-and-email-the-csv-report/ 
+layout: post
+published: true
+title: "PowerShell script to enumerate security group members and email a CSV report of the results – JasonSamuel.com"
+date: 2016-09-08T08:30:04.088Z
+categories: powershell security reporting  
+link: http://www.jasonsamuel.com/2013/07/15/powershell-script-to-enumerate-security-group-members-and-email-the-csv-report/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > CITRIX PROVISIONING SERVICESPowerShell script to enumerate security group members and email a CSV report of the resultsBy Jason Samuel

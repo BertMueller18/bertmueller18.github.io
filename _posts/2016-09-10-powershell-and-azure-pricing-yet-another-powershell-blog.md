@@ -1,16 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "Powershell and Azure pricing – Yet another PowerShell blog" 
-date: 2016-09-10T11:29:27.097Z 
-link: https://eosfor.wordpress.com/2016/09/09/powershell-and-azure-pricing/ 
+layout: post
+published: true
+title: "Powershell and Azure pricing – Yet another PowerShell blog"
+date: 2016-09-10T11:29:27.097Z
+categories: powershell azure
+link: https://eosfor.wordpress.com/2016/09/09/powershell-and-azure-pricing/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> POWERSHELL AND AZURE PRICING
+## POWERSHELL AND AZURE PRICING
 
 September 9, 2016eosfor
 Sometimes it is difficult to calculate prices for Azure. Especially when you have a lot of machines. What to do? It is easy:

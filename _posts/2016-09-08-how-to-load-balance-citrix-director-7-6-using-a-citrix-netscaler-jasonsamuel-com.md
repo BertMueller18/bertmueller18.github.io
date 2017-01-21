@@ -1,16 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "How to load balance Citrix Director 7.6 using a Citrix NetScaler – JasonSamuel.com" 
-date: 2016-09-08T08:26:26.593Z 
-link: http://www.jasonsamuel.com/2015/06/02/how-to-load-balance-citrix-director-7-6-using-a-citrix-netscaler/ 
+layout: post
+published: true
+title: "How to load balance Citrix Director 7.6 using a Citrix NetScaler – JasonSamuel.com"
+date: 2016-09-08T08:26:26.593Z
+categories: loadbalancer netscaler citrix xenapp xendesktop 
+link: http://www.jasonsamuel.com/2015/06/02/how-to-load-balance-citrix-director-7-6-using-a-citrix-netscaler/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> How to load balance Citrix Director 7.6 using a Citrix NetScalerBy Jason Samuel
+## How to load balance Citrix Director 7.6 using a Citrix NetScalerBy Jason Samuel
 onJune 2, 2015
 2SHARESSHARE TWEET SHARE SHARE 4 COMMENTS
 

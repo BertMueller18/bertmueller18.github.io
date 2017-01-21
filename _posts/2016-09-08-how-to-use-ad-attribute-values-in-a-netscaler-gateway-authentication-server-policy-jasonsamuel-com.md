@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "How to use AD attribute values in a NetScaler Gateway authentication server policy – JasonSamuel.com" 
-date: 2016-09-08T08:26:52.514Z 
-link: http://www.jasonsamuel.com/2015/03/02/how-to-use-ad-attribute-values-in-a-netscaler-gateway-authentication-server-policy/ 
+layout: post
+published: true
+title: "How to use AD attribute values in a NetScaler Gateway authentication server policy – JasonSamuel.com"
+date: 2016-09-08T08:26:52.514Z
+categories: citrix netscaler activedirectory security 
+link: http://www.jasonsamuel.com/2015/03/02/how-to-use-ad-attribute-values-in-a-netscaler-gateway-authentication-server-policy/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > How to use AD attribute values in a NetScaler Gateway authentication server policyBy Jason Samuel

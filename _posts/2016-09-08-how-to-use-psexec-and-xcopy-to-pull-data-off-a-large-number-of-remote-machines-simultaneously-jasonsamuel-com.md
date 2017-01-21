@@ -1,16 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "How to use PsExec and Xcopy to pull data off a large number of remote machines simultaneously – JasonSamuel.com" 
-date: 2016-09-08T08:27:48.960Z 
-link: http://www.jasonsamuel.com/2014/07/30/how-to-use-psexec-and-xcopy-to-pull-data-off-a-large-number-of-remote-machines-simultaneously/ 
+layout: post
+published: true
+title: "How to use PsExec and Xcopy to pull data off a large number of remote machines simultaneously – JasonSamuel.com"
+date: 2016-09-08T08:27:48.960Z
+categories: automation powershell
+link: http://www.jasonsamuel.com/2014/07/30/how-to-use-psexec-and-xcopy-to-pull-data-off-a-large-number-of-remote-machines-simultaneously/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> How to use PsExec and Xcopy to pull data off a large number of remote machines simultaneouslyBy Jason Samuel
+## How to use PsExec and Xcopy to pull data off a large number of remote machines simultaneouslyBy Jason Samuel
 onJuly 30, 2014
 SHARE TWEET SHARE SHARE 0 COMMENTS
 My co-worker and I were in a bit of a pinch recently and had to quickly pull data off a large number of VMs as fast as possible. We had a real time crunch to get it done.

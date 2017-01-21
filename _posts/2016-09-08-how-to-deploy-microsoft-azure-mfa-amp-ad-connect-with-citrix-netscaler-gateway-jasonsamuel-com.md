@@ -1,16 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "How to deploy Microsoft Azure MFA &amp; AD Connect with Citrix NetScaler Gateway – JasonSamuel.com" 
-date: 2016-09-08T08:25:59.489Z 
-link: http://www.jasonsamuel.com/2015/09/18/how-to-deploy-microsoft-azure-mfa-ad-connect-with-citrix-netscaler-gateway/ 
+layout: post
+published: true
+title: "How to deploy Microsoft Azure MFA &amp; AD Connect with Citrix NetScaler Gateway – JasonSamuel.com"
+date: 2016-09-08T08:25:59.489Z
+categories: citrix netscaler mfa 2fa security
+link: http://www.jasonsamuel.com/2015/09/18/how-to-deploy-microsoft-azure-mfa-ad-connect-with-citrix-netscaler-gateway/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> How to deploy Microsoft Azure MFA & AD Connect with Citrix NetScaler GatewayBy Jason Samuel
+## How to deploy Microsoft Azure MFA & AD Connect with Citrix NetScaler GatewayBy Jason Samuel
 onSeptember 18, 2015
 1SHARESHARE TWEET SHARE SHARE 8 COMMENTS
 

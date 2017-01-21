@@ -1,16 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "How to use PowerShell and PsExec to change the RDS license server name on all your XenApp servers – JasonSamuel.com" 
-date: 2016-09-08T08:31:27.021Z 
-link: http://www.jasonsamuel.com/2013/03/07/how-to-use-powershell-and-psexec-to-change-the-rds-license-server-name-on-all-your-xenapp-servers/ 
+layout: post
+published: true
+title: "How to use PowerShell and PsExec to change the RDS license server name on all your XenApp servers – JasonSamuel.com"
+date: 2016-09-08T08:31:27.021Z
+categories: powershell automation xenapp 
+link: http://www.jasonsamuel.com/2013/03/07/how-to-use-powershell-and-psexec-to-change-the-rds-license-server-name-on-all-your-xenapp-servers/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> How to use PowerShell and PsExec to change the RDS license server name on all your XenApp serversBy Jason Samuel
+## How to use PowerShell and PsExec to change the RDS license server name on all your XenApp serversBy Jason Samuel
 onMarch 7, 2013
 SHARE TWEET SHARE SHARE 0 COMMENTS
 Let’s say you decide to decommission your Remote Desktop Services (RDS)/Terminal Services Licensing Server or you moved your TS/RDS CALs to a different server. That means you need to change the name to the new server under Remote Desktop Session Host Configuration on all your XenApp servers.

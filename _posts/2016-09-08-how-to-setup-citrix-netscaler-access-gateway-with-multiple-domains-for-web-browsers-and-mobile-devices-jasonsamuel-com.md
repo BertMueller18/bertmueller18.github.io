@@ -1,16 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "How to setup Citrix Netscaler (Access Gateway) with multiple domains for web browsers and mobile devices – JasonSamuel.com" 
-date: 2016-09-08T08:31:12.016Z 
-link: http://www.jasonsamuel.com/2013/05/09/how-to-setup-citrix-netscaler-access-gateway-with-multiple-domains-for-web-browsers-and-mobile-devices/ 
+layout: post
+published: true
+title: "How to setup Citrix Netscaler (Access Gateway) with multiple domains for web browsers and mobile devices – JasonSamuel.com"
+date: 2016-09-08T08:31:12.016Z
+categories: netscaler networking citrix
+link: http://www.jasonsamuel.com/2013/05/09/how-to-setup-citrix-netscaler-access-gateway-with-multiple-domains-for-web-browsers-and-mobile-devices/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> How to setup Citrix Netscaler (Access Gateway) with multiple domains for web browsers and mobile devicesBy Jason Samuel
+## How to setup Citrix Netscaler (Access Gateway) with multiple domains for web browsers and mobile devicesBy Jason Samuel
 onMay 9, 2013
 1SHARESHARE TWEET SHARE SHARE 10 COMMENTS
 I’ve covered Access Gateway quite a bit in the past and these two articles on my blog are a good primer for what I’m about to cover:

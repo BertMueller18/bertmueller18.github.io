@@ -1,16 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "Combating Citrix application sprawl using the XenApp SDK, Powershell, IIS, HTML, and a tiny bit of web design – JasonSamuel.com" 
-date: 2016-09-08T08:29:50.727Z 
-link: http://www.jasonsamuel.com/2013/10/07/combating-citrix-application-sprawl-using-the-xenapp-sdk-powershell-iis-html-and-a-tiny-bit-of-web-design/ 
+layout: post
+published: true
+title: "Combating Citrix application sprawl using the XenApp SDK, Powershell, IIS, HTML, and a tiny bit of web design – JasonSamuel.com"
+date: 2016-09-08T08:29:50.727Z
+categories: citrix xenapp xendesktop monitoring
+link: http://www.jasonsamuel.com/2013/10/07/combating-citrix-application-sprawl-using-the-xenapp-sdk-powershell-iis-html-and-a-tiny-bit-of-web-design/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> Combating Citrix application sprawl using the XenApp SDK, Powershell, IIS, HTML, and a tiny bit of web designBy Jason Samuel
+## Combating Citrix application sprawl using the XenApp SDK, Powershell, IIS, HTML, and a tiny bit of web designBy Jason Samuel
 onOctober 7, 2013
 1SHARESHARE TWEET SHARE SHARE 8 COMMENTS
 One of the biggest challenges you will face in a large XenApp environment is application sprawl. With multiple farms and many Citrix admins managing different business units, the problem gets compounded. No one person knows what applications are published and to what security groups without having to hunt for it.

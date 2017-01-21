@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Using PowerShell Desired State Configuration to build the first domain controller in your Active Directory forest – Mike F Robbins" 
-date: 2016-09-10T11:24:10.813Z 
-link: http://mikefrobbins.com/2015/02/12/using-powershell-desired-state-configuration-to-build-the-first-domain-controller-in-your-active-directory-forest/ 
+layout: post
+published: true
+title: "Using PowerShell Desired State Configuration to build the first domain controller in your Active Directory forest – Mike F Robbins"
+date: 2016-09-10T11:24:10.813Z
+categories: psdsc powershell activedirectory 
+link: http://mikefrobbins.com/2015/02/12/using-powershell-desired-state-configuration-to-build-the-first-domain-controller-in-your-active-directory-forest/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Using PowerShell Desired State Configuration to build the first domain controller in your Active Directory forest
