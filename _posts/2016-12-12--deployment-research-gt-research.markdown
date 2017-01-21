@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "	Deployment Research &gt; Research"
+link: "http://deploymentresearch.com/Research/Post/560/Creating-Reference-Images-using-the-VMware-platform-Image-Factory-script-by-Johnny-Radeck"
 date:   2016-12-12T21:58:55.165Z
 categories: deployment vmware powershell mdt
 tags:
