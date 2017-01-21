@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "TechNet Software-Defined Storage (SDS) Design Calculator" 
-date: 2016-09-07T05:32:50.636Z 
-link: https://gallery.technet.microsoft.com/Software-Defined-Storage-5b825eff 
+layout: post
+published: true
+title: "TechNet Software-Defined Storage (SDS) Design Calculator"
+date: 2016-09-07T05:32:50.636Z
+categories: sds storagespaces server2012 
+link: https://gallery.technet.microsoft.com/Software-Defined-Storage-5b825eff
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > Software-Defined Storage (SDS) Design Calculator

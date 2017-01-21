@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "Storefront+Receiver speichern von Passwörtern ermöglichen bei verschiedenen Domänen – How-To-Compute" 
 date: 2016-08-29T04:20:07.685Z 
+categories: citrix storefront activedirectory sso
 link: http://www.how-to-compute.de/2014/08/18/storefrontreceiver-speichern-von-passwoertern-ermoeglichen-bei-verschiedenen-domaenen/ 
 tags:
   - links

@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Best practices for Citrix Netscaler AAA logging and retention – JasonSamuel.com" 
-date: 2016-09-08T08:28:13.423Z 
-link: http://www.jasonsamuel.com/2014/05/28/best-practices-for-citrix-netscaler-aaa-logging-and-retention/ 
+layout: post
+published: true
+title: "Best practices for Citrix Netscaler AAA logging and retention – JasonSamuel.com"
+date: 2016-09-08T08:28:13.423Z
+categories: citrix netscaler monitoring
+link: http://www.jasonsamuel.com/2014/05/28/best-practices-for-citrix-netscaler-aaa-logging-and-retention/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > CITRIX NETSCALERBest practices for Citrix Netscaler AAA logging and retentionBy Jason Samuel

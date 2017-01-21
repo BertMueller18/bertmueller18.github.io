@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "Adding websites to IE zones on a XenApp server using local group policy – JasonSamuel.com" 
-date: 2016-09-08T08:33:15.826Z 
-link: http://www.jasonsamuel.com/2012/08/15/adding-websites-to-ie-zones-on-a-xenapp-server-using-local-group-policy/ 
+layout: post
+published: true
+title: "Adding websites to IE zones on a XenApp server using local group policy – JasonSamuel.com"
+date: 2016-09-08T08:33:15.826Z
+categories: xenapp citrix internetexplorer gpo 
+link: http://www.jasonsamuel.com/2012/08/15/adding-websites-to-ie-zones-on-a-xenapp-server-using-local-group-policy/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > CITRIX XENAPPAdding websites to IE zones on a XenApp server using local group policyBy Jason Samuel

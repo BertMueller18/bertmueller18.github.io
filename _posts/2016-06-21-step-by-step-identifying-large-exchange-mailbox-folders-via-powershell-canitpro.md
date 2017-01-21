@@ -3,7 +3,7 @@ layout: post
 published: true 
 title: "Step-By-Step: Identifying Large Exchange Mailbox Folders Via PowerShell | CANITPRO" 
 date: 2016-06-21T07:17:55.049Z
-catgeories: exchange powershell
+categories: exchange powershell
 link: https://blogs.technet.microsoft.com/canitpro/2016/03/23/step-by-step-identifying-large-exchange-mailbox-folders-via-powershell/ 
 tags:
   - links

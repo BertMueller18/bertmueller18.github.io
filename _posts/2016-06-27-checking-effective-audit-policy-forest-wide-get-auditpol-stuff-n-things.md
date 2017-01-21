@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "Checking effective audit policy forest wide (Get-Auditpol) | Stuff n Things" 
 date: 2016-06-27T21:40:58.061Z 
+categories: security activedirectory gpo
 link: https://blogs.technet.microsoft.com/kfalde/2016/06/05/checking-effective-audit-policy-forest-wide-get-auditpol/ 
 tags:
   - links

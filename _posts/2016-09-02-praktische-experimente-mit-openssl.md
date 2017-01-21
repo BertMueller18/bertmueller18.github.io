@@ -1,16 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "Praktische Experimente mit OpenSSL" 
-date: 2016-09-02T18:15:52.180Z 
-link: https://www-user.tu-chemnitz.de/~hot/SSL/ 
+layout: post
+published: true
+title: "Praktische Experimente mit OpenSSL"
+date: 2016-09-02T18:15:52.180Z
+categories: certificate pki linux 
+link: https://www-user.tu-chemnitz.de/~hot/SSL/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> Praktische Experimente mit OpenSSL
+## Praktische Experimente mit OpenSSL
 
 ursprünglich für Tests genutzte OpenSSL-Version: 0.9.5a
 
@@ -39,4 +40,3 @@ Apache und mod_ssl:
 http://httpd.apache.org/
 
 http://en.wikipedia.org/wiki/Mod_ssl
-

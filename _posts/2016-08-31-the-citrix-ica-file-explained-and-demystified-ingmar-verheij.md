@@ -1,13 +1,14 @@
 ---
-layout: post 
-published: true 
-title: "The Citrix ICA file explained and demystified - Ingmar Verheij" 
-date: 2016-08-31T13:13:08.046Z 
-link: http://www.ingmarverheij.com/the-citrix-ica-file-explained-and-demystified/ 
+layout: post
+published: true
+title: "The Citrix ICA file explained and demystified - Ingmar Verheij"
+date: 2016-08-31T13:13:08.046Z
+categories: citrix ica xenapp  
+link: http://www.ingmarverheij.com/the-citrix-ica-file-explained-and-demystified/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
 > The Citrix ICA file explained and demystified

@@ -1,18 +1,19 @@
 ---
-layout: post 
-published: true 
-title: "Intro to PowerShell on Windows Azure" 
-date: 2016-09-03T09:56:36.343Z 
-link: http://www.tomsitpro.com/articles/intro-to-powershell-on-windows-azure,2-948.html 
+layout: post
+published: true
+title: "Intro to PowerShell on Windows Azure"
+date: 2016-09-03T09:56:36.343Z
+categories: powershell azure azurerm
+link: http://www.tomsitpro.com/articles/intro-to-powershell-on-windows-azure,2-948.html
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> Getting Started With PowerShell On Windows Azure
+## Getting Started With PowerShell On Windows Azure
 By Adam BertramJULY 2, 2015 8:30 AM
-     
+
 There are over 700 PowerShell cmdlets to help you automate routine and complex tasks in Windows Azure. Here's how you can start taking advantage of what PowerShell has to offer in Azure.
 
 

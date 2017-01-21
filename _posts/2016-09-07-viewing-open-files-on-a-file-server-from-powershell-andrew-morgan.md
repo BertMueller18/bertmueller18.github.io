@@ -1,16 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "Viewing open files on a file server from powershell. | Andrew Morgan" 
-date: 2016-09-07T11:27:57.120Z 
-link: http://andrewmorgan.ie/2012/12/viewing-open-files-on-a-file-server-from-powershell/ 
+layout: post
+published: true
+title: "Viewing open files on a file server from powershell. | Andrew Morgan"
+date: 2016-09-07T11:27:57.120Z
+categories: storage powershell 
+link: http://andrewmorgan.ie/2012/12/viewing-open-files-on-a-file-server-from-powershell/
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> Viewing open files on a file server from powershell.
+## Viewing open files on a file server from powershell.
 2 Comments
 So this is a situation you should all be aware of in an SBC / VDI environment, despite all warnings, you’ve redirected folders to your network drive and your file servers are screaming in agony?
 

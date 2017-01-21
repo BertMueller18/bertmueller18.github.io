@@ -1,16 +1,17 @@
 ---
-layout: post 
-published: true 
-title: "Monitor Storage Tiers Performance in Windows Server 2012 R2" 
-date: 2016-09-07T05:34:40.268Z 
-link: https://technet.microsoft.com/en-us/library/dn789160(v=ws.11).aspx 
+layout: post
+published: true
+title: "Monitor Storage Tiers Performance in Windows Server 2012 R2"
+date: 2016-09-07T05:34:40.268Z
+categories windows storagespaces server2012 monitoring 
+link: https://technet.microsoft.com/en-us/library/dn789160(v=ws.11).aspx
 tags:
   - links
-ogtype: article 
-bodyclass: post 
+ogtype: article
+bodyclass: post
 ---
 
-> Monitor Storage Tiers Performance in Windows Server 2012 R2
+## Monitor Storage Tiers Performance in Windows Server 2012 R2
 
  
 Updated: December 22, 2015

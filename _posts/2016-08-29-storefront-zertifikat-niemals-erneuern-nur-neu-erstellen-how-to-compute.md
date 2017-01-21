@@ -3,6 +3,7 @@ layout: post
 published: true 
 title: "Storefront Zertifikat niemals erneuern, nur neu erstellen – How-To-Compute" 
 date: 2016-08-29T04:19:01.815Z 
+categories: citrix storefront pki certificate
 link: http://www.how-to-compute.de/2015/07/15/storefront-zertifikat-niemals-erneuern-nur-neu-erstellen/ 
 tags:
   - links
