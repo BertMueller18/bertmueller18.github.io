@@ -4,6 +4,7 @@ title:  "Launching Applications as Someone Else - Power Tips - PowerTips - IDERA
 date:   2016-11-30T23:29:40.866Z
 categories: powershell programming
 link: http://community.idera.com/powershell/powertips/b/tips/posts/launching-applications-as-someone-else
+
 tags:
   - links
 ogtype: article
