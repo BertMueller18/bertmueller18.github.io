@@ -2,7 +2,7 @@
 layout: post 
 title:  "User Guide - VyOS" 
 date:   2017-03-01T11:10:18.859Z 
-categories: networking linuy vyatta
+categories: networking linux vyatta
 link: https://wiki.vyos.net/wiki/User_Guide 
 tags:
   - links
