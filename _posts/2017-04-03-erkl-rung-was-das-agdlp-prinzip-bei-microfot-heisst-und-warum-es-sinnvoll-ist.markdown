@@ -1,6 +1,6 @@
 ---
 layout: post 
-title:  "Erklärung was das AGDLP Prinzip bei Microfot heisst, und warum es Sinnvoll ist" 
+title:  "Erklärung was das AGDLP Prinzip bei Microsoft heisst, und warum es Sinnvoll ist" 
 date:   2017-04-03T08:26:54.835Z 
 categories: activedirectory security 
 link: https://www.w3-creative.de/menu-inhalt/windows/agdlp/ 
