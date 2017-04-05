@@ -198,3 +198,37 @@ kernel ${boot-url}/memdisk iso
 initrd ${boot-url}/images/pmagic/pmagic_2013_02_28.iso
 boot
 
+## TinyPXE Server : how to boot a disk image thru PXE
+ PXE, TinyPXE Server Add comments
+Mar
+11
+2014
+ 
+In previous article, we have seen how to make a bootable disk image using CloneDisk.
+
+Lets see now how to boot this disk image thru PXE boot with TinyPXE Server.
+
+1-Prepare the the IPXE script
+2-Setup TinyPXE Server
+3-PXE Boot !
+
+1-Prepare the IPXE script and save it as disk.ipxe
+
+Pretty simple
+
+#!ipxe
+set boot-url http://${next-server}
+initrd ${boot-url}/test.vhd
+kernel ${boot-url}/memdisk raw
+boot
+
+2-Setup TinyPXE Server
+
+Next to pxesrv.exe, in the same folder, you must have the following files :
+-disk.ipxe (see previous item)
+-ipxe-undionly.kpxe (in TPS zip file)
+-memdisk (in TPS zip file)
+-test.vhd (see previous article)
+
+Now set TinyPXE Server as follow
+
