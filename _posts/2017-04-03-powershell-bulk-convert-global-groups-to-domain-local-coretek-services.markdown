@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> PowerShell – Bulk Convert Global Groups to Domain Local…
+## PowerShell – Bulk Convert Global Groups to Domain Local…
 
 Recently I was working with someone who spent a bunch of time building Active Directory groups for a project I’m working on.  After he was done, I noticed the groups he made were Global type groups (which is the default type in ADUC) instead of Domain Local type groups, which I needed for my project.
 
