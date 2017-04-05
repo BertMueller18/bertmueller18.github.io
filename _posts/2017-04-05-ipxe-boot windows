@@ -10,8 +10,6 @@ ogtype: article
 ---
 ## Boot WINPE over PXE on a UEFI computer
 
-Here below some drafts notes on how to boot WINPE on a UEFI computers.
-
 1/Files you need from your windows x64 dvd
 
 -\efi\boot\bootx64.efi file (1)
