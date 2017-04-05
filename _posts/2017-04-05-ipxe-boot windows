@@ -1,0 +1,200 @@
+---
+layout: post 
+title:  "iPXE Boot Windows PE" 
+date:   2017-04-05T23:30
+categories: deployment boot pxe ipxe
+link: 
+tags:
+  - links
+ogtype: article 
+---
+## Boot WINPE over PXE on a UEFI computer
+
+Here below some drafts notes on how to boot WINPE on a UEFI computers.
+
+1/Files you need from your windows x64 dvd
+
+-\efi\boot\bootx64.efi file (1)
+-\efi\boot\bcd file (2)
+-\efi\boot\boot.sdi file (3)
+-\efi\microsoft\boot\fonts folder (4)
+-\sources\boot.wim (5)
+
+If you dont find bootx64.efi, you can use bootmgfw.efi which is in install.wim on your dvd (sources folder).
+Use 7zip to extract this file from the wim file and rename it to bootx64.efi
+
+2/Files you need in your tftp root
+
+-get in your tftp root
+put bootx64.efi (from 1)
+-create a SOURCES folder
+put boot.wim in there (from 5)
+-create a BOOT folder
+put boot.sdi in there (from 3)
+put bcd in there (from 2) / applies for Win8
+-create a EFI/MICROSOFT/BOOT folder
+put bcd in there (from 2) / applies for Win7
+put the FONT folder in there (from 4)
+
+You should end up with the following :
+=>ROOT
+-bootx64.efi
+==>SOURCES
+==boot.wim
+==>BOOT
+==boot.sdi
+==bcd (for win8)
+==>EFI/MICROSOFT/BOOT
+==bcd (for win7)
+===>FONTS
+===*.ttf
+
+3/Things you need to do on your boot.wim
+
+Add the following winpeshl.ini (create it with notepad) file in your boot.wim (system32), making it a « cheap » winpe.
+
+To modify your boot.wim, you can either mount/change/commit it with DISM (from the command line), or with CloneDisk or else modify it with wimlib :
+wimlib-imagex update boot.wim 1 --command="add CustomWinpeshl.ini \Windows\System32\winpeshl.ini"
+
+
+[LaunchApps]
+%SYSTEMDRIVE%\Windows\system32\startnet.cmd
+%SYSTEMDRIVE%\windows\system32\cmd.exe
+
+4/Things you need to do in your PXE Server :
+
+Set bootx64.efi as the bootp filename.
+
+The UEFI + PXE boot process will be the following :
+–pxe->bootx64.efi (from windows install dvd)->bcd (pointing to winload.efi)->boot.wim (x64 only)
+
+as opposed to a legacy bios computer :
+–pxe->pxeboot.n12 (from windows install dvd)-> bootmgr.exe -> bcd (pointing to winload.exe) -> boot.wim
+
+Site note : you can use option dhcp 252 to decide which BCD file to load.
+Can be handy when you want to switch from a UEFI computer to a legacy BIOS computer : efi\microsoft\boot or boot\bcd
+
+tps_howto_uefi
+
+side note : you can check if you booted on uefi with the following reg query HKLM\System\CurrentControlSet\Control /v PEFirmwareType Will output 0x1 for bios, 0x2 for uefi.
+
+Cheers,
+Erwan
+
+Note that the following would aso work : PXE-> IPXE.efi ->MS Bootx64.efi ->BCD (winload.efi) ->Boot.wim (x64).
+
+Ipxe script
+
+#!ipxe
+#change with you dhcp or proxydhcp server
+set next-server 192.168.1.11
+set filename boot/x64/bootmgfw.efi
+chain tftp://${next-server}/${filename}
+
+And changes to apply to your BCD : bcdedit.exe /store my.bcd /set {bootmgr} nointegritychecks yes
+
+cckp says:
+11 septembre 2014 at 10 h 28 min
+and here’s my tested demo script:
+
+set base http://user:pass@${next-server}
+set base ftp://user:pass@${next-server}
+kernel ${base}/wimboot pause
+initrd ${base}/bootx64.efi
+initrd –name bcd ${base}/boot/bcdefi
+initrd ${base}/boot/boot.sdi
+initrd ${base}/sources/boot.WIM
+imgstat
+boot
+
+
+admin says:
+11 septembre 2014 at 10 h 37 min
+excellent, thanks for sharing.
+
+the wimboot binary : is it the same for BIOS and UEFI? I would say no but you probably have the answer.
+note that you could probably use the arch variable to make your script « universal » i.e work on bios and uefi.
+
+
+cckp says:
+11 septembre 2014 at 10 h 57 min
+same wimboot for efi and bios.
+
+can use iPXE script for « universal » for bios and uefi.
+
+like this:
+—————–
+
+iseq ${platform} efi && goto efi ||
+
+initrd ${base}/bootmgr.exe
+initrd ${base}/boot/bcf
+goto next
+
+:efi
+initrd ${base}/bootx64.efi
+initrd –name bcg ${base}/boot/bca
+
+:next
+initrd ${base}/boot/boot.sdi
+initrd ${base}/sources/boot.WIM
+imgstat
+boot
+
+## Clonezilla and PXE booting over HTTP
+ Boot, PXE, TinyPXE Server Add comments
+Août
+13
+2013
+ 
+needed :
+–tiny pxe server
+–Clonezilla
+
+open clonezilla.iso in winrar (or any other iso reading capable tool).
+extract live folder to x:\pxe\iso\clonezilla
+
+use the below ipxe script :
+
+#!ipxe
+set boot-url http://${dhcp-server}
+kernel ${boot-url}/ISO/clonezilla/live/vmlinuz boot=live config noswap nolocales edd=on nomodeset vga=788 nosplash noprompt fetch=http://${dhcp-server}/ISO/clonezilla/live/filesystem.squashfs
+initrd ${boot-url}/ISO/clonezilla/live/initrd.img
+boot
+
+name it clonezilla.ipxe and put it in x:\pxe
+
+put ipxe-undionly.kpxe in x:\pxe
+
+launch tiny pxe server with the following settings (leave other settings untouched) :
+tick « httpd »
+boot filename = ipxe-undionly.kpxe (use the browse files and folders « … » button)
+tick « filename if user-class=gPXE or iPXE » = http://${dhcp-server}/clonezilla.ipxe
+push the online button
+
+pxe boot your computer and here we go
+
+## TinyPXE Server : PXE boot PartedMagic over HTTP
+ PXE, TinyPXE Server Add comments
+Mai
+10
+2014
+ 
+PartedMagic is a disk management solution.
+It does disk partitioning, disk cloning, data rescue, disk erasing, benchmarking.
+Note, since August 2013, the tool has required a fee to download.
+
+Lets now see how to PXE boot this linux distribution.
+
+For this we will use TinyPXE Server and IPXE.
+
+ 
+
+First lets prepare our iPXE script (save it to rescue.ipxe)
+
+#!ipxe
+set boot-url http://${next-server}
+kernel ${boot-url}/memdisk iso
+initrd ${boot-url}/images/pmagic/pmagic_2013_02_28.iso
+boot
+
