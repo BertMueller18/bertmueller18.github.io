@@ -1,6 +1,6 @@
 ---
 layout: post 
-title:  "[SOLVED] How to make UEFI bootable USB or DVD to install Server 2012 R2 - Spiceworks" 
+title:  "How to make UEFI bootable USB or DVD to install Server 2012 R2" 
 date:   2017-04-27T06:42:21.213Z 
 categories: deployment usb windows uefi diskpart dism
 link: https://community.spiceworks.com/topic/762943-how-to-make-uefi-bootable-usb-or-dvd-to-install-server-2012-r2 
