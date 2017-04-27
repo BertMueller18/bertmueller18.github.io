@@ -45,10 +45,15 @@ Post migration users and mailboxes will be in a separate resource and exchange f
 Cross forest migration steps blog was long time due from us. So here we go!
 
 Cross forest has changed little bit and requires 3rd party cert in the source domain. 
+
 Some related blogs which can be useful before doing cross forest migration:
+
 Exchange 2013 Design Guide – (http://msexchangeguru.com/2013/07/30/exchange-2013-planning-and-design-guide/)
+
 Exchange 2013 Migration Guide – (http://msexchangeguru.com/2013/05/10/exchange2013-migration/)
+
 Cross Forest E2K3 to 2010 Mailbox Migration with Linked Mailboxes – (http://msexchangeguru.com/2011/08/29/migration/)
+
 Exchange 2013 PF Migration Guide – (http://msexchangeguru.com/2013/04/18/exchange2013-public-folders/)
 
 ### This document has following assumptions:
@@ -65,3 +70,5 @@ All CAS and transport configuration completed with the help of Migration Guide
 All DAG and Database configuration complete with the help of Migration Guide
 All MX, CAS and autodiscover public and AD dns records are configured.
 [I'm an inline-style link](https://www.google.com)
+
+## [How to Migrate Distribution Groups Across a Forest – Random Technical Artices By Sachin Filinto](https://blogs.technet.microsoft.com/sachinf/2014/03/17/how-to-migrate-distribution-groups-across-a-forest/)
