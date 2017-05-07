@@ -8,6 +8,9 @@ tags:
   - links
 ogtype: article 
 ---
+##[Exchange inter-forest migration tips] (http://www.hayesjupe.com/exchange-interforest-migration-tips/)
+Forest, including exchange, migrations seemed to be something I was doing every month back in the Exchange 2000/2003 days, but then they seemed to stop…. For a while.
+
 ## [Exchange 2010 Cross-Forest Migration Step by Step Guide – Part I](https://blogs.technet.microsoft.com/meamcs/2011/06/10/exchange-2010-cross-forest-migration-step-by-step-guide-part-i/)
 This Guide will explain the detailed steps required to do cross forest migration from source forest running Exchange 2003 to target forest running Exchange 2010.
 
@@ -26,10 +29,6 @@ If you are attempting a remote PowerShell connection to an Exchange server cross
 Connecting to remote server [server] failed with the following error message: WinRM cannot process the request. The following error with errorcode 0x80090311 occurred while using Kerberos authentication: There are currently no logon servers available to service the logon request.
  
 ## [Cross Forest E2K3 to 2010 Mailbox Migration with linked Mailboxes](http://msexchangeguru.com/2011/08/29/migration/)
-
-I couldn’t find a proper document on performing a cross forest mailbox migration, so here we go…
-
-This document has following assumptions:
 
 Source and Target forest have one way trust
 All CAS, HT and MBX servers are installed
@@ -69,6 +68,25 @@ All the required ports are open between Exchange 2010 server and DCs to Exchange
 All CAS and transport configuration completed with the help of Migration Guide
 All DAG and Database configuration complete with the help of Migration Guide
 All MX, CAS and autodiscover public and AD dns records are configured.
+
+[Cross Forest Migration Guide – Exchange 2010 to Exchange 2010](http://www.careexchange.in/cross-forest-migration-guide-exchange-2010-to-exchange-2010/)
+[Cross forest Move Mailbox in Bulk – Exchange2010 to Exchange 2010](http://www.careexchange.in/cross-forest-move-mailbox-in-bulk-exchange2010-to-exchange-2010/)
+
+(https://blog.jasonsherry.net/2013/08/29/script-export-groups-vbs-for-exchange-cross-forest-migrations/)
+
+## Distributiongroups export(http://blogs.catapultsystems.com/thernandez/archive/2015/09/16/migrate-distribution-groups-from-exchange-on-premise-to-exchange-online/)
+#Get all groups into temp variable
+$groups = Get-DistributionGroup -ResultSize Unlimited -IgnoreDefaultScope
+
+#Export 1) ON-PREM export all distribution groups and a few settings
+$groups | Select-Object RecipientTypeDetails,Name,Alias,DisplayName,PrimarySmtpAddress,@{name="SMTPDomain";expression={$_.PrimarySmtpAddress.Domain}},MemberJoinRestriction,MemberDepartRestriction,RequireSenderAuthenticationEnabled,@{Name="ManagedBy";Expression={$_.ManagedBy -join “;”}},@{name=”AcceptMessagesOnlyFrom”;expression={$_.AcceptMessagesOnlyFrom -join “;”}},@{name=”AcceptMessagesOnlyFromDLMembers”;expression={$_.AcceptMessagesOnlyFromDLMembers -join “;”}},@{name=”AcceptMessagesOnlyFromSendersOrMembers”;expression={$_.AcceptMessagesOnlyFromSendersOrMembers -join “;”}},@{name=”ModeratedBy”;expression={$_.ModeratedBy -join “;”}},@{name=”BypassModerationFromSendersOrMembers”;expression={$_.BypassModerationFromSendersOrMembers -join “;”}},@{Name="GrantSendOnBehalfTo";Expression={$_.GrantSendOnBehalfTo -join “;”}},ModerationEnabled,SendModerationNotifications,LegacyExchangeDN,@{Name="EmailAddresses";Expression={$_.EmailAddresses -join “;”}} | Export-Csv C:\temp\dg\distributiongroups.csv -NoTypeInformation
+
+#Export 2) ON-PREM export distribution groups’ smtp aliases
+$groups | Select-Object RecipientTypeDetails,PrimarySmtpAddress -ExpandProperty emailaddresses | select RecipientTypeDetails,PrimarySmtpAddress, @{name="TYPE";expression={$_}} | Export-Csv C:\temp\dg\distributiongroups-SMTPproxy.csv -NoTypeInformation
+
+#Export 3) ON-PREM export all distribution groups and members (and member type)
+$groups |% {$guid=$_.Guid;$GroupType=$_.RecipientTypeDetails;$Name=$_.Name;$SMTP=$_.PrimarySmtpAddress ;Get-DistributionGroupMember -Identity $guid.ToString() -ResultSize Unlimited | Select-Object @{name=”GroupType”;expression={$GroupType}},@{name=”Group”;expression={$name}},@{name=”GroupSMTP”;expression={$SMTP}},@{name="PrimarySMTPDomain";expression={$SMTP.Domain}},@{Label="Member";Expression={$_.Name}},@{Label="MemberSMTP";Expression={$_.PrimarySmtpAddress}},@{Label="MemberType";Expression={$_.RecipientTypeDetails}}} | Export-Csv C:\temp\dg\distributiongroups-and-members.csv -NoTypeInformation
+
 
 ## [PowerShell-Remoteverbindung mit Exchange Server 2013 / 2016 herstellen](https://community.certbase.de/blogs/mg/archive/2016/03/03/PowerShell_2D00_Remoteverbindung-mit-Exchange-Server-2013-und-2016-herstellen.aspx)
 Mit der PowerShell eine Remoteverbindung zu einem entfernten Exchange Server herstellen ist schnell gemacht, sofern man denn die erforderlichen Schritte parat. Im Fall der Fälle hilft die folgende Kurzübersicht.
