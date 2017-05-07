@@ -69,7 +69,32 @@ All the required ports are open between Exchange 2010 server and DCs to Exchange
 All CAS and transport configuration completed with the help of Migration Guide
 All DAG and Database configuration complete with the help of Migration Guide
 All MX, CAS and autodiscover public and AD dns records are configured.
-[I'm an inline-style link](https://www.google.com)
+
+## PowerShell-Remoteverbindung mit Exchange Server 2013 / 2016 herstellen
+Mit der PowerShell eine Remoteverbindung zu einem entfernten Exchange Server herstellen ist schnell gemacht, sofern man denn die erforderlichen Schritte parat. Im Fall der Fälle hilft die folgende Kurzübersicht.
+
+### Exchange Management Shell ist lokal installiert
+
+Wenn die Exchange Management Shell lokal installiert ist, können Sie die beiden folgenden Zeilen verwenden, um die Exchange PowerShell Cmdlets in die Windows PowerShell oder die Windows PowerShell ISE zu laden und anschließend eine Verbindung mit einem Remoteserver herzustellen:
+
+Import-Module -Name "C:\Program Files\Microsoft\Exchange Server\V15\Bin\RemoteExchange.ps1"
+Connect-ExchangeServer -ServerFqdn remoteserver.domaene.tld -ClientApplication:ManagementShell
+
+Der Verzeichnispfad zum Skript RemoteExchange.ps1 gilt für eine Standardinstallation von Exchange Server 2013.
+
+### Exchange Management Shell ist nicht lokal installiert
+
+Wenn die Exchange Management Shell nicht lokal installiert ist können Sie mit den folgenden Befehlen eine Remotesitzung erstellen:
+
+$Cred = Get-Credential
+
+$Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri http://remoteserver.domaene.tld/PowerShell/ -Authentication Kerberos -Credential $Cred
+
+Import-PSSession $Session
+
+Um die PowerShell Sitzung zu trennen geben Sie folgendes ein:
+
+Remove-PSSession $Session
 
 ## [How to Migrate Distribution Groups Across a Forest – Random Technical Artices By Sachin Filinto](https://blogs.technet.microsoft.com/sachinf/2014/03/17/how-to-migrate-distribution-groups-across-a-forest/)
 
