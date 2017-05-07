@@ -70,7 +70,7 @@ All CAS and transport configuration completed with the help of Migration Guide
 All DAG and Database configuration complete with the help of Migration Guide
 All MX, CAS and autodiscover public and AD dns records are configured.
 
-## PowerShell-Remoteverbindung mit Exchange Server 2013 / 2016 herstellen
+## [PowerShell-Remoteverbindung mit Exchange Server 2013 / 2016 herstellen](https://community.certbase.de/blogs/mg/archive/2016/03/03/PowerShell_2D00_Remoteverbindung-mit-Exchange-Server-2013-und-2016-herstellen.aspx)
 Mit der PowerShell eine Remoteverbindung zu einem entfernten Exchange Server herstellen ist schnell gemacht, sofern man denn die erforderlichen Schritte parat. Im Fall der Fälle hilft die folgende Kurzübersicht.
 
 ### Exchange Management Shell ist lokal installiert
