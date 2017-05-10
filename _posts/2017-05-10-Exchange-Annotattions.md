@@ -1,6 +1,6 @@
 ---
 layout: post 
-title:  "Exchange SID History Annotations" 
+title:  "Exchange Annotations" 
 date:   2017-05-10T17:23
 categories: exchange migration crossforest sidhistory activedirectory powershell
 link: http://bertmueller18.github.io/
@@ -9,9 +9,6 @@ tags:
 ogtype: article 
 ---
 ## SID HISTORY: Fixing Exchange
-Dumping my notes about fixing SID history at work. Use at your own risk. These worked for me but won't work for you without some adjustments.
-
-
 
 Locate and repair AD user accounts with acl inheritance flag uncheck. This prevents Exchange service accounts from altering user object and breaks various admin tools. 
 ?
@@ -142,3 +139,12 @@ Get-DistributionGroup -ResultSize unlimited | Get-ADPermission | Select Identity
 Remove-Variable fixdlperm
 Remove-Variable fixdlpermac
 Remove-Variable fixdlpermex
+
+## Export out-of-office (OOF) autoreplies from Exchange 2010 with Powershell
+Quick and very dirty export out-of-office (OOF) autoreplies from Exchange 2010 with Powershell. 
+
+get-mailbox -resultsize unlimited |
+get-mailboxautoreplyconfiguration |
+where {$_.autoreplystate -ne "disabled"} |
+select identity,autoreplystate,starttime,endtime,@{NAME='InternalMessage';Expression={$_.InternalMessage -replace ("`n") -replace("</p","/<") -replace("<.*?>") -replace("&nbsp;","")  }},@{NAME='ExternalMessage';Expression={$_.InternalMessage -replace ("`n") -replace("</p","/<") -replace("<.*?>") -replace("&nbsp;","")  }} |
+Export-Csv -Encoding unicode -NoTypeInformation outofoffice.csv
