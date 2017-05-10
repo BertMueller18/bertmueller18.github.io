@@ -136,18 +136,14 @@ Cross-forest   Cross-forest topologies can have multiple forests, each with thei
 Resource forest   Resource forest topologies have an Exchange forest and one or more accounts forests.
 
 ## [Create linked role groups that mirror built-in role groups](https://technet.microsoft.com/en-us/library/dd876918(v=exchg.150).aspx)
-
-
 Using linked management role groups in Microsoft Exchange Server 2013, you can link a role group in an Exchange 2013 resource forest with a universal security group (USG) in a foreign user forest. This is useful when you want administrators with accounts in the user forest to manage the servers running Exchange in the resource forest. For more information about linked role groups, see Understanding management role groups.
 
 By default, Exchange 2013 includes a number of built-in role groups that provide you with permissions to manage a variety of features and job functions. Each role group is tailored to provide specific permissions for each feature and job function. However, these role groups can't be linked to USGs in a foreign forest. They can only contain users and USGs from the local resource forest. Fortunately, it's possible to replicate these built-in role groups using linked role groups.
 
 ## [Linked Mailbox in Exchange Server 2013 – Part 1](http://msexchangeteam.in/linked-mailbox-in-exchange-server-2013-part-1-2/)
 ## [Linked Mailbox in Exchange Server 2013 – Part 2](http://msexchangeteam.in/linked-mailbox-in-exchange-server-2013-part-2/)
-
-<http://msexchangeteam.in/linked-mailbox-in-exchange-server-2013-part-3/>
-
-<http://msexchangeteam.in/linked-mailbox-in-exchange-server-2013-part-4/>
+## [Linked Mailbox in Exchange Server 2013 – Part 3](http://msexchangeteam.in/linked-mailbox-in-exchange-server-2013-part-3/)
+## [Linked Mailbox in Exchange Server 2013 – Part 4](http://msexchangeteam.in/linked-mailbox-in-exchange-server-2013-part-4/)
 
 In this blog series we will be learning how to create linked mailbox in Exchange Server 2013. First let me explain what is linked mailbox. Linked Mailbox was first introduced in Exchange Server 2003. Configuring linked mailbox in 2003 was little difficult and time consuming. In Exchange Server 2007 and 2010 it was upgraded and we had EMC and EMS to manage linked mailbox. Exchange Server 2013 has brought some additional features which is awesome. Linked Mailbox was introduced to reduce the extra effort put by an Administrator.
 
@@ -155,3 +151,12 @@ In this blog series we will be learning how to create linked mailbox in Exchange
 Since Exchange 2010 Service Pack 1 a new feature was added for Outlook 2007 and 2010 users, namely Automapping. When a mailbox user has Full Access on another mailbox, it will be automatically mapped in Outlook. No need for the user to go trough menus to find the additional mailbox screen. It’s a small addition but I know that users and your service desk will appreciate this.
 
 There is one catch I came across, namely automapping does not work when the Full Access permission is granted via a security group. The mailbox is however accessible, but there is no automatic mapping in Outlook.
+
+## Export all SMTP addresses from Exchange using PowerShell
+Tested with Exchange 2010. You'll need Exchange Management shell but no need for exchange admin rights.
+
+Get-Recipient -ResultSize unlimited | Select Name -ExpandProperty EmailAddresses | Where-Object {$_.SmtpAddress -ne $null} | Select Name,SmtpAddress,IsPrimaryAddress | Export-csv -Encoding unicode -NoTypeInformation AllEmailAddress.csv
+
+## [SID HISTORY: Fixing Exchange](http://blog.asiantuntijakaveri.fi/2014/07/sid-history-fixing-exchange.html)
+Dumping my notes about fixing SID history at work. Use at your own risk. These worked for me but won't work for you without some adjustments.
+Locate and repair AD user accounts with acl inheritance flag uncheck. This prevents Exchange service accounts from altering user object and breaks various admin tools. 
