@@ -160,3 +160,17 @@ Get-Recipient -ResultSize unlimited | Select Name -ExpandProperty EmailAddresses
 ## [SID HISTORY: Fixing Exchange](http://blog.asiantuntijakaveri.fi/2014/07/sid-history-fixing-exchange.html)
 Dumping my notes about fixing SID history at work. Use at your own risk. These worked for me but won't work for you without some adjustments.
 Locate and repair AD user accounts with acl inheritance flag uncheck. This prevents Exchange service accounts from altering user object and breaks various admin tools. 
+
+## [Die Service Connection Points (SCPs) abfragen](http://blog.dikmenoglu.de/2010/12/die-service-connection-points-scps-abfragen/)
+
+Yusuf Dikmenoglu 5. Dezember 2010 0
+Möchte man im Active Directory Informationen über einen Dienst der innerhalb einer Domäne zur Verfügung stehen soll veröffentlichen, so benötigt man ein Service Connection Point (SCP) Objekt. Ein SCP wird bei der Installation von vielen Applikation automatisch, ohne das Zutun des Administrators erstellt. Die SCPs gehören zur Klasse serviceConnectionPoint, die wiederum von der Klasse connectionPoint abgeleitet ist.
+
+
+Beispielsweise wird bei der Installation von Remotedesktoplizenzierung, Remote-Installation-Services, Hyper-V, Microsoft basierte virtuelle Maschinen, MS Virtual Machine Manager, der Autodiscover-Funktion ab Exchange 2007 etc. ein SCP im AD erstellt. Diese und viele anderen Dienste veröffentlichen ihr Dasein in der Domäne, durch das Erstellen von SCPs. ADAM / AD LDS stellt dabei keine Ausnahme dar. Client-Anwendungen wiederum verwenden SCPs, um den entsprechenden Dienst in der Domäne zu finden und um sich mit diesem zu verbinden.
+
+
+Get-ADObject -LDAPFilter “(objectClass=serviceConnectionPoint)” | Select distinguishedName | FT -A –Wrap
+
+Get-ADObject -LDAPFilter “(objectClass=serviceConnectionPoint)” -Searchbase “CN=Configuration,DC=Root-Domäne” | Select distinguishedName | FT -A -Wrap
+
