@@ -174,3 +174,6 @@ Get-ADObject -LDAPFilter “(objectClass=serviceConnectionPoint)” | Select dis
 
 Get-ADObject -LDAPFilter “(objectClass=serviceConnectionPoint)” -Searchbase “CN=Configuration,DC=Root-Domäne” | Select distinguishedName | FT -A -Wrap
 
+## Mailboxen durchsuchen und Ergebnisse mailen
+
+search-mailbox -identity user@mail.org -searchquery 'thema:"*blabal*"' oder 'empfangen:17.05.2017'
