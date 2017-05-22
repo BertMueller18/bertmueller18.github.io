@@ -16,16 +16,18 @@ Locate and repair AD user accounts with acl inheritance flag uncheck. This preve
 # http://www.quest.com/powershell/activeroles-server.aspx
  
 # Dump AD acl permission inheritance status for email enabled accounts before change
+````powershell
 Get-QADUser -SizeLimit 0 | where {$_.primarysmtpaddress -ne $null}|Select-Object SamAccountName,Name,@{n='IncludeInheritablePermissions';e={!$_.DirectoryEntry.PSBase.ObjectSecurity.AreAccessRulesProtected}}| Export-Csv -Encoding unicode -NoTypeInformation adpermissions-inheritance-pre.csv
- 
+
 # Enable AD acl permission inheritance for email enabled accounts, otherwise attempts to alter mailbox permissions will fail
 Get-QADUser -SizeLimit 0 | where {$_.primarysmtpaddress -ne $null -and $_.DirectoryEntry.PSBase.ObjectSecurity.AreAccessRulesProtected} | Set-QADObjectSecurity -UnLockInheritance
  
 # Dump AD acl permission inheritance status for email enabled accounts after change
 Get-QADUser -SizeLimit 0 | where {$_.primarysmtpaddress -ne $null}|Select-Object SamAccountName,Name,@{n='IncludeInheritablePermissions';e={!$_.DirectoryEntry.PSBase.ObjectSecurity.AreAccessRulesProtected}}| Export-Csv -Encoding unicode -NoTypeInformation adpermissions-inheritance-post.csv
-
+````
 Fix mailbox permissions. First we grant “NT AUTHORITY\SELF” full access to mailbox which is default for Exchange 2007 and newer versions. Then we delete any permissions granted to valid user but with invalid SID (via SIDhistory). Next same permissions are added back which causes Exchange to resolve correct SID and joins permissions in case user had different permissions via new SID and SIDhistory SID. Finally any ACLs with unresolvable SIDs are removed. 
 ?
+````powershell
 # Dump list of mailbox permissions including SIDs prior making any changes
 Get-Mailbox -ResultSize unlimited | Get-MailboxPermission | Select Identity,User,@{Name='SID';Expression={$_.user.securityidentifier}},Deny,IsInherited,InheritanceType,@{Name='Access Rights';Expression={[string]::join(', ', $_.AccessRights)}} | Export-Csv -Encoding unicode -NoTypeInformation mbpermissions-all-pre.csv
  
@@ -62,7 +64,7 @@ echo $badmbperm | %{Remove-MailboxPermission -identity $_.identity -user $_.user
  
 # Cleanup variable
 Remove-Variable badmbperm
- 
+````
  
 # Dump list of mailbox permissions including SIDs after changes
 Get-Mailbox -ResultSize unlimited | Get-MailboxPermission | Select Identity,User,@{Name='SID';Expression={$_.user.securityidentifier}},Deny,IsInherited,InheritanceType,@{Name='Access Rights';Expression={[string]::join(', ', $_.AccessRights)}} | Export-Csv -Encoding unicode -NoTypeInformation mbpermissions-all-post.csv
