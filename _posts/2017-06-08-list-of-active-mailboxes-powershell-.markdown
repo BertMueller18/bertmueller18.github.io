@@ -16,8 +16,8 @@ Thanks to PowerShell, you can easily verify the activity on a shared or a userâ€
 
 The cmdlets that come in handy in this situation are:
 
-Get-MailboxStatistics, which lets us check the Last logon time on a mailbox,
-And, of course, Get-Mailbox
+`Get-MailboxStatistics`, which lets us check the Last logon time on a mailbox,
+And, of course, `Get-Mailbox`
 
 
 
