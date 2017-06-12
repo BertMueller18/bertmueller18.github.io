@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Cheat Sheet: Setting Exchange Mailbox User Permissions via PowerShell
+## Cheat Sheet: Setting Exchange Mailbox User Permissions via PowerShell
 
 One of the things I get asked about quite a lot, is how you can set specific permissions in Exchange Server and Exchange Online. Most cases the Management Console (in 2010) or the Exchange Admin Center (EAC, Exchange 2013 & 2016 and Online) provide most basic permissions like Full Access, Send As and Send On Behalf. However, sometimes an admin has to set Send on Behalf permissions on a Shared Mailbox or disable AutoMapping, those options are not available via EAC. Just as setting specific Folder Permissions within a mailbox.
 
