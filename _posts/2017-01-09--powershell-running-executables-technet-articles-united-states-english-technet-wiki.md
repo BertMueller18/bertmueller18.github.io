@@ -12,13 +12,7 @@ ogtype: article
 ## PowerShell: Running Executables
 Link to Parent: PowerShell - Deep Dive and Best Practice
 
-
-
 There are several different methods for running executables as well as invoking code. How do you know which one to use for the job? Here is an outline of the methods with examples and general use.
-
-
-
-
 
 Table of Contents
 1. Direct - Using the environment path or local folder

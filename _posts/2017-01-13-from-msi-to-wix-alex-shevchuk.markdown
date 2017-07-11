@@ -9,10 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> From MSI to WiX
-
-
-
+## From MSI to WiX
 
 This is a series of articles on building installation packages using WiX.
 
