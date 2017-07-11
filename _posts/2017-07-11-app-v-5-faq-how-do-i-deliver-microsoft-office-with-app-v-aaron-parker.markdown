@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> App-V 5 FAQ: How Do I Deliver Microsoft Office with App-V?
+## App-V 5 FAQ: How Do I Deliver Microsoft Office with App-V?
 
 
 Here’s is a list of articles and resources for delivering the currently supported versions of Microsoft Office with App-V 5.
