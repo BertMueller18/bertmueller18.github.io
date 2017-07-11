@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Run PowerShell Scripts Directly from GitHub with Two Lines
+## Run PowerShell Scripts Directly from GitHub with Two Lines
 07/02/2016 BY TOM ARBUTHNOT LEAVE A COMMENT
 
 First off, this is a really bad idea most of the time. You shouldn’t run scripts on your system you don’t understand/haven’t reviewed and that someone else could edit at any time.
