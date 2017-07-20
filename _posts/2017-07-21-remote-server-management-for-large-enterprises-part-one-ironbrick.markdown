@@ -25,13 +25,13 @@ This IT Matters by IronBrick blog series has the goal of introducing the concept
 #### Step 1: Configuring a Server to Accept Remote Sessions
 
 To set up both a source and destination server so they can accept remote PowerShell sessions, execute the following commands from an elevated PowerShell session:
+
  ````powershell
 enable-psremoting
 winrm quickconfig
 set-item wsman:\localhost\client\trustedhosts *
 winrm set winrm/config/winrs '@{MaxMemoryPerShellMB="2048"}'
 restart-service winrm
-
  ````
  
 
