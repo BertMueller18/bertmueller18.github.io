@@ -9,9 +9,9 @@ tags:
 ogtype: article 
 ---
 
-> Remote Server Management for Large Enterprises
+## Remote Server Management for Large Enterprises
 
-Part One
+### Part One
 
 By Dheeraj Advani
 Automation Engineer, IronBrick
@@ -22,7 +22,7 @@ One key advantage to using PowerShell remote management is the ability to write 
 
 This IT Matters by IronBrick blog series has the goal of introducing the concepts you will need to remotely manage a large enterprise server deployment, as well as some information on pitfalls you may encounter along the way.
 
-Step 1: Configuring a Server to Accept Remote Sessions
+#### Step 1: Configuring a Server to Accept Remote Sessions
 
 To set up both a source and destination server so they can accept remote PowerShell sessions, execute the following commands from an elevated PowerShell session:
 
@@ -30,7 +30,7 @@ To set up both a source and destination server so they can accept remote PowerSh
 
 These commands will give you the settings you need to remote into a machine using PowerShell. The parameter—MaxMemoryPerShellMB—sets the amount of RAM a remote session is able to use. Sometimes you will run into an unexplainable failure that occurs only during a remote execution of a script and is the result of maxing the memory allocation for the remote session. With these in place, we are ready to try a remote PowerShell session.
 
-Step 2: Entering a PowerShell Session Using Domain Credentials
+#### Step 2: Entering a PowerShell Session Using Domain Credentials
 
 As Windows uses Kerberos authentication between machines on the same domain; we can leverage the security features built into Microsoft active directory to facilitate a secure connection.
 
@@ -46,7 +46,7 @@ You will once again be prompted to enter your domain credentials. These will be 
 
 
 
-Step 3: Making Use of These Features
+#### Step 3: Making Use of These Features
 
 So, you’ve set up machines in your development environment and tried out all the PowerShell remoting options, written scripts, and executed them remotely. You are now ready to go into the real world in your large enterprise and roll out a configuration change against all the servers in a domain.
 
