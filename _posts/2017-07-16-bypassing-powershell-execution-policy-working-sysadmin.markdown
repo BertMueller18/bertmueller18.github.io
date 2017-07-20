@@ -8,8 +8,7 @@ tags:
   - links
 ogtype: article 
 ---
-
-> Bypassing PowerShell Execution Policy
+## Bypassing PowerShell Execution Policy
 March 11, 2015PowerShell, PowerShell ISEexecution policy, executionpolicy, powershell, powershell ise
 Let me be absolutely clear about this post. I do not in any way encourage or support people who wish to use the below information to circumvent the controls put in place by companies and administrators. This post is strictly for academic purposes and for the sake of sharing information.
 
@@ -20,13 +19,13 @@ So what if you have an unsigned script you want to run but your execution policy
 Administrative users can easily bypass the execution policy with this command.
 
 
-1
+````
 PowerShell.exe -noprofile -executionpolicy bypass -file "\\path\to\file.ps1"
+````
 But what about limited users? Well there’s something for them, too.
-
-
-1
+````
 Powershell.exe -NoProfile -Command {.([scriptblock]::create((Get-Content "\\path\to\script.ps1" | out-string)))}
+````
 That’s right, just one line. No registry hacking, no weird developer program strangeness, just a command that allows a user or service to subvert the execution policy of the machine.
 
 Let’s break down the command. We’re launching PowerShell.exe, not exactly a puzzler. We want it with no profile and we’re telling it to run a command. The trick is that the command we’re running is effectively going to be the script that our execution policy would otherwise block.
