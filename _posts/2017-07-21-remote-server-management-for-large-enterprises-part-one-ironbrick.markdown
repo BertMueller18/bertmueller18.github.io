@@ -25,7 +25,14 @@ This IT Matters by IronBrick blog series has the goal of introducing the concept
 #### Step 1: Configuring a Server to Accept Remote Sessions
 
 To set up both a source and destination server so they can accept remote PowerShell sessions, execute the following commands from an elevated PowerShell session:
+ ````powershell
+enable-psremoting
+winrm quickconfig
+set-item wsman:\localhost\client\trustedhosts *
+winrm set winrm/config/winrs '@{MaxMemoryPerShellMB="2048"}'
+restart-service winrm
 
+ ````
  
 
 These commands will give you the settings you need to remote into a machine using PowerShell. The parameter—MaxMemoryPerShellMB—sets the amount of RAM a remote session is able to use. Sometimes you will run into an unexplainable failure that occurs only during a remote execution of a script and is the result of maxing the memory allocation for the remote session. With these in place, we are ready to try a remote PowerShell session.
@@ -62,7 +69,7 @@ This is where the real world rears its ugly head. The Kerberos token contains al
 
 It doesn’t help that the default value for this attribute from Microsoft can be as low as 12Kb. Luckily, it’s an easy fix. You will need to add the following items to your registry on the target machine:
 
-
+[Image New-Item](../images/new-item.jpg)
 
 We have now covered the basics of PowerShell remoting, as well as some potential issues you can encounter going into production. In my next blog, I will explore the execution of remote scripts across the enterprise and show you how to iterate through a list of all the servers in your environment to execute scripts against them.
 
