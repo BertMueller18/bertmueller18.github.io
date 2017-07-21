@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Installing Applications with PowerShell App Deployment Toolkit - Part 2
+## Installing Applications with PowerShell App Deployment Toolkit - Part 2
 08/18/16 on PowerShell, PSADT
 Table of Contents
 Table of Contents

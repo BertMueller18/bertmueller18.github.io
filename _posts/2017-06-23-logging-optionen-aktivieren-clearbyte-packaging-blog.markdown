@@ -16,7 +16,6 @@ Manchmal kann es hilfreich sein, wenn die globalen Logging Optionen Windows Inst
 Um diese zu aktivieren, muss folgender Registry Key erstellt werden:
 
 
-1
 HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer\Logging voicewarmup
 Logfiles werden danach automatisch in %temp% abgelegt.
 

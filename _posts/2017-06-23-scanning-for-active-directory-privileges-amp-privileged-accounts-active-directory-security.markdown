@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Scanning for Active Directory Privileges & Privileged Accounts
+## Scanning for Active Directory Privileges & Privileged Accounts
 ActiveDirectorySecurity, Microsoft Security by Sean Metcalf
 Active Directory Recon is the new hotness since attackers, Red Teamers, and penetration testers have realized that control of Active Directory provides power over the organization.
 I covered ways to enumerate permissions in AD using PowerView (written by Will @harmj0y) during my Black Hat & DEF CON talks in 2016 from both a Blue Team and Red Team perspective.

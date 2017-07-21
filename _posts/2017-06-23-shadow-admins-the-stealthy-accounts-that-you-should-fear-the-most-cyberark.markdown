@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Shadow Admins – The Stealthy Accounts That You Should Fear The Most
+## Shadow Admins – The Stealthy Accounts That You Should Fear The Most
 
 
 June 8, 2017 | Advanced Attack Techniques, Credential Theft | Asaf Hecht

@@ -9,9 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> JANUARY 6, 2012 BY ACE FEKAY
-Using Group Nesting Strategy – AD Best Practices for Group Strategy
-Using Group Nesting Strategy – AD Best Practices for Group Strategy
+## Using Group Nesting Strategy – AD Best Practices for Group Strategy
 
 Ace Fekay, MCT, MVP, MCITP EA, Exchange 2010 Enterprise Administrator, MCTS Windows 2008, Exchange 2010 & Exchange 2007, MCSE 2003/2000, MCSA Messaging 2003
 Microsoft Certified Trainer

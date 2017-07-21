@@ -17,8 +17,8 @@ Registry Entries in Bezug auf Active Setup
 
 Wenn ein Benutzer sich am System anmeldet werden die folgenden Registry-Einträge verglichen:
 
-HKLMSoftwareMicrosoftActive SetupInstalled Components< UID >
-HKCUSoftwareMicrosoftActive SetupInstalled Components< UID >
+`HKLM\Software\Microsoft\Active Setup\Installed Components\< UID >`
+`HKCU\Software\Microsoft\Active Setup\Installed Components\< UID >`
 Wird der Key im HKCU nicht gefunden so wird der Befehl, welcher unter HKLM eingetragen ist ausgeführt. Der Key wird nun in HKCU dupliziert und beim nächsten Login nicht mehr ausgeführt. Der <UID>-Key muss ein Unikat sein, es ist empfehlenswert hier eine GUID zu benützen.
 
 Werte

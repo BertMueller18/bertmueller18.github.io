@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Windows 10 in-place upgrade with PowerShell and MDT
+## Windows 10 in-place upgrade with PowerShell and MDT
 Home  Blog  Windows 10 in-place upgrade with PowerShell and MDT4sysops - The online community for SysAdmins and DevOps
 Dan Franciscus  Tue, Jun 20 2017  powershell, powershell script  0 
 In this article, I will demonstrate how to use Microsoft Deployment Toolkit (MDT) and PowerShell to create a reusable in-place upgrade process for domain-joined computers.
