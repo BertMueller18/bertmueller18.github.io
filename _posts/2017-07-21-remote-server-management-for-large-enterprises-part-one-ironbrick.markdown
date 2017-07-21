@@ -69,7 +69,7 @@ This is where the real world rears its ugly head. The Kerberos token contains al
 
 It doesn’t help that the default value for this attribute from Microsoft can be as low as 12Kb. Luckily, it’s an easy fix. You will need to add the following items to your registry on the target machine:
 
-![Image](../images/new-item.jpg)
+![Image](images/new-item.jpg)
 
 We have now covered the basics of PowerShell remoting, as well as some potential issues you can encounter going into production. In my next blog, I will explore the execution of remote scripts across the enterprise and show you how to iterate through a list of all the servers in your environment to execute scripts against them.
 
