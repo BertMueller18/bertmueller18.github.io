@@ -2,7 +2,7 @@
 layout: post 
 title:  "Logging Optionen aktivieren | clearByte Packaging Blog" 
 date:   2017-06-23T19:55:38.497Z 
-categories: MSI deployment
+categories: msi deployment
 link: http://blog.clearbyte.ch/logging-option-aktivieren/ 
 tags:
   - links
@@ -16,8 +16,8 @@ Manchmal kann es hilfreich sein, wenn die globalen Logging Optionen Windows Inst
 Um diese zu aktivieren, muss folgender Registry Key erstellt werden:
 
 
-HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer\Logging voicewarmup
-Logfiles werden danach automatisch in %temp% abgelegt.
+`HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer\Logging voicewarmup`
+Logfiles werden danach automatisch in `%temp%` abgelegt.
 
 Beschreibung der Parameter:
 
