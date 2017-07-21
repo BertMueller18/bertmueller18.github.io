@@ -2,7 +2,7 @@
 layout: post 
 title:  "Monitoring what matters – Windows Event Forwarding for everyone (even if you already have a SIEM.) – Security Stuff" 
 date:   2017-04-24T11:48:17.470Z 
-categories: monitoring eventlog WindowsEventForwarding
+categories: monitoring eventlog windowseventforwarding
 link: https://blogs.technet.microsoft.com/jepayne/2015/11/23/monitoring-what-matters-windows-event-forwarding-for-everyone-even-if-you-already-have-a-siem/ 
 tags:
   - links

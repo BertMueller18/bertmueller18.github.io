@@ -2,7 +2,7 @@
 layout: post 
 title:  "Using EAC to manage multi-forest Exchange deployments – You Had Me At EHLO…" 
 date:   2017-05-22T11:41:08.917Z 
-categories: Exchange rbac crossforest
+categories: exchange exchange2010 rbac crossforest
 link: https://blogs.technet.microsoft.com/exchange/2012/08/30/using-eac-to-manage-multi-forest-exchange-deployments/ 
 tags:
   - links
@@ -10,8 +10,6 @@ ogtype: article
 ---
 
 ## EAC to manage multi-forest Exchange deployments
-
-The Exchange TeamAugust 30, 20123 
 
 Following our last article, introducing the new Exchange Administration Center (EAC), we follow up on how the new EAC makes it really easy to manage multi-forest Exchange deployments.
 
