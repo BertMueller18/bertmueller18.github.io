@@ -2,7 +2,7 @@
 layout: post 
 title:  "Configure rich document collaboration using Exchange Server 2016, Office Online Server (OOS) and SharePoint Server 2016 – You Had Me At EHLO…" 
 date:   2017-03-01T10:00:35.079Z 
-categories: exchange2013 exchange 2016 oos sharepoint
+categories: exchange2013 exchange2016 officeonlineserver sharepoint
 link: https://blogs.technet.microsoft.com/exchange/2016/11/03/configure-rich-document-collaboration-using-exchange-server-2016-office-online-server-oos-and-sharepoint-server-2016/ 
 tags:
   - links
