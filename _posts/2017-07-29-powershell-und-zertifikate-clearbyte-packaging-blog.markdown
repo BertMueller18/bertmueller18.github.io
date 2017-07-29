@@ -9,26 +9,26 @@ tags:
 ogtype: article 
 ---
 
-> POWERSHELL UND ZERTIFIKATE
+## POWERSHELL UND ZERTIFIKATE
 Juli 2016 | Michael Busslinger
 
 Mit PowerShell ist es ziemlich einfach Zertifikate zu installieren, zu entfernen und aufzulisten.
 Dieses Beispiel zeigt die Installation, Deinstallation eines Zertifikats in den Root Certification Store.
 
-Zertifikat installieren
+### Zertifikat installieren
 
-
-1
+````powershell
 Import-Certificate -FilePath '<pfad zum zertifikat>' -CertStoreLocation cert:\LocalMachine\Root -verbose
-Zertifikat entfernen
+````
+### Zertifikat entfernen
 
-
-1
+````powershell
 Remove-Item -Path cert:\LocalMachine\Root\<certID> -verbose
-Zertifikate auflisten
+````
+### Zertifikate auflisten
 
 Mittels Get-ChildItem können alle auf dem Client installierten Zertifikate aufgelistet werden.
 
-
-1
+````powershell
 Get-ChildItem -Path Cert:\LocalMachine\Root | Out-GridView
+````

@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> MIT POWERSHELL ALLE INSTALLIERTEN APPLIKATIONEN ANZEIGEN
+## MIT POWERSHELL ALLE INSTALLIERTEN APPLIKATIONEN ANZEIGEN
 Juli 2016 | Michael Busslinger
 
 Es gibt viele Wege eine Liste aller installierten Applikationen mit Powershell zu erstellen. Keine davon hat mir gefallen. Darum habe ich habe mal folgendes Script erstellt, welches die Uninstall Registry Keys sowohl des 64bit als auch des 32bit Bereichs ausliest und übersichtlich darstellt.

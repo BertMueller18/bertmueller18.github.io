@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> MSI PRODUCTCODES AUSLESEN II
+## MSI PRODUCTCODES AUSLESEN II
 April 2017 | Michael Busslinger
 
 Mittels folgender paar Zeilen Powershell Code, können alle ProductCodes von MSI Installationsdateien in einem Verzeichnis und allen Unterverzeichnissen ausgelesen und im Unterschied zum letzten Artikel in einer GridView angezeigt werden.

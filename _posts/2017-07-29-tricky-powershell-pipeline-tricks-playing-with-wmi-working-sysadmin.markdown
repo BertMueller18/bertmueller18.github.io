@@ -8,22 +8,14 @@ tags:
   - links
 ogtype: article 
 ---
-
-> Tricky PowerShell Pipeline Tricks – Playing With WMI
+## Tricky PowerShell Pipeline Tricks – Playing With WMI
 February 11, 2015PowerShell, PowerShell ISE, WMIpowershell, powershell ise, wmi
 Here’s a quick task: Get the WMI object win32_bios for a computer. Using PowerShell, that’s really easy. You just run Get-WMIObject win32_bios. Now what if you wanted all the extended properties of the object (not just the five that it normally returns) and ONLY to return the properties that actually have a value assigned?
 
 Well this question just got trickier. win32_bios isn’t very big so it’s an easy one to play with in this example. Let’s step through a couple commands so we know what we’re dealing with.
 
 
-1
-2
-3
-4
-5
-6
-7
-8
+````powershell
 Get-WMIObject win32_bios
  
  
@@ -32,59 +24,10 @@ Manufacturer      : Phoenix Technologies LTD
 Name              : PhoenixBIOS 4.0 Release 6.0     
 SerialNumber      : VMware-42 00 a6 a6 02 95 ec 5e-89 05 0a cd b1 3b aa c6
 Version           : INTEL  - 6040000
+````
 Well okay, there are the five properties that we knew the command returns by default. We know the extended properties are in there and we can prove it.
 
-
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
+````powershell
 Get-WMIObject win32_bios | Select-Object -Property *
  
  
@@ -135,3 +78,4 @@ SystemProperties      : {__GENUS, __CLASS, __SUPERCLASS, __DYNASTY...}
 Qualifiers            : {dynamic, Locale, provider, UUID}
 Site                  : 
 Container             :
+````

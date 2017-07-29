@@ -9,11 +9,8 @@ tags:
 ogtype: article 
 ---
 
-> Slow Code: Top 5 Ways to Make Your PowerShell Scripts Run Faster
-★★★★★★★★★★★★★★★
-Ashley McGloneJuly 12, 20175 
-0
-0
+## Slow Code: Top 5 Ways to Make Your PowerShell Scripts Run Faster
+ 
  Slow code?
 Are you frustrated by slow PowerShell scripts? Is it impacting business processes? Need help tuning your scripts? Today's post is for you.
 

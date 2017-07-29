@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> WAS IST DAS POWERSHELL APP DEPLOYMENT TOOLKIT (PDT)
+## WAS IST DAS POWERSHELL APP DEPLOYMENT TOOLKIT (PDT)
 Dezember 2015 | Christine Reichwein
 
 Das PowerShell App Deployment Toolkit beinhaltet eine Sammlung von PowerShell-Scripts und XML-Dateien. Es wurde von den Powershell Spezialisten Seán Lillis, Dan Cunningham und Muhammad Mashwani für eine einfache Scripterstellung für die Softwareverteilung entwickelt und verfügt über eine Vielzahl von Funktionen.
@@ -17,7 +17,7 @@ Besonders für Unternehmen bietet die vereinfachte Handhabung zur Scripterstellu
 
 Die Source mittlerweile in der Version 3.6.9 steht hier (https://github.com/PSAppDeployToolkit/PSAppDeployToolkit/releases) kostenlos zum Download bereit.
 
-Besonderheiten
+### Besonderheiten
 
 Eine Besonderheit des Powershell-App Deployment Toolkits ist die einfache Bedienung. Selbst Powershell Anfänger können mit den zur Verfügung gestellten Vorlagen und Funktionen eine Anwendungsbereitstellung bewerkstelligen.
 

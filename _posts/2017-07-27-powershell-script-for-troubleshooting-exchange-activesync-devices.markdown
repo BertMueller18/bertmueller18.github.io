@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> PowerShell Script for TroubleShooting Exchange ActiveSync Devices
+## PowerShell Script for TroubleShooting Exchange ActiveSync Devices
 JULY 27, 2017   BY PAUL CUNNINGHAM
 On a recent case I was investigating a mobile device that couldn’t connect to a mailbox over ActiveSync. After spending a few minutes collecting information about the mailbox and its associated devices I realized that this task could be performed a lot faster by using a PowerShell script.
 

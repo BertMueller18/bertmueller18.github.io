@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Gathering Installed Software Using PowerShell
+## Gathering Installed Software Using PowerShell
 There's two ways to accomplish this task: the wrong way and the right way. Here's how to do both.
 
 By Boe Prox07/27/2017

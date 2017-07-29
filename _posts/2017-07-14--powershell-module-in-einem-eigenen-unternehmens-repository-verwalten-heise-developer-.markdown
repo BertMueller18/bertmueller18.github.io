@@ -1,6 +1,6 @@
 ---
 layout: post 
-title:  "        PowerShell-Module in einem eigenen Unternehmens-Repository verwalten |        heise Developer    " 
+title:  "PowerShell-Module in einem eigenen Unternehmens-Repository verwalten |        heise Developer    " 
 date:   2017-07-14T11:26:34.327Z 
 categories: powershell programming
 link: https://www.heise.de/developer/artikel/PowerShell-Module-in-einem-eigenen-Unternehmens-Repository-verwalten-3759956.html 
@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> PowerShell-Module in einem eigenen Unternehmens-Repository verwalten
+## PowerShell-Module in einem eigenen Unternehmens-Repository verwalten
 Der Dotnet-Doktor 30.06.2017 12:06 Uhr Dr. Holger Schwichtenberg
 Zum Schutz gegen Schadsoftware können Organisationen eigene PowerShell-Modul-Repositories mit solchen PowerShell-Modulen erstellen, die geprüft und freigegeben sind.
 

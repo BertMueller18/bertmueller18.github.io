@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Building Hyper-V lab environments based on PowerShell DSC
+## Building Hyper-V lab environments based on PowerShell DSC
 Jul 19, 2017
 
 In this article we will look at how the PowerShell Desired State Configuration (DSC) feature in Windows PowerShell can be leveraged for building lab environments. If you are unfamiliar with DSC, have a look at the DSC overview page on MSDN. As stated there: DSC provides a set of Windows PowerShell language extensions, new Windows PowerShell cmdlets, and resources that you can use to declaratively specify how you want your software environment to be configured.

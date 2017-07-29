@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Nextcloud Teil 1: Setup mit Docker & Nginx
+## Nextcloud Teil 1: Setup mit Docker & Nginx
 
 Ich bin ja gerne Herr über meine Daten, und das betrifft selbstverständlich auch das Thema Cloud. Daten im internen Netzwerk synchronisere ich nun schon seit längerer Zeit via Syncthing, doch Kontakte, Kalender und Notizen bleiben damit außen vor. Weiteres Problem: Ich kann nicht unterwegs auf Daten zugreifen die noch auf dem Server liegen, denn Syncthing synchronisiert entweder ganz oder gar nicht, später herunterladen ist nicht.
 

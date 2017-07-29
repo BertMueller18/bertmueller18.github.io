@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> PowerShell: Removing UWP apps from Windows 10 1607/1703
+## PowerShell: Removing UWP apps from Windows 10 1607/1703
 6 APR 2017 / MIKE GALVIN
 If you’re using Microsoft Deployment Toolkit to deploy Windows 10 1607 or the soon to be released 1703 (the Creators Update) for a network/corporate environment, then you might want to remove some of the included UWP apps to help speed up log in, save space, save network/internet bandwidth…etc. You could just deploy Windows 10 LTSB but you might not want to remove all the apps, or you might want the advantages of staying with the Current Branch.
 

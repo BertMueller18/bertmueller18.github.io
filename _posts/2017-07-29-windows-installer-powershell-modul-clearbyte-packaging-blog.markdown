@@ -9,12 +9,12 @@ tags:
 ogtype: article 
 ---
 
-> WINDOWS INSTALLER POWERSHELL MODUL
+## WINDOWS INSTALLER POWERSHELL MODUL
 Dezember 2015 | Michael Busslinger
 
 Wer wie wir viel mit Powershell und der Windows Installer Technologie arbeitet, kommt zwangsläufig in die Situation, wo es darum geht die beiden Technologien miteinander zu kombinieren.
 Hier möchte ich euch ein wirklich interessantes Powershell Modul (psmsi) vorstellen, welches genau das macht. Ursprünglich auf Microsofts Open Source Plattform, vorgestellt, stellt dieses Modul folgende hilfreichen Funktionen zur Bearbeitung von Windows Installer MSI zur Verfügung.
-
+````
 Edit-MSIPackage
 Export-MSIPatchXml
 Get-MSIComponentInfo
@@ -35,3 +35,4 @@ Repair-MSIProduct
 Test-MSIProduct
 Uninstall-MSIPatch
 Uninstall-MSIProduct
+````
