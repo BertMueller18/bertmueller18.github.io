@@ -2,7 +2,7 @@
 layout: post 
 title:  "How to Configure Fast Cached Exchange Mode Settings for Outlook 2010 and Outlook 2013 Using Group Policy | The EXPTA {blog}" 
 date:   2017-08-25T13:21:48.847Z 
-categories: Exchange outlookanywhere outlook
+categories: exchange outlookanywhere outlook
 link: http://www.expta.com/2010/10/how-to-configure-fast-cached-exchange.html 
 tags:
   - links
