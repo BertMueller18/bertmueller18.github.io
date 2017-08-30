@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Trigger an Active Directory replication with PowerShell
+## Trigger an Active Directory replication with PowerShell
 Posted on November 5, 2014 by edemilliere
 Hello,
 

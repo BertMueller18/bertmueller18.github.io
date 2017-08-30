@@ -9,12 +9,8 @@ tags:
 ogtype: article 
 ---
 
-> Understanding SSD endurance: drive writes per day (DWPD), terabytes written (TBW), and the minimum recommended for Storage Spaces Direct
-★★★★★★★★★★★★★★★
-August 11, 2017 by Cosmos Darwin // 2 Comments
+## Understanding SSD endurance: drive writes per day (DWPD), terabytes written (TBW), and the minimum recommended for Storage Spaces Direct
 
-30
-0
 Hi! I’m Cosmos. Follow me on Twitter @cosmosdarwin.
 
 Background

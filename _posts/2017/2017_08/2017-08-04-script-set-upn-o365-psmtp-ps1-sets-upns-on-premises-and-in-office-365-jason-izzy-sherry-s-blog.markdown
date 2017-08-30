@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Script: Set-UPN-O365-PSMTP.ps1 – Sets UPNs on-premises and in Office 365
+## Script: Set-UPN-O365-PSMTP.ps1 – Sets UPNs on-premises and in Office 365
 Posted on 08/15/2014	by jasonsherry
       Rate This
 

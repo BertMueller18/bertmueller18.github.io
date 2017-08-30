@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> [POWERSHELL] – WATCH FOR FILE CHANGES AND PERFORM AN ACTION WHEN IT DOES
+## [POWERSHELL] – WATCH FOR FILE CHANGES AND PERFORM AN ACTION WHEN IT DOES
 As you might notice, I don’t really like to do the same procedure more than a few times if there is a way to automate it, and usually there is, so I investigate it for sure.
 Currently, I’m working in a project that has deploying process that, although it’s simple, really annoyed me. Until I automated it 
 The deployment is done to a Raspberry Pi with Raspbian lite (without user interface). The “problem” here is that the solution is developed and built in Windows and then sent to the Raspberry via FTP. As I said, the process is simple: Compile the solution, go to an FTP client (I’m using FileZilla for example), navigate to \solutionFolder\bin\release\ and copy the application.exe to the destination folder on the raspberry.

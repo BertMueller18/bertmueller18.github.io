@@ -8,7 +8,7 @@ tags:
 ogtype: article 
 ---
 
-> Creating Your Private PowerShellGet Repository
+## Creating Your Private PowerShellGet Repository
 
 PowerShell 3+ / PowerShellGet
 

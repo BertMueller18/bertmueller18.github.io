@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Auto-Logging Command Output
+## Auto-Logging Command Output
 
 In the previous tip we introduced the PreCommandLookupAction supported by PowerShell 3 and better. Today we have a special implementation for you.
 
