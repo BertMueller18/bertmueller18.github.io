@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> MDT DeploymentShare List and Compare
+## MDT DeploymentShare List and Compare
 
  Damien Van Robaeys   15:45 
  

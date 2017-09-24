@@ -17,9 +17,7 @@ Alle 2 Kommentare
 sortiert nach: beste
 [–]jheinikel 2 Punkte vor 8 Monate 
 You can do it this way if you want to install it silently:
+````powershell 
 Stop-Service wuauserv -Force
 Start-Process WUSA.exe -ArgumentList "Path\File.msu /quiet /norestart" -Wait
-Permalinkembed
-[–]jetmanus[S] 1 Punkt vor 8 Monate 
-Worked like a charm. Thank you very much.
-PermalinkembedÜbergeordnet
+````

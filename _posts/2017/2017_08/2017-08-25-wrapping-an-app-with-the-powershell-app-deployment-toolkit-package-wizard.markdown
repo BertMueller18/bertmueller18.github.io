@@ -9,5 +9,5 @@ tags:
 ogtype: article 
 ---
 
-> WRAPPING AN APP WITH THE POWERSHELL APP DEPLOYMENT TOOLKIT
+## WRAPPING AN APP WITH THE POWERSHELL APP DEPLOYMENT TOOLKIT
 I want to provide a quick and easy example of how to use the PowerShell App Deployment Toolkit, but first, a little background.

@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> POWERSHELL: USE PARAMETERS AND CONFIGURATION FROM INI FILE, USE AS SPLATTING
+## POWERSHELL: USE PARAMETERS AND CONFIGURATION FROM INI FILE, USE AS SPLATTING
 June 22, 2017 09:14PM
 I was working on one of my friends requirement for automating scripts, He wanted a safe way to use parameters and configuration values from external file instead of modifying actual script, I tried with CSV as well as cliXML file. but found INI file is simple format as external plain text file to parse information from. Its very easy for any non-technical person to edit and review it. Before starting I would like to show the content of the INI file (schema). Same configuration I will be using in next Powershell splatting examples.
 

@@ -9,12 +9,8 @@ tags:
 ogtype: article 
 ---
 
-> The Startup Script is Dead
-★★★★★★★★★★★★★★★
-April 26, 2015 by Mark Morowczynski [MSFT] // 17 Comments
+## The Startup Script is Dead
 
-0
-0
 Get ready to have an opinion!  Matthew Reynolds (https://twitter.com/MatthewMWR) here with my personal advice (not announcing any product changes) about which configuration vectors are working well and which are not—for today and tomorrow’s enterprises.
 
 Any of these sound familiar?

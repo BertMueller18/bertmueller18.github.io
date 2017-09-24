@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Deploy Office 2016 Using The Microsoft Office Customization Tool
+## Deploy Office 2016 Using The Microsoft Office Customization Tool
 Created January 06, 2016 02:24 by Brigg Angus,  Updated Tuesday at 20:07
 Purpose:
 You wish to deploy Office 2016 using the Microsoft Office Customization Tool (OCT) and PDQ Deploy to n machines within your organization.

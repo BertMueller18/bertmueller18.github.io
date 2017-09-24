@@ -9,8 +9,6 @@ tags:
 ogtype: article 
 ---
 
-> Exchange 2010/2013/2016/EXO Public Folders to Office365 Groups Migration Scripts
-Language:
-English
-Download
+## Exchange 2010/2013/2016/EXO Public Folders to Office365 Groups Migration Scripts
+
 User these scripts to migrate from Exchange 2010/2013/2016/EXO Public Folders to Office365 Groups

@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Renewing Exchange 2013 Certificates: SHA-256 Style
+## Renewing Exchange 2013 Certificates: SHA-256 Style
 January 14, 2015Exchange, PKI, Windows CAexchange, pki, windows ca
 I recently ran into an issue that I think is actually pretty funny. It was time to renew the publicly trusted certificate that we install on our Exchange 2013 servers that gets tied to SMTP, OWA and some other IIS services like autodiscover. Since SHA-1 is on the road to deprecation, our cert vendor pushed pretty hard to get something with a hashing algorithm of SHA-2 (or SHA-256, it’s the same thing). Sounds reasonable, right?
 

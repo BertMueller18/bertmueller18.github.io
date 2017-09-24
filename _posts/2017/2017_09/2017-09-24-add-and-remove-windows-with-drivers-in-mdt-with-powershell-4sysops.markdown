@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Add and remove Windows with drivers in MDT with PowerShell
+## Add and remove Windows with drivers in MDT with PowerShell
 Home  Blog  Add and remove Windows with drivers in MDT with PowerShell4sysops - The online community for SysAdmins and DevOps
 Damien Van Robaeys  Fri, Jun 24 2016  deployment, powershell  0 
 You can add and remove Windows and drivers in the Microsoft Deployment Toolkit (MDT) with the tool's GUI. The advantage of using PowerShell for the task is that you can easily adapt your configuration to a new environment.

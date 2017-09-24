@@ -9,7 +9,9 @@ tags:
 ogtype: article 
 ---
 
- It should work as long as the driver does not throw any UI.
+## Install TCP/IP printers on many computer - Spiceworks
+
+It should work as long as the driver does not throw any UI.
 
 If you run into an issue installing the driver, stage it to the store using pnputil.exe.
 
@@ -26,5 +28,3 @@ pnputil -a C:\Lexmark\LMUD1o40.inf
 Add printer  (printui will add the driver to spooler process when it exists in the driverstore)
 
 printui /q  /if /b "Printer Name" /r "IP_192.168.15.1" /m "Lexmark Universal v2"﻿
-
-View this "Best Answer" in the replies below »

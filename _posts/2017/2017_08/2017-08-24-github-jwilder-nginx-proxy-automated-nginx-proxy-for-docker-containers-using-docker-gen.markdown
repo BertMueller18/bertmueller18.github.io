@@ -9,6 +9,8 @@ tags:
 ogtype: article 
 ---
 
+## Automated nginx proxy for Docker containers using docker-gen
+
 current have a problem when uploading files which gives an error: "Request Entity Too Large"
 
 The solution was to add a config file named exactly like the VIRTUAL_HOST in the vhost.d folder.
