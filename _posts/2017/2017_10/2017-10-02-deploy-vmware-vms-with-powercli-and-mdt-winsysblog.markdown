@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Deploy VMware VMs with PowerCLI and MDT
+## Deploy VMware VMs with PowerCLI and MDT
 Published by Dan Franciscus on September 20, 2017
 
 If you are managing Windows servers, chances are you have a mix of physical and virtual servers in your data center. While VMware provides a method to create VMs from templates to simplify server deployments, this method obviously does not work for deploying physical servers. Fortunately, you can use MDT to deploy a physical or virtual server, which provides one solution for configuring on-premises server deployment tasks.

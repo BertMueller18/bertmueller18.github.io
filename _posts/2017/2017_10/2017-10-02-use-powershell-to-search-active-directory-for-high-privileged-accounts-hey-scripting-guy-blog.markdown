@@ -9,11 +9,10 @@ tags:
 ogtype: article 
 ---
 
-> Use PowerShell to Search Active Directory for High-Privileged Accounts
-★★★★★★★★★★★★★★★
+## Use PowerShell to Search Active Directory for High-Privileged Accounts
+
 The Scripting GuysNovember 15, 20140 
-0
-0
+
 Summary: Microsoft PFE, Ian Farr, provides a Windows PowerShell function that searches for Active Directory users with high-privileged memberships.
 
 Microsoft Scripting Guy, Ed Wilson, is here. Today, we have another guest blog post from Microsoft premier field engineer (PFE), Ian Farr. Take it away, Ian…

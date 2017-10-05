@@ -8,8 +8,7 @@ tags:
   - links
 ogtype: article 
 ---
-
-> PowerShell module: Compare 2 computer configurations (services, drivers...)
+## PowerShell module: Compare 2 computer configurations (services, drivers...)
 
  Damien Van Robaeys   12:49 
  

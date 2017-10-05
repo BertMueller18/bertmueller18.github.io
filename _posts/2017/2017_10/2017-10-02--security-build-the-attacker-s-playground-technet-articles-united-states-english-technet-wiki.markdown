@@ -9,16 +9,8 @@ tags:
 ogtype: article 
 ---
 
-> ecurity: Build the Attacker's Playground
-Table of Contents
-Introduction
-Credential Hygiene
-Remediate Pass-the-hash
-Network Segmentation
-Least Privilege
-Targeted Monitoring
-See also
-Want to learn even more?
+## Security: Build the Attacker's Playground
+
 Introduction
 
 In the modern threat landscape, breach is almost inevitable. But this does not mean defenders are helpless. Your goal is to stop attackers. So, you can control their playground, and make their jobs more difficult - and perhaps more importantly, more noisy.

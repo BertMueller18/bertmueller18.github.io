@@ -8,7 +8,7 @@ tags:
 ogtype: article 
 ---
 
-> Recompiling Chocolatey packages
+## Recompiling Chocolatey packages
 Published by Dan Franciscus on August 2, 2017
 
 Chocolatey is a very popular tool among system administrators as it helps automate package management for Windows. Since Chocolatey can be used completely with a CLI, you can programmatically create, install and uninstall packages locally and remotely. One of the main issues I normally hear from Chocolatey users is that they do not trust to install packages directly from the main Chocolatey public repository. This is for good reason since in order to trust the repository you must trust whoever is maintaining that package and there is only so much vetting Chocolatey can do to ensure a package is safe. Not to mention if you use the public repository exclusively as your source of packages you are constantly downloaded packages from the internet which leads to additional security concerns.
