@@ -9,10 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> MDT Tips: Let us use the RulesFile variable
-
- Damien Van Robaeys   13:15 
- 
+## MDT Tips: Let us use the RulesFile variable
 
 Last week, I shared a wizard that allows you to select an external Customsettings.ini file.
 In this quick post I will show you the MDT variable, RulesFile, that is used in this wizard.

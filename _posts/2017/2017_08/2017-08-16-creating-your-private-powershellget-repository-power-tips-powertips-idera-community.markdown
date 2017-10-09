@@ -3,6 +3,7 @@ layout: post
 title:  "Creating Your Private PowerShellGet Repository - Power Tips - PowerTips - IDERA Community" 
 date:   2017-08-16T13:46:25.319Z 
 categories: powershell automation deployment
+link: http://community.idera.com/powershell/powertips/b/tips/posts/creating-your-private-powershellget-repository
 tags:
   - links
 ogtype: article 

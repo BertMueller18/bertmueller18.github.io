@@ -9,6 +9,6 @@ tags:
 ogtype: article 
 ---
 
-Set up a Raspberry Pi Zero headless
+## Set up a Raspberry Pi Zero headless
 Posted on August 20, 2017 by Leo Gaggl
 If you are using the GUI (Raspian full download) and want to connect your RPi Zero to a keyboard and monitor there are probably easier ways to do this. These notes are for people that want to use a headless (no monitor and GUI) setup ready to connect to your RPi after first boot via SSH from another terminal

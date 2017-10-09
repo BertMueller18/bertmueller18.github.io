@@ -9,10 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Display Windows 10 notifications with PowerShell
-
- Damien Van Robaeys   12:36 
- 
+## Display Windows 10 notifications with PowerShell
 
 In this post I won't talk about a tool or script I created but about a cool way to display notifications on your computer using PowerShell.
 Last month  Stephen Owen wrote a great post about a module called BurnToast.. 
