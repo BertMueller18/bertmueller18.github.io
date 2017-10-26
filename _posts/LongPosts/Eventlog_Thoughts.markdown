@@ -3,7 +3,6 @@
 ### Explore the unique events in an event log, including examples
 ````powershell
 Get-WinEvent Application | group Id | ft -w {$_.Name},{$_.Group[0].Message}
-
 Get-WinEvent -FilterHashTable @{ LogName = 'System'; ID= 36888 } -ComputerName <server>
 ````
 ### Forensics: Automating Active Directory Account Lockout Search with PowerShell (an example of deep XML filtering of event logs across multiple servers in parallel)
@@ -17,7 +16,9 @@ Get-WinEvent -FilterHashTable @{ LogName = 'System'; ID= 36888 } -ComputerName <
 
 All windows security log event IDs, ranked by least frequent: 
 
-````Get-WinEvent -FilterHashtable @{logname="security"}| Group-Object id -NoElement | sort count````
+````powershell
+Get-WinEvent -FilterHashtable @{logname="security"}| Group-Object id -NoElement | sort count
+````
 
 All usernames who have logged in: 
 
