@@ -9,8 +9,8 @@ tags:
 ogtype: article 
 ---
 
-> Powershell script with dbatools – Copy Database with Rename
- 15. März 2017  Björn Peters
+## Powershell script with dbatools – Copy Database with Rename
+15. März 2017  Björn Peters
 
 Last week I was called to create an automated database copy job, which should refresh a development environment every night with a full backup from the production environment. Here are the given requirements from the customer:
 

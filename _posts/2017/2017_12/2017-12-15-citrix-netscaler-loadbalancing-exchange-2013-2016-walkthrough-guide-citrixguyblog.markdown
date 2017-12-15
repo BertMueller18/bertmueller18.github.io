@@ -2,7 +2,7 @@
 layout: post 
 title:  "Citrix Netscaler – Loadbalancing Exchange 2013/2016 (Walkthrough Guide) – CitrixGuyBlog" 
 date:   2017-12-15T18:48:54.695Z 
-categories: net
+categories: netscaler exchange exchange2013 exchange2016 loadbalancer
 link: https://citrixguyblog.com/2017/07/22/citrix-netscaler-loadbalancing-exchange-20132016-walkthrough-guide/amp/?es_p=5591988 
 tags:
   - links

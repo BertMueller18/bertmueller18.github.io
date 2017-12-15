@@ -9,8 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Setting up Point-to-Site OpenVPN on Microsoft Azure
-
+# Setting up Point-to-Site OpenVPN on Microsoft Azure
 
 Microsoft Azure has some nice paid services for creating site-to-site VPN.  Using these, you can create a hybrid cloud that connects your enterprise network to a Virtual Network on Azure.  But if you just want connect to a single Azure VM, this may be overkill.
 
