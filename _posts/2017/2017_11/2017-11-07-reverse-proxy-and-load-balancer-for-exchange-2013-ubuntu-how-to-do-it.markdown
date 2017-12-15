@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Reverse Proxy and Load Balancer for Exchange 2013
+## Reverse Proxy and Load Balancer for Exchange 2013
 OCTOBER 6, 2015 ~ UHTDI
 This is how to configure a reverse proxy for Microsoft Exchange.
 

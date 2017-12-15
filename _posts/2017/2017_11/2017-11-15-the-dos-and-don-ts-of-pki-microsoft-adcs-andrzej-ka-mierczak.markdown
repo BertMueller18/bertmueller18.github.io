@@ -10,7 +10,8 @@ ogtype: article
 ---
 
 
-The DOs and DON’Ts of PKI – Microsoft ADCS
+## The DOs and DON’Ts of PKI – Microsoft ADCS
+
 POSTED ON AUGUST 22, 2012 BY ANDRZEJ KAZMIERCZAK Share this post to your SOCIAL MEDIA!0
 
 15

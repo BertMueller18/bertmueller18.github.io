@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Using Let's Encrypt with IIS on Windows
+## Using Let's Encrypt with IIS on Windows
  February 22, 2016 - from Maui, HI
  58 comments     
 Let's Encrypt is a new open source certificate authority that promises to provide free SSL certificates in a standardized, API accessible and non-commercial way. If you've installed SSL certificates in the past, you're probably familiar with the process of signing up for a certificate with some paid for provider and then going through the manual process of swapping certificate requests and completed requests.

@@ -9,3 +9,9 @@ tags:
 ogtype: article 
 ---
 
+## How to Install Microsoft Exchange Server 2016 on Windows Server 2016 with PowerShell
+
+Karim Buzdar | Nov 16, 2017
+
+Here is how to install Microsoft Exchange Server 2016 on Windows Server 2016 with the help of PowerShell.
+

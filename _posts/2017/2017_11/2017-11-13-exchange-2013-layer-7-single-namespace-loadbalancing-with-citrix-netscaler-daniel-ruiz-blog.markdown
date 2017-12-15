@@ -9,10 +9,11 @@ tags:
 ogtype: article 
 ---
 
-> Exchange 2013 Layer 7 single namespace loadbalancing with Citrix NetScaler
+## Exchange 2013 Layer 7 single namespace loadbalancing with Citrix NetScaler
 
 MAY 26, 2015 31 COMMENTS
 ** Updated with custom Ciphers, SSLv3 disabled on Content Switch and LBs, and SSL certificate bindings to the vServers***
+
 I recently had to engage on a very complex deployment, where one of the goals was to utilize the Citrix NetScaler for Exchange 2013 services for a single namespace with Layer 7 and no session affinity.
 In this scenario, a single namespace is deployed for all the HTTP protocol clients (mail.yourdomain.com). The load balancer is configured to utilize Layer 7, meaning SSL termination occurs and the load balancer and it knows about the target URLs. The NetScaler is also configured to check the health of the target services in the load balancing pool which requires a health probe to be configured on each Exchange virtual directory.
 With this, as long as the health probes response is healthy, the NetScaler will keep the traffic in the load balancing pool. However, if lets say OWA health probe fails for any reason, the NetScaler will remove the target server(s) from the load balancing pool for future requests.

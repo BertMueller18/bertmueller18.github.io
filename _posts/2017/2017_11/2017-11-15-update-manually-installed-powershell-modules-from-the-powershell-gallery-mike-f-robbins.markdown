@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Update Manually Installed PowerShell Modules from the PowerShell Gallery
+## Update Manually Installed PowerShell Modules from the PowerShell Gallery
 
 MIKE F ROBBINS JUNE 9, 2016 0
 There are PowerShell modules that ship with Windows 10 that weren’t installed from the PowerShell Gallery using PowerShellGet so they can’t be updated using the Update-Module cmdlet. This also applies for any modules that you’ve installed manually yourself.

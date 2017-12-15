@@ -2,15 +2,14 @@
 layout: post 
 title:  "Jesse Boehm Consulting - Desktop &amp; Application Delivery |   load-balancing-microsoft-exchange-2013-on-citrix-netscaler-10-5-part-1" 
 date:   2017-11-13T21:48:19.220Z 
-categories: citrix netscaler exchange loadbalancer
+categories: citrix netscaler exchange loadbalancer exchange2016 exchange2013
 link: http://www.jesseboehmconsulting.com/load-balancing-microsoft-exchange-2013-on-citrix-netscaler-10-5-part-1/ 
 tags:
   - links
 ogtype: article 
 ---
+## Load Balancing Microsoft Exchange 2013 on Citrix NetScaler 10.5
 
-> INTRODUCTION
-Load Balancing Microsoft Exchange 2013 on Citrix NetScaler 10.5
 I have read a lot of information on the internet about Load Balancing Exchange 2013 on Citrix NetScaler including the document from Citrix on how to Load Balance Exchange on NetScaler, which doesn’t work at all. Now there is a world of information out there and if you search you may compile many web pages that will help you each step of the way till you configure Exchange 2013 on NetScaler. I think I used 30+ sources some totally unrelated NetScaler or Exchange 2013 to compile my information and put this Article together.
 
 So my idea with this article is to create a single source point of reference on how to do this setup from start to finish.

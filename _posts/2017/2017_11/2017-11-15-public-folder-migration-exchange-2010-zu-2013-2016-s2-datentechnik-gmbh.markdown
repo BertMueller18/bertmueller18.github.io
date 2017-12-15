@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Public Folder Migration Exchange 2010 zu 2013 / 2016
+## Public Folder Migration Exchange 2010 zu 2013 / 2016
 
 Veröffentlicht am 28. Juni 2016
 Auch wenn Microsoft schon seit Jahren die Abschaffung von öffentliche Ordner predigt kommen bei vielen Exchange Installationen weiterhin öffentliche Ordner zum Einsatz. Während die öffentliche Ordner bis Exchange 2010 in Form eigener Datenbanken mit eigenen Replikationsmechanismen existierten, hat Microsoft die öffentliche Ordner in Exchange 2013 und höher neu designed: Modern Public Folder ist hier das Stichwort. Während vorher die Inhalte verteilter Public Folder Datenbanken per SMTP zwischen den Servern repliziert wurde, sind die öffentliche Ordner jetzt in speziellen Public Folder Postfächer untergebracht. (Create Public Folder http://technet.microsoft.com/en-us/library/bb691104(v=exchg.150))

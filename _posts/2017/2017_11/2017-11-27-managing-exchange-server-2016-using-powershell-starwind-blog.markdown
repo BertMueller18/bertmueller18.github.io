@@ -10,11 +10,10 @@ ogtype: article
 ---
 
 ## Managing Exchange Server 2016 Using PowerShell
+
 Posted by Nicolas Prigent on March 1, 2017	
 Tags: Distribution Group, EMS, Exchange Management cmdlets, Exchange Management Shell console, Exchange Server, Exchange Server 2016, mailbox, PowerShell, Windows Services
 007160
-				5/5
-
 
 PowerShell has become the preferred tool for managing Microsoft server products. Sysadmins can take full advantage of PowerShell to manage roles and perform routine management tasks. By using the command line, sysadmins are able to:
 

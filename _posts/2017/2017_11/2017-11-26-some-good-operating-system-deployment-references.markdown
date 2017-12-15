@@ -2,14 +2,14 @@
 layout: post 
 title:  "Some Good Operating System Deployment References" 
 date:   2017-11-26T22:42:59.834Z 
-categories: deployment  driver mdt powershell
+categories: deployment  driver mdt powershell mdt2013
 link: https://gist.github.com/jasonadsit/1ace8379edbef3f697c8 
 tags:
   - links
 ogtype: article 
 ---
 
-> Some Good Operating System Deployment References
+## Some Good Operating System Deployment References
 Raw
  osd-references.txt
 Deployment References:

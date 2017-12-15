@@ -9,3 +9,10 @@ tags:
 ogtype: article 
 ---
 
+## An Approach for Managing Microsoft AppLocker Policies
+
+AppLocker is a software whitelisting product from Microsoft that ships with Windows. It can be used to restrict the software that will execute on a computer.
+
+Overview of Policies
+AppLocker policies are typically created and deployed using Group Policy. If multiple policies are deployed to a single computer, these policies are merged into a single "effective" policy (more on this later).
+

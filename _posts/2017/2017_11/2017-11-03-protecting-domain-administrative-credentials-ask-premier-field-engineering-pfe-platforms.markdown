@@ -9,7 +9,8 @@ tags:
 ogtype: article 
 ---
 
- Protecting Domain Administrative Credentials
+## Protecting Domain Administrative Credentials
+
 October 31, 2017 by BrandonWilson // 1 Comments
 
 Hello, Paul Bergson back again with today’s topic of preventing your Domain Administrators and other privileged identities from logging into Tier 1 and Tier 2 devices.
