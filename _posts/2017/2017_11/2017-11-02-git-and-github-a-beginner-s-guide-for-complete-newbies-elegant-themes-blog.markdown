@@ -11,7 +11,10 @@ ogtype: article
 
 ## Git and Github: A Beginner’s Guide for Complete Newbies
 
-(https://www.elegantthemes.com/blog/wp-content/uploads/2017/07/Git-and-Github-Featured-Image.png)|[https://www.elegantthemes.com/blog/wp-content/uploads/2017/07/Git-and-Github-Featured-Image.png]
+(https://www.elegantthemes.com/blog/wp-content/uploads/2017/07/Git-and-Github-Featured-Image.png)|
+
+![image]https://www.elegantthemes.com/blog/wp-content/uploads/2017/07/Git-and-Github-Featured-Image.png
+
 Posted on August 15, 2017 by B.J. Keeton in Resources | 20 comments
 
 Git and Github: A Beginner’s Guide for Complete Newbies
