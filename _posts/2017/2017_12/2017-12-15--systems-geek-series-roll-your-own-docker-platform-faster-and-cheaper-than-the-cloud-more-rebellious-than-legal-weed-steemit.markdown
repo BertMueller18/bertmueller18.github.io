@@ -9,5 +9,6 @@ tags:
 ogtype: article 
 ---
 
-> [SYSTEMS GEEK SERIES] Roll your own Docker Platform: Faster and cheaper than the cloud, more rebellious than legal weed!
+## [SYSTEMS GEEK SERIES] Roll your own Docker Platform: Faster and cheaper than the cloud, more rebellious than legal weed!
+
 faddat (66) in beyondbitcoin •  last year
