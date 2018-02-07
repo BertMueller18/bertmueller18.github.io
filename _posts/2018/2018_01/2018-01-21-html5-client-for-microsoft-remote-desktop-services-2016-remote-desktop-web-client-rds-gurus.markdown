@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> HTML5 client for Microsoft Remote Desktop Services 2016: Remote Desktop Web Client
+## HTML5 client for Microsoft Remote Desktop Services 2016: Remote Desktop Web Client
 
 Everyone will be familiar with the Remote Desktop client called MSTSC. Since a few years, Microsoft also has a Remote Desktop client for other platforms like iOS, Mac OS X and Android, available for download from the App Store, the Mac App Store, and the Google Play Store.
 

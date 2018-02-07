@@ -9,9 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Managing the Advanced configurations node in MDT with PowerShell
- Damien Van Robaeys   13:07 
- 
+## Managing the Advanced configurations node in MDT with PowerShell
 
 In this post, I will show you how to use the advanced configurations node from a Deployment Share using PowerShell.
 

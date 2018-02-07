@@ -8,8 +8,7 @@ tags:
   - links
 ogtype: article 
 ---
-
-> How to enable Remote Desktop using Powershell
+## How to enable Remote Desktop using Powershell
 BY A.J. ARMSTRONG · PUBLISHED JULY 16, 2014 · UPDATED OCTOBER 18, 2017
 
 

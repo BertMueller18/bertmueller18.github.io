@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Fixing Applications that Require Administrator Rights
+## Fixing Applications that Require Administrator Rights
 Posted on July 31, 2015 by Joseph Moody
 There are few things I love more than hearing, “This software requires Administrator rights.” Statements like this make me irritable and elated at the same time. An odd combination. On the one hand, I am irritable at that developer who can’t be bothered to follow best practices. On the other hand, I can’t wait to prove them wrong.
 
