@@ -9,6 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> PowerShell: Implementing Just-Enough-Administration (JEA), Step-by-Step
+## PowerShell: Implementing Just-Enough-Administration (JEA), Step-by-Step
+
 BY PEWA2303 ON 11. FEBRUARY 2018	• ( 2 COMMENTS )
 Have you always dreamed of fine-tuning permissions? PowerShell JEA makes it possible. The user only sees what he should see and can only do what he should do. With a few simple steps everything is ready. Let’s dive in.
