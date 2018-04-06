@@ -9,6 +9,6 @@ tags:
 ogtype: article 
 ---
 
-> LVM Caching mit SSDs einrichten
+## LVM Caching mit SSDs einrichten
 Hauptseite > Themenschwerpunkte > SSD Caching
 Dieser Wikiartikel zeigt, wie Sie mittels LVM Cache HDDs, durch Verwendung von SSDs als Caching Devices, beschleunigen können. LVM Cache stellt ein Frontend für den dm-cache Kernel Treiber dar, um eine bequeme Administration zu ermöglichen.

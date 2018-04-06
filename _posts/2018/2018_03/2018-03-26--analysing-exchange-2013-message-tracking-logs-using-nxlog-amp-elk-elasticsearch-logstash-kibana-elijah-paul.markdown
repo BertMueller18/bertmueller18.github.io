@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Analysing Exchange (2013) Message Tracking Logs using NXLog & ELK (ElasticSearch, Logstash, Kibana)
+## Analysing Exchange (2013) Message Tracking Logs using NXLog & ELK (ElasticSearch, Logstash, Kibana)
 Written by Elijah Paul the 30 Oct 2014 - Tagged: Logstash | Elasticsearch | Kibana | Logging | Exchange Server | Forensics | nxlog | Log Analysis
 
 Share this post

@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Device Mapper Cache
+## Device Mapper Cache
 Recent device mapper allows to use small SSD disks to cache bigger, much slower conventional disks.
 
 CentOs 7.4

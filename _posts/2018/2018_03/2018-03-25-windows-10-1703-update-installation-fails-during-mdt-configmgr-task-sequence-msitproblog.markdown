@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Windows 10 1703 Update Installation fails during MDT / ConfigMgr Task Sequence Simon Dettling  8. June 2017  ConfigMgr, MDT, Windows  18 Comments
+## Windows 10 1703 Update Installation fails during MDT / ConfigMgr Task Sequence Simon Dettling  8. June 2017  ConfigMgr, MDT, Windows  18 Comments
 UPDATE: I’ve added some ConfigMgr / SCCM related details at the end of the blog post.
 
 Over the last few weeks, I had an interesting issue regarding Windows 10 1703 and the Installation of Windows Updating during a Capture MDT Task Sequence.

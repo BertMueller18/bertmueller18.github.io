@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> ZFS Administration, Part IV- The Adjustable Replacement Cache
+## ZFS Administration, Part IV- The Adjustable Replacement Cache
 Table of Contents
 Zpool Administration	ZFS Administration	Appendices
 0. Install ZFS on Debian GNU/Linux	9. Copy-on-write	A. Visualizing The ZFS Intent Log (ZIL)

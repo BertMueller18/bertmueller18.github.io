@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Basic concepts
+## Basic concepts
 Descriptions of ZFS internals that have an effect on application performance follow.
 
 Adaptive Replacement Cache
