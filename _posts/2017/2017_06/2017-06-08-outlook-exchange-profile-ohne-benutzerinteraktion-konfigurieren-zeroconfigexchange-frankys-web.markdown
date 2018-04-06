@@ -2,7 +2,7 @@
 layout: post 
 title:  "Outlook: Exchange Profile ohne Benutzerinteraktion konfigurieren (ZeroConfigExchange) - Frankys Web" 
 date:   2017-06-08T20:28:13.572Z 
-categories: exchange exchange2013 autoconfiguration
+categories: exchange exchange2013 automation registry
 link: https://www.frankysweb.de/outlook-exchange-profile-ohne-benutzerinteraktion-konfigurieren/ 
 tags:
   - links

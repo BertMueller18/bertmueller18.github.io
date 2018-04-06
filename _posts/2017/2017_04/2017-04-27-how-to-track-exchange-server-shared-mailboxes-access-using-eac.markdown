@@ -2,7 +2,7 @@
 layout: post 
 title:  "How to track Exchange Server Shared Mailboxes Access using EAC" 
 date:   2017-04-27T14:39:12.456Z 
-categories: exchange security auditpolicy
+categories: exchange security monitoring
 link: https://www.lepide.com/how-to/track-shared-exchange-mailboxes-access.html 
 tags:
   - links
