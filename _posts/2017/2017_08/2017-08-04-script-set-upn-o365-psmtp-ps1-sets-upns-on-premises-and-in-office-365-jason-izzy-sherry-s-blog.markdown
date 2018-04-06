@@ -2,7 +2,7 @@
 layout: post 
 title:  "Script: Set-UPN-O365-PSMTP.ps1 – Sets UPNs on-premises and in Office 365 | Jason (Izzy) Sherry's Blog" 
 date:   2017-08-04T07:58:26.194Z 
-categories: 0365 upn sync
+categories: o365 office 356 upn sync
 link: https://blog.jasonsherry.net/2014/08/15/script-set-upn-o365-ps1-sets-upns-on-premises-and-in-office-365/ 
 tags:
   - links

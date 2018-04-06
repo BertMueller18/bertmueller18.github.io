@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "Calendar Sharing across Devices w/ Exchange or EXO/O365 | Jason (Izzy) Sherry's Blog"
 date: 2016-10-12T20:37:16.541Z
-categories: exchange o356  
+categories: exchange o365 office365 
 link: https://blog.jasonsherry.net/2016/09/12/calendar-sharing-across-devices-w-exchange/
 tags:
   - links
