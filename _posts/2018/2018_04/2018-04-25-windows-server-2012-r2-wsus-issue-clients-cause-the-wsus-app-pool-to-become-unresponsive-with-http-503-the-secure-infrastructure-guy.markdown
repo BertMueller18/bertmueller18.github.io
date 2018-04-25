@@ -10,14 +10,14 @@ ogtype: article
 ---
 
 ## Windows Server 2012 R2 WSUS Issue: Clients cause the WSUS App Pool to become unresponsive with HTTP 503
-★★★★★★★★★★★★★★★
+
 Christian PresleySeptember 2, 201513 
-0
-0
+
 Something interesting that I recently uncovered while implementing WSUS with Windows Server 2012 R2 as Software Update Points in Configuration Manager. The WSUS App Pool by default has relatively low Rapid-Fail Protection thresholds. These thresholds were causing the WSUS Web Service to eventually lock-out with HTTP 503.
 
 The errors are associated with these events:
 
+````
 Log Name: Application
 Source: Windows Server Update Services
 Event ID: 12072
@@ -37,3 +37,4 @@ Log Name: System
 Source: Microsoft-Windows-WAS
 Event ID: 5074
 A worker process with process id of '%1' serving application pool '%2' has requested a recycle because the worker process reached its allowed processing time limit.
+````

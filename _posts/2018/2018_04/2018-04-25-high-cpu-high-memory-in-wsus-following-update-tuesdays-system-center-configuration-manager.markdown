@@ -10,11 +10,9 @@ ogtype: article
 ---
 
 ## High CPU/High Memory in WSUS following Update Tuesdays
-★★★★★★★★★★★★★★★
+
 August 18, 2017 by Jarrett Renshaw MSFT // 32 Comments
 
-0
-0
 Updated 10/11/2017 – updated hotfix information.
 
 Recently, we’ve seen an increase in the number of high CPU/High Memory usage problems with WSUS, including WSUS in a System Center Configuration Manager environment – these have mostly corresponded with Update Tuesdays.
