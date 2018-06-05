@@ -2,7 +2,7 @@
 layout: post 
 title:  "Group Policy Order of Precedence FAQ | Me, Myself and IT" 
 date:   2017-10-11T09:38:26.103Z 
-categories: GPO activedirectory
+categories: gpo activedirectory
 link: https://emeneye.wordpress.com/2016/02/16/group-policy-order-of-precedence-faq/ 
 tags:
   - links
