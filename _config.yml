@@ -269,3 +269,6 @@ defaults:
       comments: # true
       share: true
       related: true
+github:
+  repo: BertMueller18/bertmueller18.github.io
+  branch: master
