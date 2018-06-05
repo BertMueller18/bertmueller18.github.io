@@ -91,3 +91,5 @@ exclude:
 plugins:
   - jekyll-remote-theme
 
+
+theme: jekyll-theme-hacker
