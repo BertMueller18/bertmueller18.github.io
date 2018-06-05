@@ -87,3 +87,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+plugins:
+  - jekyll-remote-theme
+
