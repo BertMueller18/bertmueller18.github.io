@@ -9,6 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Desired State Configuration (DSC) und Windows Server 2016 – Teil 2: VMs im Hyper-V, Partielle Konfigurationen und ein Web Pull Server
+## Desired State Configuration (DSC) und Windows Server 2016 – Teil 2: VMs im Hyper-V, Partielle Konfigurationen und ein Web Pull Server
+
 Im Teil 1 meiner Artikelserie habe ich ein paar grundlegende Ideen und Vorgehensweisen der Desired State Configuration (DSC) beschrieben. Heute möchte ich ein Szenario vorstellen, wie man in einer Lab-Umgebung mit DSC virtuelle Maschinen (VMs) im Hyper-V erzeugen und konfigurieren kann.
 

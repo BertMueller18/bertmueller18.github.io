@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Automating a SQL Server Database Refresh
+## Automating a SQL Server Database Refresh
 
 By: Joe Gavin   |   Read Comments (2)   |   Related Tips: More > Restore
 

@@ -9,5 +9,5 @@ tags:
 ogtype: article 
 ---
 
-> Citrix User Profile Manager Roaming OST & Search Index
+## Citrix User Profile Manager Roaming OST & Search Index
 As announced during synergy UPM will be introducing Roaming OST & Search Index , below on Citrix Synergy TV Session SYN231 (from 22:01 onwards) a demonstration of the feature.

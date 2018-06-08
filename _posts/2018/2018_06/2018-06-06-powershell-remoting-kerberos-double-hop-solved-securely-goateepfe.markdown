@@ -12,8 +12,7 @@ ogtype: article
 ## PowerShell Remoting Kerberos Double Hop Solved Securely
 
 Ashley McGloneAugust 30, 201639 
-0
-0
+
 The struggle is real.
 Are you facing issues with PowerShell remoting and credentials? You remote into your jump box, but then any remoting beyond there gets a big red ACCESS DENIED. Maybe you’ve tried CredSSP, but people say that isn’t safe. Read today’s post for a completely legit, secure, safe, and easy way to enable Kerberos double hop for PowerShell remoting.
 

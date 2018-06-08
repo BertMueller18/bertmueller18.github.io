@@ -10,15 +10,11 @@ ogtype: article
 ---
 
 ## Home Lab: Options for free public TLS/SSL Certificates - By Adam Gross
+
 Deployment Research
 Johan Arwidmark
-May
-08
-2018
+May 08 2018
 This is a guest post graciously provided by Adam Gross (@AdamGrossTX). Thanks Adam!
-
- 
-
 	
 Adam has been a Desktop Architecture Analyst in his day job since 2004 where he shares management duties for a ConfigMgr infrastructure which supports ~9000 clients.
 

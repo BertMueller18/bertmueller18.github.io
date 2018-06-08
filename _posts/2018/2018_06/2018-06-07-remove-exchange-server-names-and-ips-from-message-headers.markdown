@@ -10,6 +10,7 @@ ogtype: article
 ---
 
 ## Remove Internal Exchange Server Names and IP Addresses from Message Headers
+
 NOVEMBER 17, 2016 BY PAUL CUNNINGHAM 24 COMMENTS
 
 When you send an email message, the recipient can view the headers of the message and see all of the “hops” that the message went through on its journey from one mailbox to another.
