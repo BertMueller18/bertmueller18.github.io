@@ -2,7 +2,7 @@
 layout: post 
 title:  "Deploy VMware VMs with PowerCLI and MDT - WinSysBlog" 
 date:   2017-10-02T09:48:56.151Z 
-categories: powershell powercli MDT MDT2013 deployment
+categories: powershell powercli mdt mdt2013 deployment
 link: https://winsysblog.com/2017/09/deploy-vmware-vms-powercli-mdt.html 
 tags:
   - links

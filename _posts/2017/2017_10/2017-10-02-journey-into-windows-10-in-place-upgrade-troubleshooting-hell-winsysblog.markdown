@@ -2,7 +2,7 @@
 layout: post 
 title:  "Journey into Windows 10 in-place upgrade troubleshooting hell - WinSysBlog" 
 date:   2017-10-02T09:50:03.596Z 
-categories: windows10 migration MDT MDT2013
+categories: windows10 migration mdt mdt2013
 link: https://winsysblog.com/2017/09/journey-windows-10-place-upgrade-troubleshooting-hell.html 
 tags:
   - links
