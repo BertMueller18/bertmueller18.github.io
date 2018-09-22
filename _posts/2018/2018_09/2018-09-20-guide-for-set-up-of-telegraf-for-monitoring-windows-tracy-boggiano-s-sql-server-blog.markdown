@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Guide for Set Up of Telegraf for Monitoring Windows
+## Guide for Set Up of Telegraf for Monitoring Windows
 
 Collecting Performance Metrics
 Guide for Set Up of Telegraf for Monitoring SQL Server xPlat

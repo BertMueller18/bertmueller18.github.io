@@ -9,12 +9,11 @@ tags:
 ogtype: article 
 ---
 
-> Monitoring what matters – Windows Event Forwarding for everyone (even if you already have a SIEM.)
+## Monitoring what matters – Windows Event Forwarding for everyone (even if you already have a SIEM.)
 ★★★★★★★★★★★★★★★
 Jessica Payne (MSFT)November 23, 201556 
-0
-0
-   Last week at Ignite Australia I presented a session (available here ) on something I don't think gets talked about enough - Windows Event Forwarding, or WEF.  (Edit: I've also since done an depth Microsoft Virtual Academy session on Event Forwarding too!).
+
+Last week at Ignite Australia I presented a session (available here ) on something I don't think gets talked about enough - Windows Event Forwarding, or WEF.  (Edit: I've also since done an depth Microsoft Virtual Academy session on Event Forwarding too!).
 
 Often when we engage for an Incident Response, we find the customer :
 

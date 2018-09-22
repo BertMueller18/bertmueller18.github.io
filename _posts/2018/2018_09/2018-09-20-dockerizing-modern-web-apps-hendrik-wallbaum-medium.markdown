@@ -9,5 +9,5 @@ tags:
 ogtype: article 
 ---
 
-> Dockerizing modern web apps
+## Dockerizing modern web apps
 Most websites these days are Single Page Applications (SPA for short) where a single entry file handles all routes that a user might visit. Swept up in the ongoing trend of hosting in the cloud you might find yourself needing to “dockerize” your SPA. That is to say wrap it inside a Docker image and run it as a container.

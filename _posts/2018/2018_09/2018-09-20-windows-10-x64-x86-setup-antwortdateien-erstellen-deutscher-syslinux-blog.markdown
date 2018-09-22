@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> Windows 10 X64 + X86 Setup-Antwortdateien erstellen
+## Windows 10 X64 + X86 Setup-Antwortdateien erstellen
 KEINE KOMMENTARE
 Ich habe nun schon einige Anleitungen zu dem Thema PXE-Boot erstellt, darunter war auch eine Anleitung, wie man von dort aus über Netzwerk, Windows installieren kann. An sich ist das schon sehr praktisch, wenn jeder Rechner im Netzwerk von diesem PXE-Server aus starten kann und darüber auch Betriebssysteme installiert werden können.
 
