@@ -9,3 +9,4 @@ tags:
 ogtype: article 
 ---
 
+## The curious Kabri | Base image automation – download the latest installers for common apps with PowerShell

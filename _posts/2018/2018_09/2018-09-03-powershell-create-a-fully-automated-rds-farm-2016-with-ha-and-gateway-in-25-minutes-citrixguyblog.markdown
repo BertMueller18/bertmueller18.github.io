@@ -9,6 +9,6 @@ tags:
 ogtype: article 
 ---
 
-> PowerShell – Create a fully automated RDS Farm (2016) with HA and Gateway in 25 minutes
+## PowerShell – Create a fully automated RDS Farm (2016) with HA and Gateway in 25 minutes
 
 Im a big fan of Citrix XenApp/XenDesktop but for some small customers (20-30 user) the licensing costs are to high and there is definitely demand for application and desktop virtualization. Thats why I came up with the idea to automate the proccess to install a native Microsoft RDS Farm with High Availability and RDS Gateway to access the published resources when you are located outside the companys network. The complete procedure to create a Multi & HA site takes about 25 minutes in my lab environment.

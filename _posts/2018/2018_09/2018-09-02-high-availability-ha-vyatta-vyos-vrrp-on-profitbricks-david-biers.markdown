@@ -9,7 +9,8 @@ tags:
 ogtype: article 
 ---
 
-> High Availability HA Vyatta VyOS VRRP on ProfitBricks
+## High Availability HA Vyatta VyOS VRRP on ProfitBricks
+
 BY DAVID · MAY 9, 2016
 
 Introduction
