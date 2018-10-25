@@ -9,7 +9,7 @@ tags:
 ogtype: article 
 ---
 
-> NetScaler Gateway in einer Multi-Domänen Umgebung
+## NetScaler Gateway in einer Multi-Domänen Umgebung
 
 Ein NetScaler Gateway für eine XenApp / XenDesktop Umgebung zu konfigurieren stellt sicherlich (auch Dank des Wizards) für die meisten kein Problem dar. Wie verhält es sich allerdings, wenn sich an dem Gateway auch Benutzer anderer Domänen anmelden sollen. Die einfache Lösung ist hier die Verwendung des UPN sowie entsprechende Authentifizierungsrichtlinien am Gateway.
 

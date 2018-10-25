@@ -9,11 +9,8 @@ tags:
 ogtype: article 
 ---
 
-Sysinternals Sysmon suspicious activity guide
-★★★★★★★★★★★★★★★
-avatar of moti-baniMoti BaniDecember 7, 201716 
-0
-0
+## Sysinternals Sysmon suspicious activity guide
+
 Sysmon tool from Sysinternals provides a comprehensive monitoring about activities in the operating system level. Sysmon is running in the background all the time, and is writing events to the event log.
 
 You can find the Sysmon events under the Microsoft-Windows-Sysmon/Operational event log.

@@ -9,4 +9,4 @@ tags:
 ogtype: article 
 ---
 
-> Download the Compose file
+## Download the Compose file
