@@ -198,3 +198,49 @@ Das Gleiche gilt für IDGLA, das auf IDGGUUDLDLA erweitert wurde, oder Identitä
 Bei jedem anderen Namen ist das Endergebnis, dass der Benutzer die Berechtigungen erhält, die auf die lokale Domänengruppe angewendet werden. 
 
 ![AGDLP](IGULDA.jpg)
+
+### Zusammenfassung:
+AGGUDLP:
+
+Empfohlene Best Practice für die Verschachtelungsstrategie von Active Directory-Gruppen:
+Konten zu einer globalen Gruppe hinzufügen, die globale Gruppe zu einer universellen Gruppe hinzufügen, die universelle Gruppe zu einer lokalen Domänengruppe hinzufügen, Berechtigungen für die lokale Domänengruppe auf eine Ressource anwenden. Die Konten in der ursprünglichen lokalen Domänengruppe haben Zugriff auf die Ressource mit den Berechtigungsebenen, die auf den Berechtigungen für die lokale Domänengruppe basieren.
+
+AGGUUDLDLP:
+Erweiterte optionale Verschachtelungsstrategie für Active Directory-Gruppen:
+Fügen Sie Konten zu einer globalen Gruppe hinzu, verschachteln Sie die globale Gruppe optional in eine andere globale Gruppe usw., fügen Sie die zuletzt verschachtelte globale Gruppe zu einer universellen Gruppe hinzu, verschachteln Sie die universelle Gruppe optional in eine andere universelle Gruppe usw., fügen Sie die zuletzt verschachtelte universelle Gruppe zu einer lokalen Domänengruppe hinzu, verschachteln Sie die lokale Domänengruppe optional in eine andere lokale Domänengruppe usw., wenden Sie Berechtigungen für die zuletzt verschachtelte lokale Domänengruppe auf eine Ressource an. Die Konten in der ursprünglichen globalen Gruppe haben Zugriff auf die Ressource, basierend auf den Berechtigungen, die für die lokale Domänengruppe gelten.
+Bei einem Multi-Domain-Wald benötigen wir Universal-Gruppen, um der Rechnung gerecht zu werden, mit denen globale Gruppen aus mehreren Domänen hinzugefügt werden können. Diese universelle Gruppe kann als Mitglied von lokalen Domänengruppen in mehreren Domänen hinzugefügt werden. Sie können sich erinnern und die Verschachtelung als IGUDLA bezeichnen.
+ 
+Wenn eine Universelle Gruppe forstweit verfügbar ist, wo wird dann die Universelle Gruppe gelagert?
+Die Universalgruppe wird in der Domäne gespeichert, in der sie erstellt wurde, aber die Universalgruppenmitgliedschaften werden im Globalen Katalog gespeichert und Forest Wide repliziert.
+ 
+Praxisszenario für die Gruppenverschachtelungsstrategie:
+TechNet-Forum-Thread-Frage: "Können wir die universelle Gruppe in die globale Gruppe aufnehmen?"
+http://social.technet.microsoft.com/Forums/en/winserverDS/thread/fa66b5c5-3ed3-4700-b479-e036577e110b 
+Grundsätzlich müssen Sie der AGUDLP-Richtlinie folgen (Benutzer zu einer globalen Gruppe hinzufügen, die globale Gruppe zu einer Universal hinzufügen, die Universal zu einer lokalen Domänengruppe hinzufügen, die lokale Domänengruppe zu der Ressource hinzufügen und dann Berechtigungen für den Zugriff der lokalen Domänengruppe auf die Ressource bereitstellen).
+Dies kann auf ADDUUDLDLP erweitert werden, was bedeutet, dass Sie globale Gruppen in andere globale Gruppen verschachteln, universelle Gruppen in andere universelle Gruppen verschachteln und lokale Gruppen in andere lokale Domänengruppen verschachteln können, aber Sie können nicht rückwärts gehen, was bedeutet, dass Sie keine Universale in eine globale Gruppe aufnehmen können. Tatsächlich gibt Ihnen das System nicht einmal die Möglichkeit, die Gruppen, die es auf andere Weise versuchen, hinzuzufügen.
+ 
+.
+Hier ist ein Beispiel dafür, was ich im Unterricht verwende, wenn ich Gruppenverschachtelung unterrichte:
+Szenario: Ein Wald, drei Bereiche. 
+Domain- und Waldebenen sind auf dem neuesten Stand. 
+Die Buchhalter in jeder Domäne benötigen Vollzugriffsrechte für die Buchhaltungsdatenbank in nur ihrer Domäne. 
+Die Buchhalter in allen Bereichen des Waldes benötigen Leserechte für die Buchhaltungsdatenbanken in den anderen Bereichen. 
+Wie würdest du das machen? 
+Lösung:
+Erstellen Sie in jeder Domäne zwei Domänenlokale Gruppen (DLG), eine, der Sie Leserechte zuweisen und die andere, der Sie Vollzugriffsrechte zuweisen.
+Fügen Sie beide DLG-Gruppen in jeder Domäne der Buchhaltungsdatenbank hinzu und vergeben Sie die entsprechenden Berechtigungen für jede Gruppe. 
+Erstellen Sie in jeder Domäne eine Global Accountants Group. 
+Fügen Sie die Benutzer in jeder Domäne der Global Accountants Group ihrer eigenen Domäne hinzu. 
+Fügen Sie die Global Accounting Group in jeder Domäne zur Domain Local Group ihrer Domäne hinzu, der die volle Kontrolle über die Datenbank zugewiesen wurde. 
+Erstellen Sie eine Universal Accountants Group. 
+Fügen Sie die Global Accountants Group aus jeder Domäne der Universal Accountants Group hinzu. 
+Fügen Sie die Universal Accounting Group der Domain Local Accountants Group in jeder Domäne hinzu, die Leserechte für die Accounting-Datenbanken erhalten hat. 
+
+Weiterführende Informationen und Links:
+
+Gruppenrahmen: Active Directory 
+http://technet.microsoft.com/en-us/library/cc755692(WS.10).aspx 
+Active Directory Groups & Permissions Guideline - Gutes Tutorial: 
+http://microsys.unity.ncsu.edu/documentation/ITD-Active-Directory-Environment/Groups-Permissions.php 
+
+ 
