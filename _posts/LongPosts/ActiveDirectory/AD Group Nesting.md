@@ -1,3 +1,6 @@
+https://blogs.msmvps.com/acefekay/2012/01/06/using-group-nesting-strategy-ad-best-practices-for-group-strategy/
+
+
 ## Verwendung der Gruppenverschachtelungsstrategie - AD Best Practices für die Gruppenstrategie
 
 ### Vorwort
@@ -125,3 +128,73 @@ Gruppe machen es für die gesamte Domäne nützlich.
 
 Lokale Domänengruppen eignen sich gut für die Definition von Betriebsführungsregeln, wie beispielsweise Ressourcenzugriffsregeln, da die Gruppe überall in der Domäne angewendet werden kann und Mitglieder aller Art innerhalb der Domäne und Mitglieder aus vertrauenswürdigen Domänen enthalten kann. So kann beispielsweise eine domänenlokale Sicherheitsgruppe namens ACL_Sales Folders_Read verwendet werden, um den Lesezugriff auf eine Sammlung von Ordnern zu verwalten, die Verkaufsinformationen auf einem oder mehreren Servern enthalten.
  
+### Globale Gruppen
+
+Globale Gruppen werden in erster Linie verwendet, um Sammlungen von Domänenobjekten (Benutzer, andere globale Gruppen und Computer) basierend auf Geschäftsrollen zu definieren, was bedeutet, dass sie hauptsächlich als Rollengruppen dienen. 
+Rollengruppen, wie z.B. die Gruppen Sales und Marketing, und Rollen von Computern, wie z.B. eine Gruppe von Sales Laptops, werden in der Regel als globale Gruppen angelegt.
+#### Globale Gruppen haben die folgenden Merkmale:
+
+* Replikation. Eine globale Gruppe ist im Kontext des Domain-Namens (die Domain selbst) definiert. Das Gruppenobjekt, einschließlich des Member-Attributs, wird auf alle Domänencontroller nur in der Domäne repliziert, in der sie erstellt wurden.
+* Mitgliedschaft. Eine globale Gruppe kann nur die Benutzer, Computer und andere globale Gruppen in der gleichen Domäne als Mitglieder aufnehmen, in der die globale Gruppe erstellt wurde.
+* Verfügbarkeit. Eine globale Gruppe steht allen Domänenmitgliedern und allen anderen Domänen im Wald und allen vertrauenswürdigen externen Domänen zur Verfügung. Eine globale Gruppe kann Mitglied einer beliebigen lokalen oder universellen Domänengruppe in derselben Domäne oder anderen Domänen im Wald sein. Es kann auch Mitglied einer beliebigen lokalen Domänengruppe in einer vertrauenswürdigen Domäne sein. Globale Gruppen können zu ACLs in der Domäne, im Wald oder in vertrauenswürdigen Domänen hinzugefügt werden.
+
+Globale Gruppen haben die begrenzteste Mitgliedschaft (nur Benutzer, Computer und globale Gruppen derselben Domäne), aber die breiteste Verfügbarkeit in der Domäne, im Forest und in vertrauenswürdigen Domänen.
+
+### Best Practice der globalen Gruppe:
+
+Globale Gruppen eignen sich gut zur Definition von Rollen, da Rollen in der Regel Sammlungen von Objekten aus demselben Verzeichnis sind. Beispielsweise können globale Sicherheitsgruppen namens Consultants und Sales verwendet werden, um Benutzer zu definieren, die Berater bzw. Verkäufer sind.
+
+### Universelle Gruppen
+
+Im Gegensatz zu lokalen Gruppen auf globaler und Domänenebene ist die Verwendung von Universal Groups nicht auf den Rollen- oder Regeltyp von Gruppen beschränkt; sie können je nach Szenario in beiden Gruppentypen verwendet werden.
+
+#### Universelle Gruppen haben die folgenden Eigenschaften:
+* Replikation. Eine universelle Gruppe ist in einer einzigen Domäne im Wald definiert, wird aber in den globalen Katalog repliziert, der die universelle Gruppe für alle Domänen, forstweit, und für vertrauenswürdige Domänen und Wälder verfügbar macht. 
+* Mitgliedschaft. Eine universelle Gruppe kann als Mitglieder Benutzer, globale Gruppen und andere universelle Gruppen aus jeder Domäne im Wald beinhalten.
+* Verfügbarkeit. Eine universelle Gruppe kann Mitglied einer universellen Gruppe oder einer lokalen Domänengruppe überall im Wald sein. Darüber hinaus kann eine universelle Gruppe verwendet werden, um Ressourcen zu verwalten, z.B. um Berechtigungen zuzuweisen, überall im Wald sowie zwischen Trusts.
+
+Universelle Gruppen sind in Multidomai Forests nützlich. Mit ihnen können Sie Rollen definieren oder Ressourcen verwalten, die mehr als eine Domäne umfassen. 
+
+ Beschränkungen Universelle Gruppen:
+"Universelle Gruppen können keine Mitglieder (Benutzer oder Gruppen) außerhalb des Forests  enthalten. Diese Einschränkung würde Benutzer oder Gruppen ausschließen, die Mitglieder von Domänen aus externe Vertrauenststellungen sind. 
+Vertraut darauf, dass sie zu den Universalen Gruppen hinzugefügt werden."
+"Universelle Gruppen aus jeder Domäne in jedem Wald können nicht als Mitglieder in globale Gruppen aufgenommen werden."
+"Domänenlokale Gruppen von jeder Domäne in jedem Wald können nicht als Mitglieder in Universelle Gruppen aufgenommen werden."
+"Universelle Gruppen dürfen keine Globalen Gruppen aus einer gemischten Domäne im selben Wald enthalten. “
+http://networkadminkb.com/kb/Knowledge%20Base/Windows2003/Universal%20Group%20Limitations.aspx
+Aktivieren Sie das Caching für die universelle Gruppenmitgliedschaft auf einer Website:
+"Um den Traffic der globalen Catalago-Replikation zu reduzieren, können Sie das Caching für universelle Gruppenmitglieder aktivieren."
+"In einer Zweigstelle, die keinen globalen Katalogserver hat, und in einem Wald, der mehrere Domänen hat, können Sie mit dieser Vorgehensweise das Universal Group Membership Caching auf einem Domänencontroller in der Zweigstelle aktivieren, so dass ein globaler Katalogserver nicht bei jeder ersten Benutzeranmeldung über einen Wide Area Network (WAN)-Link kontaktiert werden muss."
+http://technet.microsoft.com/en-us/library/cc816928%28WS.10%29.aspx
+ 
+Der beste Weg, universelle Gruppen zu verstehen, ist durch ein kurzes Beispiel. 
+(Ein größeres Beispiel finden Sie im Beispiel der Group Nesting Strategy am Ende dieses Blogs).
+Widgets, Inc. hat einen Wald mit drei Domänen: Amerika, Asien und Europa. Jede Domäne hat Benutzerkonten und eine globale Gruppe namens Regional Manager, zu der auch die Manager dieser Region gehören. 
+Beachten Sie, dass globale Gruppen nur Benutzer aus derselben Domäne enthalten können. Aus diesem Grund müssen wir aufgrund dieser Verbindung die Verwendung einer Universal Group für diese Lösung in Betracht ziehen. Wir werden eine universelle Gruppe namens "Widgets Regional Managers" bzw. "U_Widgets Regional Managers" gründen, und die drei Regional Manager Gruppen werden als Mitglieder hinzugefügt. 
+Die Widgets Regional Managers Group definiert daher eine Rolle für den gesamten Wald. Wenn Benutzer zu einer der Gruppen der Regional Manager hinzugefügt werden, sind sie durch die Verschachtelung von Gruppen Mitglied der Regional Manager von Widgets.
+Widgets, Inc. plant die Veröffentlichung eines neuen Produkts, das eine Zusammenarbeit zwischen den Regionen erfordert. Ressourcen, die sich auf das Projekt beziehen, werden auf Dateiservern in jeder Domäne gespeichert. Um zu definieren, wer die Möglichkeit hat, Dateien zu ändern, die sich auf das neue Produkt beziehen, wird eine universelle Gruppe namens "U_New Product_Modify" erstellt. Dieser Gruppe wird die Berechtigung Ändern zulassen für die freigegebenen Ordner auf jedem der Dateiserver in jeder der Domänen zugewiesen. Die Gruppe der Widgets Regional Manager wird Mitglied der Gruppe "U_New Product_Modify", ebenso wie verschiedene globale Gruppen und eine Handvoll Benutzer aus jeder der Regionen. 
+Die Verwendung universeller Gruppen kann Ihnen helfen, Rollen darzustellen und zu konsolidieren, die Domänen in einem Wald umfassen, und Regeln zu definieren, die auf den gesamten Wald angewendet werden können.
+
+
+### Identifizieren und Erstellen einer Gruppenverschachtelungsstrategie - IDGLA oder AGDLP
+
+Verschachtelung ist der Prozess des Hinzufügens einer Gruppe zu einer anderen Gruppe. Auf diese Weise können Sie Ihre Umgebung auf der Grundlage von Geschäftsrollen, Funktionen und Verwaltungsregeln besser verwalten und verwalten.
+
+Sie können jedoch keine alte Gruppe zu einer anderen alten Gruppe hinzufügen. Es gibt einige Regeln zu beachten. Die beiden obigen Diagramme zur Zusammenfassung des Umfangs helfen zu verstehen, welche Gruppen je nach Gruppenumfang oder Typ Mitglieder anderer Gruppen sein können.
+
+Die Best Practice für die Gruppenverschachtelung, bekannt als IGDLA. IGDLA steht für Identitäten, globale Gruppen, lokale Domänengruppen und Zugriff:
+* Identitäten (Benutzer- und Computerkonten) sind Mitglieder von:
+Globale Gruppen, die Geschäftsrollen repräsentieren. Diese Rollengruppen (globale Gruppen) sind Mitglieder von:
+Domänenlokale Gruppen, die Verwaltungsregeln repräsentieren - z.B. die Festlegung, wer Leseberechtigung für eine bestimmte Sammlung von Ordnern hat. Diese Rollengruppen (domänenlokale Gruppen) werden gewährt:
+
+Zugang zu Ressourcen. Im Falle eines gemeinsamen Ordners wird der Zugriff gewährt, indem die lokale Domänengruppe zur Zugriffskontrollliste (ACL) des Ordners hinzugefügt wird, mit einer Berechtigung, die die entsprechende Zugriffsebene bereitstellt.
+
+Wie bereits erwähnt, wurde es früher als AGDLP bezeichnet, wurde aber in IDGLA geändert, weil es eher einen allgemeinen Anwendungsbereich definiert, als nur die Funktionsweise von AD-Gruppen, die sich an der Praxis der Industriestandards orientiert. 
+
+Wenn die Domänen-Funktionsstufe und die Wald-Funktionsstufe auf Windows 2000 oder neuer eingestellt sind, kann AGDLP auf AGGUUDLDL erweitert werden, so dass Sie Globals in andere globale Gruppen, globale Gruppen in universelle Gruppen, universelle Gruppen in andere universelle Gruppen sowie lokale Domänengruppen in andere lokale Domänengruppen einordnen können. 
+
+Das Gleiche gilt für IDGLA, das auf IDGGUUDLDLA erweitert wurde, oder Identitäten, globale Gruppen, globale Gruppen, globale Gruppen, Unicersal-Gruppen, universelle Gruppen, lokale Domänengruppen und Zugang. Es wird jedoch nicht wirklich als solches bezeichnet und ist mehr oder weniger eine Beschreibung der erweiterten Optionen, aber mehr noch, weil IGDLA sich auf die einfache Organisation des Zugriffs auf Identitätsressourcen nach Rollen bezieht.
+
+Bei jedem anderen Namen ist das Endergebnis, dass der Benutzer die Berechtigungen erhält, die auf die lokale Domänengruppe angewendet werden. 
+
+![AGDLP](IGULDA.jpg)
