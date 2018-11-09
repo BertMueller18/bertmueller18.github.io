@@ -71,3 +71,5 @@ Mitgliedschaft. Welche Arten von Sicherheitsprinzipien kann die Gruppe als Mitgl
 * Verfügbarkeits des Vertrauens. Ein Trust erlaubt es einer Domäne, zur Benutzerauthentifizierung auf eine andere Domäne zu verweisen, Sicherheitsprinzipien der anderen Domäne als Gruppenmitglieder aufzunehmen und Berechtigungen den Sicherheitsprinzipien der anderen Domäne zuzuweisen. 
 
 Die verwendete Terminologie kann verwirrend sein. Wenn Domain A Domain B vertraut, ist Domain A die vertrauenswürdige Domain und Domain B die vertrauenswürdige Domain. Domäne A akzeptiert die Anmeldeinformationen von Benutzern in Domäne B. Sie leitet Anfragen von Domänen-B-Benutzern zur Authentifizierung an einen Domänencontroller in Domäne B weiter, weil sie dem Identitätsspeicher und Authentifizierungsdienst von Domäne B vertraut. Domäne A kann die Sicherheitsprinzipien von Domäne B zu Gruppen und ACLs in Domäne A hinzufügen.
+
+![Gruppenverschachtelungsmöglichkeiten](ScopesSummarized.jpg)
