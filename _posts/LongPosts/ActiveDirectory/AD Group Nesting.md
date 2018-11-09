@@ -73,5 +73,34 @@ Mitgliedschaft. Welche Arten von Sicherheitsprinzipien kann die Gruppe als Mitgl
 Die verwendete Terminologie kann verwirrend sein. Wenn Domain A Domain B vertraut, ist Domain A die vertrauenswürdige Domain und Domain B die vertrauenswürdige Domain. Domäne A akzeptiert die Anmeldeinformationen von Benutzern in Domäne B. Sie leitet Anfragen von Domänen-B-Benutzern zur Authentifizierung an einen Domänencontroller in Domäne B weiter, weil sie dem Identitätsspeicher und Authentifizierungsdienst von Domäne B vertraut. Domäne A kann die Sicherheitsprinzipien von Domäne B zu Gruppen und ACLs in Domäne A hinzufügen.
 
 ![Gruppenverschachtelungsmöglichkeiten](ScopesSummarized.jpg)
+
+
 ![Gruppenverschachtelungsmöglichkeiten](ScopesSummarized2.jpg)
+
+
 ![Gruppenverschachtelungsmöglichkeiten](ScopesSummarized3.jpg)
+
+### Lokale Gruppen:
+Lokale Gruppen sind wirklich lokal. Sie werden erstellt, definiert und sind nur für den spezifischen Computer verfügbar, auf dem sie erstellt wurden. Lokale Gruppen werden in der lokalen Security Accounts Manager (SAM)-Datenbank eines Domänenmitgliedscomputers erstellt, unabhängig davon, ob es sich um einen Arbeitsplatz oder einen Server handelt.
+
+* Replikation: Da eine lokale Gruppe nur auf einer bestimmten Maschine existiert, werden die Gruppe und ihre Zugehörigkeit zu keinem anderen System repliziert und stehen nur für jede Art von Verwendung auf dieser bestimmten Maschine zur Verfügung.
+
+* Mitgliedschaft: Eine lokale Gruppe kann als Mitglieder aufgenommen werden:
+  - Alle Sicherheitsprinzipale der Domäne, Computer, globalen Gruppen oder lokalen Domänengruppen.
+  - Benutzer, Computer und globale Gruppen aus jeder Domäne im Forest.
+  - Benutzer, Computer und globale Gruppen aus jeder Domäne in einer Vertrauenstellung.
+  - Universelle Gruppen, die in jeder beliebigen Domäne im Forest definiert sind.
+
+
+## Best Practice zur lokalen Gruppenverwendung:
+
+In einer Arbeitsgruppe können Sie lokale Gruppen verwenden, um die Sicherheit von Ressourcen auf einem System zu verwalten. In einer Domäne wird die Verwaltung der lokalen Gruppen von Einzelmaschinen jedoch zu einem administrativen Aufwand und ist größtenteils unnötig. Es wird nicht empfohlen, benutzerdefinierte lokale Gruppen für Domänenmitglieder zu erstellen. Es gibt nur sehr wenige Szenarien in einer Domänenumgebung, die über lokale Gruppen angesprochen werden. 
+In den meisten Fällen sind die lokalen Gruppen Benutzer und Administratoren die einzigen beiden lokalen Gruppen, mit deren Verwaltung Sie sich in einer Domänenumgebung wirklich befassen sollten. Sie können die GPO-Einstellung Eingeschränkte Gruppen verwenden, um diese beiden Gruppen im gesamten Forest einfach zu verwalten.
+
+Verwendung von eingeschränkten Gruppen
+http://www.windowsecurity.com/articles/Using-Restricted-Groups.html 
+Eingeschränkte Gruppen werden für die lokale Gruppenleitung erstellt:
+http://www.frickelsoft.net/blog/?p=13 
+ 
+
+* Verfügbarkeit. Eine lokale Gruppe hat nur einen maschinenweiten Anwendungsbereich. Es kann nur in ACLs auf dem lokalen Rechner verwendet werden. Eine lokale Gruppe kann nicht Mitglied einer anderen Gruppe sein.
