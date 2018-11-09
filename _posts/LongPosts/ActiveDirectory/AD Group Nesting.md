@@ -69,6 +69,7 @@ Die Merkmale, die die Gültigkeitsbereiche definieren, fallen in diese Kategorie
 Mitgliedschaft. Welche Arten von Sicherheitsprinzipien kann die Gruppe als Mitglieder enthalten? Kann die Gruppe Sicherheitsprinzipien aus vertrauenswürdigen Domänen aufnehmen?
 * Verfügbarkeit. Wo kann die Gruppe eingesetzt werden? Ist die Gruppe verfügbar, um sie zu einer anderen Gruppe hinzuzufügen? Ist die Gruppe verfügbar, um sie zu einer ACL hinzuzufügen?
 * Verfügbarkeits des Vertrauens. Ein Trust erlaubt es einer Domäne, zur Benutzerauthentifizierung auf eine andere Domäne zu verweisen, Sicherheitsprinzipien der anderen Domäne als Gruppenmitglieder aufzunehmen und Berechtigungen den Sicherheitsprinzipien der anderen Domäne zuzuweisen. 
+* Verfügbarkeit. Eine lokale Gruppe hat nur einen maschinenweiten Anwendungsbereich. Es kann nur in ACLs auf dem lokalen Rechner verwendet werden. Eine lokale Gruppe kann nicht Mitglied einer anderen Gruppe sein.
 
 Die verwendete Terminologie kann verwirrend sein. Wenn Domain A Domain B vertraut, ist Domain A die vertrauenswürdige Domain und Domain B die vertrauenswürdige Domain. Domäne A akzeptiert die Anmeldeinformationen von Benutzern in Domäne B. Sie leitet Anfragen von Domänen-B-Benutzern zur Authentifizierung an einen Domänencontroller in Domäne B weiter, weil sie dem Identitätsspeicher und Authentifizierungsdienst von Domäne B vertraut. Domäne A kann die Sicherheitsprinzipien von Domäne B zu Gruppen und ACLs in Domäne A hinzufügen.
 
@@ -92,7 +93,7 @@ Lokale Gruppen sind wirklich lokal. Sie werden erstellt, definiert und sind nur 
   - Universelle Gruppen, die in jeder beliebigen Domäne im Forest definiert sind.
 
 
-## Best Practice zur lokalen Gruppenverwendung:
+### Best Practice zur lokalen Gruppenverwendung:
 
 In einer Arbeitsgruppe können Sie lokale Gruppen verwenden, um die Sicherheit von Ressourcen auf einem System zu verwalten. In einer Domäne wird die Verwaltung der lokalen Gruppen von Einzelmaschinen jedoch zu einem administrativen Aufwand und ist größtenteils unnötig. Es wird nicht empfohlen, benutzerdefinierte lokale Gruppen für Domänenmitglieder zu erstellen. Es gibt nur sehr wenige Szenarien in einer Domänenumgebung, die über lokale Gruppen angesprochen werden. 
 In den meisten Fällen sind die lokalen Gruppen Benutzer und Administratoren die einzigen beiden lokalen Gruppen, mit deren Verwaltung Sie sich in einer Domänenumgebung wirklich befassen sollten. Sie können die GPO-Einstellung Eingeschränkte Gruppen verwenden, um diese beiden Gruppen im gesamten Forest einfach zu verwalten.
@@ -102,5 +103,25 @@ http://www.windowsecurity.com/articles/Using-Restricted-Groups.html
 Eingeschränkte Gruppen werden für die lokale Gruppenleitung erstellt:
 http://www.frickelsoft.net/blog/?p=13 
  
+### Domänenlokale Gruppen (DLGs):
 
-* Verfügbarkeit. Eine lokale Gruppe hat nur einen maschinenweiten Anwendungsbereich. Es kann nur in ACLs auf dem lokalen Rechner verwendet werden. Eine lokale Gruppe kann nicht Mitglied einer anderen Gruppe sein.
+DLGs werden in erster Linie zur Verwaltung von Berechtigungen für Ressourcen verwendet, d.h. sie dienen meist als Regelgruppen. Beispielsweise würde die Gruppe ACL_Sales Folders_Read, die zuvor in der Lektion besprochen wurde, Folgendes bewirken
+als lokale Domänengruppe erstellt werden. 
+
+### Lokale Domänengruppen haben die folgenden Eigenschaften:
+* Replikation. Eine lokale Domänengruppe ist im Kontext des Domänennamens definiert. Das Gruppenobjekt und seine Zugehörigkeit (das Member-Attribut) werden auf jeden Domänencontroller in der Domäne repliziert.
+* Mitgliedschaft. Eine lokale Domänengruppe kann als Mitglieder aufgenommen werden:
+Alle Sicherheitsprinzipien der Domänenbenutzer, Computer, globalen Gruppen oder anderen lokalen Domänengruppen.
+Benutzer, Computer und globale Gruppen aus jeder Domäne im Wald.
+Benutzer, Computer und globale Gruppen aus jeder vertrauenswürdigen Domäne.
+Universelle Gruppen, die in jeder beliebigen Domäne im Wald definiert sind.
+* Verfügbarkeit. Eine lokale Domänengruppe kann zu ACLs auf jeder Ressource auf jedem Domänenmitglied hinzugefügt werden. Darüber hinaus kann eine lokale Domänengruppe Mitglied anderer lokaler Domänengruppen sein oder sogar lokale Gruppen bearbeiten.
+
+Die Mitgliedschaftsfähigkeiten einer lokalen Domänengruppe (die Gruppen, zu denen eine lokale Domänengruppe Zugang hat).
+belong) sind identisch mit denen der lokalen Gruppen, aber die Replikation und Verfügbarkeit der Domäne local
+Gruppe machen es für die gesamte Domäne nützlich.
+
+### DLGs Best Practice:
+
+Lokale Domänengruppen eignen sich gut für die Definition von Betriebsführungsregeln, wie beispielsweise Ressourcenzugriffsregeln, da die Gruppe überall in der Domäne angewendet werden kann und Mitglieder aller Art innerhalb der Domäne und Mitglieder aus vertrauenswürdigen Domänen enthalten kann. So kann beispielsweise eine domänenlokale Sicherheitsgruppe namens ACL_Sales Folders_Read verwendet werden, um den Lesezugriff auf eine Sammlung von Ordnern zu verwalten, die Verkaufsinformationen auf einem oder mehreren Servern enthalten.
+ 
