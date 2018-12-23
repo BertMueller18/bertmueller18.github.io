@@ -1,0 +1,21 @@
+---
+layout: post 
+title:  "ESP8266 Home Control 2016" 
+date:   2018-12-23T10:39:01.073Z 
+categories: nodered linux homeautomation esp32
+link: https://tech.scargill.net/home-control-2018/ 
+tags:
+  - links
+ogtype: article 
+---
+
+> Home Control 2018 and ESP-GO
+August 14, 2018Arduino, Electronics, ESP-01, ESP-12, ESP8266, MQTT, Raspberry Pi 2ESP8266, home automation, Home Control, Home Control 2016 with ESP8266 and MQTT, Raspberry Pi
+Introduction (Latest update October 29, 2018)
+Sick of reading about other people’s home control? Want to make your own? Got some electronics and software experience? You’re going to LOVE THIS! Rock-solid home control, flexible, low cost, DIY.
+
+ 
+
+
+
+On October 28 2018 I’ve added the ability to optionally make gpio12 a temperature port (DS18b20, DHT22 etc) leaving 2 and 14 as de-bounced key inputs, hence version 2.7.01. By the time you look at the diagram above it will likely be out of date as new features are added (no indication of deep-sleep capability in here for example)  and I’ve recently fixed a longstanding issue with OTA which now works a TREAT – thankfully there’s a WORD manual along with source code and diagrams available online and kept up to date. This is all free incidentally and without warranty. Software, diagrams, board layouts… and this blog has a range of articles on the subject. The main ESP8266 software is freely available, called ESP-GO and is available on this BitBucket repository
