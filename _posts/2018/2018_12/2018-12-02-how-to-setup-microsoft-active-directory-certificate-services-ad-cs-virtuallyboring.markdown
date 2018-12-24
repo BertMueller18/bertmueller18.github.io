@@ -9,7 +9,8 @@ tags:
 ogtype: article 
 ---
 
-> How to setup Microsoft Active Directory Certificate Services [AD CS]
+## How to setup Microsoft Active Directory Certificate Services [AD CS]
+
 March 15, 2016 by Daniel
 Microsoft Active Directory Certificate Services [AD CS] provides a platform for issuing and managing public key infrastructure [PKI] certificates. On top of securing application and HTTP traffic the certificates that AD CS provides can be used for authentication of computer, user, or device accounts on a network.
 

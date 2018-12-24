@@ -9,7 +9,8 @@ tags:
 ogtype: article 
 ---
 
-> AUTODISCOVER IN AN EXCHANGE INTERORG MIGRATION WITH QUEST QMM
+## AUTODISCOVER IN AN EXCHANGE INTERORG MIGRATION WITH QUEST QMM
+
 NOVEMBER 29, 2018 JAAPWESSELIUS	2 COMMENTS
 Outlook clients get their configuration information using the Autodiscover protocol from the Exchange server where their mailbox resides and the underlying Active Directory. This works fine, until you are in an interorg migration scenario using the Quest Migration Manager (QMM) for Exchange.
 

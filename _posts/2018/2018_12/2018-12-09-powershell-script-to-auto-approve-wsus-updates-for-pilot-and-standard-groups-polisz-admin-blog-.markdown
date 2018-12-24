@@ -9,7 +9,8 @@ tags:
 ogtype: article 
 ---
 
-> PowerShell script to auto approve WSUS updates for pilot and standard groups.
+## PowerShell script to auto approve WSUS updates for pilot and standard groups.
+
 Recently there has been a need for me to create script that will cover auto approval work for WSUS.
 
 So the idea was tu approve certain patches to pilot group, and after 2 weeks apply these on standard target group and do another pilot group approval for latest time span.
