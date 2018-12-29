@@ -9,7 +9,8 @@ tags:
 ogtype: article 
 ---
 
-> HOW TO SECURE POWERSHELL REMOTING IN A WINDOWS DOMAIN
+## HOW TO SECURE POWERSHELL REMOTING IN A WINDOWS DOMAIN
+
 October 27, 2018 0 Comments PowerShell
 
 PowerShell is an awesomely powerful tool for configuring, managing and controlling your environment. Out of the box, PowerShell remoting is very secure but there are enhancements you can make to increase security.
