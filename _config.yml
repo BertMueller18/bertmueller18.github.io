@@ -272,3 +272,5 @@ defaults:
 github:
   repo: BertMueller18/bertmueller18.github.io
   branch: master
+
+theme: jekyll-theme-hacker
